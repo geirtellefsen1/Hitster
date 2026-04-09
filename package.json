@@ -1,0 +1,21 @@
+{
+  "name": "hitster-online",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "install:all": "npm install && cd client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
