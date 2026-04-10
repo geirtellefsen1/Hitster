@@ -7,7 +7,7 @@ import HiddenPlayer from '../components/HiddenPlayer';
 export default function HostSetup() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const { token, userName, login, handleCallback, initPlayer, ready } = useSpotify();
+  const { token, userName, login, loginError, handleCallback, initPlayer, ready } = useSpotify();
   const { emit, on } = useSocket();
 
   const [playlistUrl, setPlaylistUrl] = useState('');
@@ -148,8 +148,8 @@ export default function HostSetup() {
           </button>
         </div>
 
-        {error && (
-          <div className="text-red-400 text-sm text-center">{error}</div>
+        {(error || loginError) && (
+          <div className="text-red-400 text-sm text-center">{error || loginError}</div>
         )}
       </div>
 

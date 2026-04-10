@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 
-const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID || '';
+const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID || 'dcb32d7980ea45269f16ec8c83318f51';
 const REDIRECT_URI = `${window.location.origin}/callback`;
 const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state';
 
@@ -11,11 +11,20 @@ function generateCodeVerifier() {
     .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
 }
 
+// crypto.subtle is only available in secure contexts (HTTPS / localhost).
+// On plain HTTP we fall back to the "plain" PKCE method.
 async function generateCodeChallenge(verifier) {
-  const data = new TextEncoder().encode(verifier);
-  const hash = await crypto.subtle.digest('SHA-256', data);
-  return btoa(String.fromCharCode(...new Uint8Array(hash)))
-    .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, '');
+  if (window.crypto?.subtle) {
+    const data = new TextEncoder().encode(verifier);
+    const hash = await crypto.subtle.digest('SHA-256', data);
+    return {
+      challenge: btoa(String.fromCharCode(...new Uint8Array(hash)))
+        .replace(/\+/g, '-').replace(/\//g, '_').replace(/=/g, ''),
+      method: 'S256'
+    };
+  }
+  // Fallback: plain PKCE (challenge === verifier)
+  return { challenge: verifier, method: 'plain' };
 }
 
 export function useSpotify() {
@@ -26,21 +35,28 @@ export function useSpotify() {
   const [userName, setUserName] = useState('');
   const playerRef = useRef(null);
 
+  const [loginError, setLoginError] = useState(null);
+
   const login = useCallback(async () => {
-    const verifier = generateCodeVerifier();
-    sessionStorage.setItem('spotify_verifier', verifier);
-    const challenge = await generateCodeChallenge(verifier);
+    try {
+      const verifier = generateCodeVerifier();
+      sessionStorage.setItem('spotify_verifier', verifier);
+      const { challenge, method } = await generateCodeChallenge(verifier);
 
-    const params = new URLSearchParams({
-      client_id: CLIENT_ID,
-      response_type: 'code',
-      redirect_uri: REDIRECT_URI,
-      scope: SCOPES,
-      code_challenge_method: 'S256',
-      code_challenge: challenge
-    });
+      const params = new URLSearchParams({
+        client_id: CLIENT_ID,
+        response_type: 'code',
+        redirect_uri: REDIRECT_URI,
+        scope: SCOPES,
+        code_challenge_method: method,
+        code_challenge: challenge
+      });
 
-    window.location.href = `https://accounts.spotify.com/authorize?${params}`;
+      window.location.href = `https://accounts.spotify.com/authorize?${params}`;
+    } catch (err) {
+      console.error('Spotify login error:', err);
+      setLoginError(err.message);
+    }
   }, []);
 
   const handleCallback = useCallback(async (code) => {
@@ -148,6 +164,7 @@ export function useSpotify() {
     ready,
     userName,
     login,
+    loginError,
     handleCallback,
     initPlayer,
     play,
