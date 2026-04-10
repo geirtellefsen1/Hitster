@@ -26,9 +26,6 @@ app.use(express.json());
 // Serve static files in production
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/dist')));
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
-  });
 }
 
 // API endpoint to fetch playlist tracks (uses client credentials)
@@ -42,6 +39,13 @@ app.post('/api/playlist', async (req, res) => {
     res.status(400).json({ error: err.message });
   }
 });
+
+// SPA fallback — serve index.html for all non-API routes in production
+if (process.env.NODE_ENV === 'production') {
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/dist/index.html'));
+  });
+}
 
 io.on('connection', (socket) => {
   console.log('Connected:', socket.id);
