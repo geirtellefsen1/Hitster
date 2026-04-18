@@ -2,7 +2,7 @@ import { useState, useCallback, useRef } from 'react';
 
 const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID || 'dcb32d7980ea45269f16ec8c83318f51';
 const REDIRECT_URI = `${window.location.origin}/callback`;
-const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state';
+const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state playlist-read-private playlist-read-collaborative';
 
 function generateCodeVerifier() {
   const array = new Uint8Array(32);
