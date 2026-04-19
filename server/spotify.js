@@ -16,6 +16,15 @@ function extractPlaylistId(input) {
 async function fetchPlaylistTracks(playlistUrl, accessToken) {
   const playlistId = extractPlaylistId(playlistUrl);
 
+  // Spotify blocks access to editorial/algorithmic playlists for apps in
+  // Development Mode (ids starting with 37i9dQZF). Detect and fail early
+  // with a useful message.
+  if (playlistId.startsWith('37i9dQZF')) {
+    throw new Error(
+      'Spotify blocks editorial/algorithmic playlists (Today\'s Top Hits, Daily Mix, etc.) for apps in Development Mode. Please use a user-created playlist instead.'
+    );
+  }
+
   const tracks = [];
   let url = `https://api.spotify.com/v1/playlists/${playlistId}/tracks?fields=items(track(id,name,artists,album(release_date),uri)),next&limit=100`;
 
@@ -26,7 +35,17 @@ async function fetchPlaylistTracks(playlistUrl, accessToken) {
 
     if (!res.ok) {
       const err = await res.json().catch(() => ({}));
-      throw new Error(err.error?.message || `Spotify API error: ${res.status}`);
+      const msg = err.error?.message || `Spotify API error: ${res.status}`;
+
+      if (res.status === 403) {
+        throw new Error(
+          `${msg} — Spotify now restricts editorial playlists for apps in Development Mode. Try a user-created playlist instead.`
+        );
+      }
+      if (res.status === 404) {
+        throw new Error('Playlist not found. Make sure the URL is correct and the playlist is public.');
+      }
+      throw new Error(msg);
     }
 
     const data = await res.json();
