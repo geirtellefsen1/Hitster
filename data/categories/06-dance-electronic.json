@@ -3,108 +3,623 @@
   "name": "Dance & Electronic",
   "description": "Clubs, raves, and festival anthems",
   "songs": [
-    { "title": "One More Time", "artist": "Daft Punk", "year": 2000, "spotifyId": null },
-    { "title": "Around the World", "artist": "Daft Punk", "year": 1997, "spotifyId": null },
-    { "title": "Harder, Better, Faster, Stronger", "artist": "Daft Punk", "year": 2001, "spotifyId": null },
-    { "title": "Get Lucky", "artist": "Daft Punk", "year": 2013, "spotifyId": null },
-    { "title": "Da Funk", "artist": "Daft Punk", "year": 1995, "spotifyId": null },
-    { "title": "Around the World", "artist": "ATC", "year": 2000, "spotifyId": null },
-    { "title": "Blue (Da Ba Dee)", "artist": "Eiffel 65", "year": 1998, "spotifyId": null },
-    { "title": "Sandstorm", "artist": "Darude", "year": 1999, "spotifyId": null },
-    { "title": "Better Off Alone", "artist": "Alice Deejay", "year": 1998, "spotifyId": null },
-    { "title": "Freed from Desire", "artist": "Gala", "year": 1996, "spotifyId": null },
-    { "title": "Children", "artist": "Robert Miles", "year": 1995, "spotifyId": null },
-    { "title": "Insomnia", "artist": "Faithless", "year": 1995, "spotifyId": null },
-    { "title": "Rhythm Is a Dancer", "artist": "Snap!", "year": 1992, "spotifyId": null },
-    { "title": "The Power", "artist": "Snap!", "year": 1990, "spotifyId": null },
-    { "title": "What Is Love", "artist": "Haddaway", "year": 1993, "spotifyId": null },
-    { "title": "Mr. Vain", "artist": "Culture Beat", "year": 1993, "spotifyId": null },
-    { "title": "Be My Lover", "artist": "La Bouche", "year": 1995, "spotifyId": null },
-    { "title": "Barbie Girl", "artist": "Aqua", "year": 1997, "spotifyId": null },
-    { "title": "Cartoon Heroes", "artist": "Aqua", "year": 2000, "spotifyId": null },
-    { "title": "Groove Is in the Heart", "artist": "Deee-Lite", "year": 1990, "spotifyId": null },
-    { "title": "Show Me Love", "artist": "Robin S.", "year": 1993, "spotifyId": null },
-    { "title": "Gypsy Woman (She's Homeless)", "artist": "Crystal Waters", "year": 1991, "spotifyId": null },
-    { "title": "Vogue", "artist": "Madonna", "year": 1990, "spotifyId": null },
-    { "title": "Music", "artist": "Madonna", "year": 2000, "spotifyId": null },
-    { "title": "Hung Up", "artist": "Madonna", "year": 2005, "spotifyId": null },
-    { "title": "Ray of Light", "artist": "Madonna", "year": 1998, "spotifyId": null },
-    { "title": "Believe", "artist": "Cher", "year": 1998, "spotifyId": null },
-    { "title": "I'm a Slave 4 U", "artist": "Britney Spears", "year": 2001, "spotifyId": null },
-    { "title": "Around the World (La La La La La)", "artist": "ATC", "year": 2000, "spotifyId": null },
-    { "title": "Can't Get You Out of My Head", "artist": "Kylie Minogue", "year": 2001, "spotifyId": null },
-    { "title": "Love at First Sight", "artist": "Kylie Minogue", "year": 2001, "spotifyId": null },
-    { "title": "In Your Eyes", "artist": "Kylie Minogue", "year": 2001, "spotifyId": null },
-    { "title": "Wannabe", "artist": "Spice Girls", "year": 1996, "spotifyId": null },
-    { "title": "Spice Up Your Life", "artist": "Spice Girls", "year": 1997, "spotifyId": null },
-    { "title": "Born Slippy .NUXX", "artist": "Underworld", "year": 1995, "spotifyId": null },
-    { "title": "Firestarter", "artist": "The Prodigy", "year": 1996, "spotifyId": null },
-    { "title": "Breathe", "artist": "The Prodigy", "year": 1996, "spotifyId": null },
-    { "title": "Smack My Bitch Up", "artist": "The Prodigy", "year": 1997, "spotifyId": null },
-    { "title": "Song 2", "artist": "Blur", "year": 1997, "spotifyId": null },
-    { "title": "Setting Sun", "artist": "The Chemical Brothers", "year": 1996, "spotifyId": null },
-    { "title": "Block Rockin' Beats", "artist": "The Chemical Brothers", "year": 1997, "spotifyId": null },
-    { "title": "Galvanize", "artist": "The Chemical Brothers", "year": 2004, "spotifyId": null },
-    { "title": "Born Slippy", "artist": "Underworld", "year": 1995, "spotifyId": null },
-    { "title": "Praise You", "artist": "Fatboy Slim", "year": 1998, "spotifyId": null },
-    { "title": "The Rockafeller Skank", "artist": "Fatboy Slim", "year": 1998, "spotifyId": null },
-    { "title": "Right Here, Right Now", "artist": "Fatboy Slim", "year": 1999, "spotifyId": null },
-    { "title": "Weapon of Choice", "artist": "Fatboy Slim", "year": 2000, "spotifyId": null },
-    { "title": "Satisfaction", "artist": "Benny Benassi", "year": 2002, "spotifyId": null },
-    { "title": "Lady (Hear Me Tonight)", "artist": "Modjo", "year": 2000, "spotifyId": null },
-    { "title": "Music Sounds Better with You", "artist": "Stardust", "year": 1998, "spotifyId": null },
-    { "title": "Titanium", "artist": "David Guetta", "year": 2011, "spotifyId": null },
-    { "title": "When Love Takes Over", "artist": "David Guetta", "year": 2009, "spotifyId": null },
-    { "title": "Sexy Bitch", "artist": "David Guetta", "year": 2009, "spotifyId": null },
-    { "title": "Memories", "artist": "David Guetta", "year": 2009, "spotifyId": null },
-    { "title": "Without You", "artist": "David Guetta", "year": 2011, "spotifyId": null },
-    { "title": "Turn Me On", "artist": "David Guetta", "year": 2011, "spotifyId": null },
-    { "title": "Hey Baby (Drop It to the Floor)", "artist": "Pitbull", "year": 2010, "spotifyId": null },
-    { "title": "Give Me Everything", "artist": "Pitbull", "year": 2011, "spotifyId": null },
-    { "title": "Levels", "artist": "Avicii", "year": 2011, "spotifyId": null },
-    { "title": "Wake Me Up", "artist": "Avicii", "year": 2013, "spotifyId": null },
-    { "title": "Hey Brother", "artist": "Avicii", "year": 2013, "spotifyId": null },
-    { "title": "Waiting for Love", "artist": "Avicii", "year": 2015, "spotifyId": null },
-    { "title": "The Nights", "artist": "Avicii", "year": 2014, "spotifyId": null },
-    { "title": "Without You", "artist": "Avicii", "year": 2017, "spotifyId": null },
-    { "title": "Animals", "artist": "Martin Garrix", "year": 2013, "spotifyId": null },
-    { "title": "In the Name of Love", "artist": "Martin Garrix", "year": 2016, "spotifyId": null },
-    { "title": "Scared to Be Lonely", "artist": "Martin Garrix", "year": 2017, "spotifyId": null },
-    { "title": "Lean On", "artist": "Major Lazer", "year": 2015, "spotifyId": null },
-    { "title": "Cold Water", "artist": "Major Lazer", "year": 2016, "spotifyId": null },
-    { "title": "Light It Up", "artist": "Major Lazer", "year": 2015, "spotifyId": null },
-    { "title": "Don't Let Me Down", "artist": "The Chainsmokers", "year": 2016, "spotifyId": null },
-    { "title": "Closer", "artist": "The Chainsmokers", "year": 2016, "spotifyId": null },
-    { "title": "Something Just Like This", "artist": "The Chainsmokers", "year": 2017, "spotifyId": null },
-    { "title": "Roses", "artist": "The Chainsmokers", "year": 2015, "spotifyId": null },
-    { "title": "Paris", "artist": "The Chainsmokers", "year": 2017, "spotifyId": null },
-    { "title": "This Is What You Came For", "artist": "Calvin Harris", "year": 2016, "spotifyId": null },
-    { "title": "Summer", "artist": "Calvin Harris", "year": 2014, "spotifyId": null },
-    { "title": "Feel So Close", "artist": "Calvin Harris", "year": 2011, "spotifyId": null },
-    { "title": "Sweet Nothing", "artist": "Calvin Harris", "year": 2012, "spotifyId": null },
-    { "title": "We Found Love", "artist": "Rihanna & Calvin Harris", "year": 2011, "spotifyId": null },
-    { "title": "Blue Monday", "artist": "New Order", "year": 1983, "spotifyId": null },
-    { "title": "Bizarre Love Triangle", "artist": "New Order", "year": 1986, "spotifyId": null },
-    { "title": "Personal Jesus", "artist": "Depeche Mode", "year": 1989, "spotifyId": null },
-    { "title": "Enjoy the Silence", "artist": "Depeche Mode", "year": 1990, "spotifyId": null },
-    { "title": "Strangelove", "artist": "Depeche Mode", "year": 1987, "spotifyId": null },
-    { "title": "Sweet Dreams (Are Made of This)", "artist": "Eurythmics", "year": 1983, "spotifyId": null },
-    { "title": "Clint Eastwood", "artist": "Gorillaz", "year": 2001, "spotifyId": null },
-    { "title": "Feel Good Inc.", "artist": "Gorillaz", "year": 2005, "spotifyId": null },
-    { "title": "Dare", "artist": "Gorillaz", "year": 2005, "spotifyId": null },
-    { "title": "On Melancholy Hill", "artist": "Gorillaz", "year": 2010, "spotifyId": null },
-    { "title": "Stronger", "artist": "Kanye West", "year": 2007, "spotifyId": null },
-    { "title": "Good Life", "artist": "Kanye West", "year": 2007, "spotifyId": null },
-    { "title": "Midnight City", "artist": "M83", "year": 2011, "spotifyId": null },
-    { "title": "Rather Be", "artist": "Clean Bandit", "year": 2014, "spotifyId": null },
-    { "title": "Where Are Ü Now", "artist": "Skrillex & Diplo", "year": 2015, "spotifyId": null },
-    { "title": "Bangarang", "artist": "Skrillex", "year": 2011, "spotifyId": null },
-    { "title": "Scary Monsters and Nice Sprites", "artist": "Skrillex", "year": 2010, "spotifyId": null },
-    { "title": "Starships", "artist": "Nicki Minaj", "year": 2012, "spotifyId": null },
-    { "title": "Super Bass", "artist": "Nicki Minaj", "year": 2011, "spotifyId": null },
-    { "title": "I Love It", "artist": "Icona Pop", "year": 2012, "spotifyId": null },
-    { "title": "Clarity", "artist": "Zedd", "year": 2012, "spotifyId": null },
-    { "title": "Stay the Night", "artist": "Zedd", "year": 2013, "spotifyId": null },
-    { "title": "Beautiful Now", "artist": "Zedd", "year": 2015, "spotifyId": null }
+    {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "year": 2000,
+      "spotifyId": "0DiWol3AO6WpXZgp0goxAV"
+    },
+    {
+      "title": "Around the World",
+      "artist": "Daft Punk",
+      "year": 1997,
+      "spotifyId": "1pKYYY0dkg23sQQXi0Q5zN"
+    },
+    {
+      "title": "Harder, Better, Faster, Stronger",
+      "artist": "Daft Punk",
+      "year": 2001,
+      "spotifyId": "5W3cjX2J3tjhG8zb6u0qHn"
+    },
+    {
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "year": 2013,
+      "spotifyId": "69kOkLUCkxIZYexIgSG8rq"
+    },
+    {
+      "title": "Da Funk",
+      "artist": "Daft Punk",
+      "year": 1995,
+      "spotifyId": "1r0dZYmg4dIJsKdUx2xFma"
+    },
+    {
+      "title": "Around the World",
+      "artist": "ATC",
+      "year": 2000,
+      "spotifyId": "7CvOnbFdnIoXMQ4eFCo5lB"
+    },
+    {
+      "title": "Blue (Da Ba Dee)",
+      "artist": "Eiffel 65",
+      "year": 1998,
+      "spotifyId": "7lMIJ4EFWRVoAIPDpeGyM3"
+    },
+    {
+      "title": "Sandstorm",
+      "artist": "Darude",
+      "year": 1999,
+      "spotifyId": "3gyYkQZkgJ3skbCmseIK7P"
+    },
+    {
+      "title": "Better Off Alone",
+      "artist": "Alice Deejay",
+      "year": 1998,
+      "spotifyId": "4u4JMXuhg94qU88lzeiiuq"
+    },
+    {
+      "title": "Freed from Desire",
+      "artist": "Gala",
+      "year": 1996,
+      "spotifyId": "3u5N55tHf7hXATSQrjBh2q"
+    },
+    {
+      "title": "Children",
+      "artist": "Robert Miles",
+      "year": 1995,
+      "spotifyId": "4wtR6HB3XekEengMX17cpc"
+    },
+    {
+      "title": "Insomnia",
+      "artist": "Faithless",
+      "year": 1995,
+      "spotifyId": "65alEHNH6CrabO8o4dXPj7"
+    },
+    {
+      "title": "Rhythm Is a Dancer",
+      "artist": "Snap!",
+      "year": 1992,
+      "spotifyId": "5uFYYOyT3EclOVhiFzPJSz"
+    },
+    {
+      "title": "The Power",
+      "artist": "Snap!",
+      "year": 1990,
+      "spotifyId": "3P5dVXm98CgVuEpcW2HsUk"
+    },
+    {
+      "title": "What Is Love",
+      "artist": "Haddaway",
+      "year": 1993,
+      "spotifyId": "0OTO8ZF2YqFQVw9hnZylTd"
+    },
+    {
+      "title": "Mr. Vain",
+      "artist": "Culture Beat",
+      "year": 1993,
+      "spotifyId": "2rTYgHxgcndkUrRoU7x0Sv"
+    },
+    {
+      "title": "Be My Lover",
+      "artist": "La Bouche",
+      "year": 1995,
+      "spotifyId": "3YB6nCSuFqNiqOvPtAPK9X"
+    },
+    {
+      "title": "Barbie Girl",
+      "artist": "Aqua",
+      "year": 1997,
+      "spotifyId": "5ZrDlcxIDZyjOzHdYW1ydr"
+    },
+    {
+      "title": "Cartoon Heroes",
+      "artist": "Aqua",
+      "year": 2000,
+      "spotifyId": "7vJgjjXD9spt5fgaSPox9z"
+    },
+    {
+      "title": "Groove Is in the Heart",
+      "artist": "Deee-Lite",
+      "year": 1990,
+      "spotifyId": "2He3NOyqtLNE3RQPpeDdSb"
+    },
+    {
+      "title": "Show Me Love",
+      "artist": "Robin S.",
+      "year": 1993,
+      "spotifyId": "4t0UsYzmmmZRMTWn77jiGF"
+    },
+    {
+      "title": "Gypsy Woman (She's Homeless)",
+      "artist": "Crystal Waters",
+      "year": 1991,
+      "spotifyId": "1SShxVVBeZBCY7WddnksPz"
+    },
+    {
+      "title": "Vogue",
+      "artist": "Madonna",
+      "year": 1990,
+      "spotifyId": "4vNuuqBFdid5yTSWtppBYx"
+    },
+    {
+      "title": "Music",
+      "artist": "Madonna",
+      "year": 2000,
+      "spotifyId": "2BcOZ4vOeu2qZowIHrvTYy"
+    },
+    {
+      "title": "Hung Up",
+      "artist": "Madonna",
+      "year": 2005,
+      "spotifyId": "3850dYVgOFIXJh5U4BFEWH"
+    },
+    {
+      "title": "Ray of Light",
+      "artist": "Madonna",
+      "year": 1998,
+      "spotifyId": "4Fpsa3pYc3gozrxHRRPvR6"
+    },
+    {
+      "title": "Believe",
+      "artist": "Cher",
+      "year": 1998,
+      "spotifyId": "2goLsvvODILDzeeiT4dAoR"
+    },
+    {
+      "title": "I'm a Slave 4 U",
+      "artist": "Britney Spears",
+      "year": 2001,
+      "spotifyId": "6ldwfK0yWgTAlmIfuQkTYN"
+    },
+    {
+      "title": "Around the World (La La La La La)",
+      "artist": "ATC",
+      "year": 2000,
+      "spotifyId": "7CvOnbFdnIoXMQ4eFCo5lB"
+    },
+    {
+      "title": "Can't Get You Out of My Head",
+      "artist": "Kylie Minogue",
+      "year": 2001,
+      "spotifyId": "7MoKXLQeI0Bh2QodCjDO4K"
+    },
+    {
+      "title": "Love at First Sight",
+      "artist": "Kylie Minogue",
+      "year": 2001,
+      "spotifyId": "4CpbsZqwBgeDOuy8EENJGd"
+    },
+    {
+      "title": "In Your Eyes",
+      "artist": "Kylie Minogue",
+      "year": 2001,
+      "spotifyId": "5jTe7GwelsbUTQ8reXdspC"
+    },
+    {
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996,
+      "spotifyId": "1Je1IMUlBXcx1Fz0WE7oPT"
+    },
+    {
+      "title": "Spice Up Your Life",
+      "artist": "Spice Girls",
+      "year": 1997,
+      "spotifyId": "5qGwqO0lkbBXw4xNfzT7SF"
+    },
+    {
+      "title": "Born Slippy .NUXX",
+      "artist": "Underworld",
+      "year": 1995,
+      "spotifyId": "0FaCEaPKDuvpDWoQsZ9m9o"
+    },
+    {
+      "title": "Firestarter",
+      "artist": "The Prodigy",
+      "year": 1996,
+      "spotifyId": "1auX4gkGe7hbrOH0BXdpV4"
+    },
+    {
+      "title": "Breathe",
+      "artist": "The Prodigy",
+      "year": 1996,
+      "spotifyId": "4ZtqsOdBbS6GoedzzRGSo9"
+    },
+    {
+      "title": "Smack My Bitch Up",
+      "artist": "The Prodigy",
+      "year": 1997,
+      "spotifyId": "2iwGE4y7yF8qzKc5WZ2Z8R"
+    },
+    {
+      "title": "Song 2",
+      "artist": "Blur",
+      "year": 1997,
+      "spotifyId": "3GfOAdcoc3X5GPiiXmpBjK"
+    },
+    {
+      "title": "Setting Sun",
+      "artist": "The Chemical Brothers",
+      "year": 1996,
+      "spotifyId": "5JBGbFdBtLcCCygw8rtjli"
+    },
+    {
+      "title": "Block Rockin' Beats",
+      "artist": "The Chemical Brothers",
+      "year": 1997,
+      "spotifyId": "1FNvrp5K02oThumS6gllzp"
+    },
+    {
+      "title": "Galvanize",
+      "artist": "The Chemical Brothers",
+      "year": 2004,
+      "spotifyId": "4bz7uB4edifWKJXSDxwHcs"
+    },
+    {
+      "title": "Born Slippy",
+      "artist": "Underworld",
+      "year": 1995,
+      "spotifyId": "7xQYVjs4wZNdCwO0EeAWMC"
+    },
+    {
+      "title": "Praise You",
+      "artist": "Fatboy Slim",
+      "year": 1998,
+      "spotifyId": "3yGy1JYz3zQKlxSgjgpQqX"
+    },
+    {
+      "title": "The Rockafeller Skank",
+      "artist": "Fatboy Slim",
+      "year": 1998,
+      "spotifyId": "7mCQK9YB25WZw1saUjfL4e"
+    },
+    {
+      "title": "Right Here, Right Now",
+      "artist": "Fatboy Slim",
+      "year": 1999,
+      "spotifyId": "3Pb9QabepyR9e9D8NqorPH"
+    },
+    {
+      "title": "Weapon of Choice",
+      "artist": "Fatboy Slim",
+      "year": 2000,
+      "spotifyId": "3ozrQkhWEaiDUNcjuguoja"
+    },
+    {
+      "title": "Satisfaction",
+      "artist": "Benny Benassi",
+      "year": 2002,
+      "spotifyId": "5JZnjM9ijpit0d5zjT8MM7"
+    },
+    {
+      "title": "Lady (Hear Me Tonight)",
+      "artist": "Modjo",
+      "year": 2000,
+      "spotifyId": "49X0LAl6faAusYq02PRAY6"
+    },
+    {
+      "title": "Music Sounds Better with You",
+      "artist": "Stardust",
+      "year": 1998,
+      "spotifyId": "303ccTay2FiDTZ9fZ2AdBt"
+    },
+    {
+      "title": "Titanium",
+      "artist": "David Guetta",
+      "year": 2011,
+      "spotifyId": "0lHAMNU8RGiIObScrsRgmP"
+    },
+    {
+      "title": "When Love Takes Over",
+      "artist": "David Guetta",
+      "year": 2009,
+      "spotifyId": "77FULy278MulVvGWS8BfK7"
+    },
+    {
+      "title": "Sexy Bitch",
+      "artist": "David Guetta",
+      "year": 2009,
+      "spotifyId": "0uXO2GrNiIb1xHT9LUdxZE"
+    },
+    {
+      "title": "Memories",
+      "artist": "David Guetta",
+      "year": 2009,
+      "spotifyId": "4dTaAiV9xFFCxnPur9c9yL"
+    },
+    {
+      "title": "Without You",
+      "artist": "David Guetta",
+      "year": 2011,
+      "spotifyId": "1tAutlhI9FwnKn7fVgmd5P"
+    },
+    {
+      "title": "Turn Me On",
+      "artist": "David Guetta",
+      "year": 2011,
+      "spotifyId": "6JOlNkT0QdHeZB0wPbI9IR"
+    },
+    {
+      "title": "Hey Baby (Drop It to the Floor)",
+      "artist": "Pitbull",
+      "year": 2010,
+      "spotifyId": "3rfhI32Il2hVRKDkuGeeen"
+    },
+    {
+      "title": "Give Me Everything",
+      "artist": "Pitbull",
+      "year": 2011,
+      "spotifyId": "4QNpBfC0zvjKqPJcyqBy9W"
+    },
+    {
+      "title": "Levels",
+      "artist": "Avicii",
+      "year": 2011,
+      "spotifyId": "5UqCQaDshqbIk3pkhy4Pjg"
+    },
+    {
+      "title": "Wake Me Up",
+      "artist": "Avicii",
+      "year": 2013,
+      "spotifyId": "0nrRP2bk19rLc0orkWPQk2"
+    },
+    {
+      "title": "Hey Brother",
+      "artist": "Avicii",
+      "year": 2013,
+      "spotifyId": "4lhqb6JvbHId48OUJGwymk"
+    },
+    {
+      "title": "Waiting for Love",
+      "artist": "Avicii",
+      "year": 2015,
+      "spotifyId": "2P4OICZRVAQcYAV2JReRfj"
+    },
+    {
+      "title": "The Nights",
+      "artist": "Avicii",
+      "year": 2014,
+      "spotifyId": "0ct6r3EGTcMLPtrXHDvVjc"
+    },
+    {
+      "title": "Without You",
+      "artist": "Avicii",
+      "year": 2017,
+      "spotifyId": "6Pgkp4qUoTmJIPn7ReaGxL"
+    },
+    {
+      "title": "Animals",
+      "artist": "Martin Garrix",
+      "year": 2013,
+      "spotifyId": "0A9mHc7oYUoCECqByV8cQR"
+    },
+    {
+      "title": "In the Name of Love",
+      "artist": "Martin Garrix",
+      "year": 2016,
+      "spotifyId": "23L5CiUhw2jV1OIMwthR3S"
+    },
+    {
+      "title": "Scared to Be Lonely",
+      "artist": "Martin Garrix",
+      "year": 2017,
+      "spotifyId": "3ebXMykcMXOcLeJ9xZ17XH"
+    },
+    {
+      "title": "Lean On",
+      "artist": "Major Lazer",
+      "year": 2015,
+      "spotifyId": "01aTsQoKoeXofSTvKuunzv"
+    },
+    {
+      "title": "Cold Water",
+      "artist": "Major Lazer",
+      "year": 2016,
+      "spotifyId": "7zsXy7vlHdItvUSH8EwQss"
+    },
+    {
+      "title": "Light It Up",
+      "artist": "Major Lazer",
+      "year": 2015,
+      "spotifyId": "1qFSPn37zEeCyRiVpkW9dt"
+    },
+    {
+      "title": "Don't Let Me Down",
+      "artist": "The Chainsmokers",
+      "year": 2016,
+      "spotifyId": "1i1fxkWeaMmKEB4T7zqbzK"
+    },
+    {
+      "title": "Closer",
+      "artist": "The Chainsmokers",
+      "year": 2016,
+      "spotifyId": "7BKLCZ1jbUBVqRi2FVlTVw"
+    },
+    {
+      "title": "Something Just Like This",
+      "artist": "The Chainsmokers",
+      "year": 2017,
+      "spotifyId": "1dNIEtp7AY3oDAKCGg2XkH"
+    },
+    {
+      "title": "Roses",
+      "artist": "The Chainsmokers",
+      "year": 2015,
+      "spotifyId": "3vv9phIu6Y1vX3jcqaGz5Z"
+    },
+    {
+      "title": "Paris",
+      "artist": "The Chainsmokers",
+      "year": 2017,
+      "spotifyId": "72jbDTw1piOOj770jWNeaG"
+    },
+    {
+      "title": "This Is What You Came For",
+      "artist": "Calvin Harris",
+      "year": 2016,
+      "spotifyId": "0azC730Exh71aQlOt9Zj3y"
+    },
+    {
+      "title": "Summer",
+      "artist": "Calvin Harris",
+      "year": 2014,
+      "spotifyId": "6YUTL4dYpB9xZO5qExPf05"
+    },
+    {
+      "title": "Feel So Close",
+      "artist": "Calvin Harris",
+      "year": 2011,
+      "spotifyId": "7my7OZvSNkcOqi4CJ4uYyE"
+    },
+    {
+      "title": "Sweet Nothing",
+      "artist": "Calvin Harris",
+      "year": 2012,
+      "spotifyId": "24LS4lQShWyixJ0ZrJXfJ5"
+    },
+    {
+      "title": "We Found Love",
+      "artist": "Rihanna & Calvin Harris",
+      "year": 2011,
+      "spotifyId": "6qn9YLKt13AGvpq9jfO8py"
+    },
+    {
+      "title": "Blue Monday",
+      "artist": "New Order",
+      "year": 1983,
+      "spotifyId": "6hHc7Pks7wtBIW8Z6A0iFq"
+    },
+    {
+      "title": "Bizarre Love Triangle",
+      "artist": "New Order",
+      "year": 1986,
+      "spotifyId": "6wVViUl2xSRoDK2T7dMZbR"
+    },
+    {
+      "title": "Personal Jesus",
+      "artist": "Depeche Mode",
+      "year": 1989,
+      "spotifyId": "2wUlYDGGXlSvm2NkGj0Qio"
+    },
+    {
+      "title": "Enjoy the Silence",
+      "artist": "Depeche Mode",
+      "year": 1990,
+      "spotifyId": "1JekRMGQ8iN4G1AAdh0SBa"
+    },
+    {
+      "title": "Strangelove",
+      "artist": "Depeche Mode",
+      "year": 1987,
+      "spotifyId": "2dQd2qrFB5VtuUMp45G41p"
+    },
+    {
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "year": 1983,
+      "spotifyId": "5CVu3KNcmHjYrdjXXVXR7g"
+    },
+    {
+      "title": "Clint Eastwood",
+      "artist": "Gorillaz",
+      "year": 2001,
+      "spotifyId": "7yMiX7n9SBvadzox8T5jzT"
+    },
+    {
+      "title": "Feel Good Inc.",
+      "artist": "Gorillaz",
+      "year": 2005,
+      "spotifyId": "0d28khcov6AiegSCpG5TuT"
+    },
+    {
+      "title": "Dare",
+      "artist": "Gorillaz",
+      "year": 2005,
+      "spotifyId": "0COEYS1GQabK0jepAmOXM3"
+    },
+    {
+      "title": "On Melancholy Hill",
+      "artist": "Gorillaz",
+      "year": 2010,
+      "spotifyId": "0q6LuUqGLUiCPP1cbdwFs3"
+    },
+    {
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "year": 2007,
+      "spotifyId": "0j2T0R9dR9qdJYsB7ciXhf"
+    },
+    {
+      "title": "Good Life",
+      "artist": "Kanye West",
+      "year": 2007,
+      "spotifyId": "4ZPdLEztrlZqbJkgHNw54L"
+    },
+    {
+      "title": "Midnight City",
+      "artist": "M83",
+      "year": 2011,
+      "spotifyId": "1eyzqe2QqGZUmfcPZtrIyt"
+    },
+    {
+      "title": "Rather Be",
+      "artist": "Clean Bandit",
+      "year": 2014,
+      "spotifyId": "3s4U7OHV7gnj42VV72eSZ6"
+    },
+    {
+      "title": "Where Are Ü Now",
+      "artist": "Skrillex & Diplo",
+      "year": 2015,
+      "spotifyId": "66hayvUbTotekKU3H4ta1f"
+    },
+    {
+      "title": "Bangarang",
+      "artist": "Skrillex",
+      "year": 2011,
+      "spotifyId": "6VRhkROS2SZHGlp0pxndbJ"
+    },
+    {
+      "title": "Scary Monsters and Nice Sprites",
+      "artist": "Skrillex",
+      "year": 2010,
+      "spotifyId": "4rwpZEcnalkuhPyGkEdhu0"
+    },
+    {
+      "title": "Starships",
+      "artist": "Nicki Minaj",
+      "year": 2012,
+      "spotifyId": "1UgW0l9aia2l4SjQSGwF2q"
+    },
+    {
+      "title": "Super Bass",
+      "artist": "Nicki Minaj",
+      "year": 2011,
+      "spotifyId": "3hlksXnvbKogFdPbpO9vel"
+    },
+    {
+      "title": "I Love It",
+      "artist": "Icona Pop",
+      "year": 2012,
+      "spotifyId": "3VZQshi4COChhXaz7cLP02"
+    },
+    {
+      "title": "Clarity",
+      "artist": "Zedd",
+      "year": 2012,
+      "spotifyId": "60wwxj6Dd9NJlirf84wr2c"
+    },
+    {
+      "title": "Stay the Night",
+      "artist": "Zedd",
+      "year": 2013,
+      "spotifyId": "2b0iF7MXjxr8yiCNX4izxz"
+    },
+    {
+      "title": "Beautiful Now",
+      "artist": "Zedd",
+      "year": 2015,
+      "spotifyId": "2ISSQPb9LHHiV6ng2NXosL"
+    }
   ]
 }

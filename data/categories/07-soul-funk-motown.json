@@ -3,109 +3,629 @@
   "name": "Soul, Funk & Motown",
   "description": "Groove, horns, and heartbreak",
   "songs": [
-    { "title": "I Want You Back", "artist": "The Jackson 5", "year": 1969, "spotifyId": null },
-    { "title": "ABC", "artist": "The Jackson 5", "year": 1970, "spotifyId": null },
-    { "title": "I'll Be There", "artist": "The Jackson 5", "year": 1970, "spotifyId": null },
-    { "title": "Ain't No Mountain High Enough", "artist": "Marvin Gaye & Tammi Terrell", "year": 1967, "spotifyId": null },
-    { "title": "I Heard It Through the Grapevine", "artist": "Marvin Gaye", "year": 1968, "spotifyId": null },
-    { "title": "What's Going On", "artist": "Marvin Gaye", "year": 1971, "spotifyId": null },
-    { "title": "Let's Get It On", "artist": "Marvin Gaye", "year": 1973, "spotifyId": null },
-    { "title": "Sexual Healing", "artist": "Marvin Gaye", "year": 1982, "spotifyId": null },
-    { "title": "Papa Was a Rollin' Stone", "artist": "The Temptations", "year": 1972, "spotifyId": null },
-    { "title": "My Girl", "artist": "The Temptations", "year": 1964, "spotifyId": null },
-    { "title": "Ain't Too Proud to Beg", "artist": "The Temptations", "year": 1966, "spotifyId": null },
-    { "title": "Just My Imagination", "artist": "The Temptations", "year": 1971, "spotifyId": null },
-    { "title": "Superstition", "artist": "Stevie Wonder", "year": 1972, "spotifyId": null },
-    { "title": "Sir Duke", "artist": "Stevie Wonder", "year": 1976, "spotifyId": null },
-    { "title": "I Just Called to Say I Love You", "artist": "Stevie Wonder", "year": 1984, "spotifyId": null },
-    { "title": "Signed, Sealed, Delivered I'm Yours", "artist": "Stevie Wonder", "year": 1970, "spotifyId": null },
-    { "title": "Higher Ground", "artist": "Stevie Wonder", "year": 1973, "spotifyId": null },
-    { "title": "Isn't She Lovely", "artist": "Stevie Wonder", "year": 1976, "spotifyId": null },
-    { "title": "You Are the Sunshine of My Life", "artist": "Stevie Wonder", "year": 1973, "spotifyId": null },
-    { "title": "Superstition", "artist": "Stevie Wonder", "year": 1972, "spotifyId": null },
-    { "title": "Respect", "artist": "Aretha Franklin", "year": 1967, "spotifyId": null },
-    { "title": "(You Make Me Feel Like) A Natural Woman", "artist": "Aretha Franklin", "year": 1967, "spotifyId": null },
-    { "title": "Think", "artist": "Aretha Franklin", "year": 1968, "spotifyId": null },
-    { "title": "I Say a Little Prayer", "artist": "Aretha Franklin", "year": 1968, "spotifyId": null },
-    { "title": "Chain of Fools", "artist": "Aretha Franklin", "year": 1967, "spotifyId": null },
-    { "title": "Stop! In the Name of Love", "artist": "The Supremes", "year": 1965, "spotifyId": null },
-    { "title": "You Can't Hurry Love", "artist": "The Supremes", "year": 1966, "spotifyId": null },
-    { "title": "Baby Love", "artist": "The Supremes", "year": 1964, "spotifyId": null },
-    { "title": "Where Did Our Love Go", "artist": "The Supremes", "year": 1964, "spotifyId": null },
-    { "title": "Dancing in the Street", "artist": "Martha and the Vandellas", "year": 1964, "spotifyId": null },
-    { "title": "Heat Wave", "artist": "Martha and the Vandellas", "year": 1963, "spotifyId": null },
-    { "title": "Nowhere to Run", "artist": "Martha and the Vandellas", "year": 1965, "spotifyId": null },
-    { "title": "The Tracks of My Tears", "artist": "Smokey Robinson & The Miracles", "year": 1965, "spotifyId": null },
-    { "title": "I Second That Emotion", "artist": "Smokey Robinson & The Miracles", "year": 1967, "spotifyId": null },
-    { "title": "Tears of a Clown", "artist": "Smokey Robinson & The Miracles", "year": 1970, "spotifyId": null },
-    { "title": "I Can't Help Myself (Sugar Pie Honey Bunch)", "artist": "Four Tops", "year": 1965, "spotifyId": null },
-    { "title": "Reach Out I'll Be There", "artist": "Four Tops", "year": 1966, "spotifyId": null },
-    { "title": "Sittin' on the Dock of the Bay", "artist": "Otis Redding", "year": 1968, "spotifyId": null },
-    { "title": "Try a Little Tenderness", "artist": "Otis Redding", "year": 1966, "spotifyId": null },
-    { "title": "These Arms of Mine", "artist": "Otis Redding", "year": 1962, "spotifyId": null },
-    { "title": "Knock on Wood", "artist": "Eddie Floyd", "year": 1966, "spotifyId": null },
-    { "title": "Soul Man", "artist": "Sam & Dave", "year": 1967, "spotifyId": null },
-    { "title": "Hold On, I'm Comin'", "artist": "Sam & Dave", "year": 1966, "spotifyId": null },
-    { "title": "When a Man Loves a Woman", "artist": "Percy Sledge", "year": 1966, "spotifyId": null },
-    { "title": "A Change Is Gonna Come", "artist": "Sam Cooke", "year": 1964, "spotifyId": null },
-    { "title": "Wonderful World", "artist": "Sam Cooke", "year": 1960, "spotifyId": null },
-    { "title": "Bring It On Home to Me", "artist": "Sam Cooke", "year": 1962, "spotifyId": null },
-    { "title": "Papa's Got a Brand New Bag", "artist": "James Brown", "year": 1965, "spotifyId": null },
-    { "title": "I Got You (I Feel Good)", "artist": "James Brown", "year": 1965, "spotifyId": null },
-    { "title": "Get Up (I Feel Like Being a) Sex Machine", "artist": "James Brown", "year": 1970, "spotifyId": null },
-    { "title": "Living in America", "artist": "James Brown", "year": 1985, "spotifyId": null },
-    { "title": "Say It Loud – I'm Black and I'm Proud", "artist": "James Brown", "year": 1968, "spotifyId": null },
-    { "title": "Brick House", "artist": "Commodores", "year": 1977, "spotifyId": null },
-    { "title": "Easy", "artist": "Commodores", "year": 1977, "spotifyId": null },
-    { "title": "Three Times a Lady", "artist": "Commodores", "year": 1978, "spotifyId": null },
-    { "title": "All Night Long (All Night)", "artist": "Lionel Richie", "year": 1983, "spotifyId": null },
-    { "title": "Hello", "artist": "Lionel Richie", "year": 1983, "spotifyId": null },
-    { "title": "Dancing on the Ceiling", "artist": "Lionel Richie", "year": 1986, "spotifyId": null },
-    { "title": "Le Freak", "artist": "Chic", "year": 1978, "spotifyId": null },
-    { "title": "Good Times", "artist": "Chic", "year": 1979, "spotifyId": null },
-    { "title": "Everybody Dance", "artist": "Chic", "year": 1977, "spotifyId": null },
-    { "title": "Get Lucky", "artist": "Daft Punk", "year": 2013, "spotifyId": null },
-    { "title": "Stayin' Alive", "artist": "Bee Gees", "year": 1977, "spotifyId": null },
-    { "title": "Night Fever", "artist": "Bee Gees", "year": 1977, "spotifyId": null },
-    { "title": "How Deep Is Your Love", "artist": "Bee Gees", "year": 1977, "spotifyId": null },
-    { "title": "More Than a Woman", "artist": "Bee Gees", "year": 1977, "spotifyId": null },
-    { "title": "You Should Be Dancing", "artist": "Bee Gees", "year": 1976, "spotifyId": null },
-    { "title": "Boogie Wonderland", "artist": "Earth, Wind & Fire", "year": 1979, "spotifyId": null },
-    { "title": "September", "artist": "Earth, Wind & Fire", "year": 1978, "spotifyId": null },
-    { "title": "Let's Groove", "artist": "Earth, Wind & Fire", "year": 1981, "spotifyId": null },
-    { "title": "After the Love Has Gone", "artist": "Earth, Wind & Fire", "year": 1979, "spotifyId": null },
-    { "title": "Shining Star", "artist": "Earth, Wind & Fire", "year": 1975, "spotifyId": null },
-    { "title": "Play That Funky Music", "artist": "Wild Cherry", "year": 1976, "spotifyId": null },
-    { "title": "Superfly", "artist": "Curtis Mayfield", "year": 1972, "spotifyId": null },
-    { "title": "Move On Up", "artist": "Curtis Mayfield", "year": 1970, "spotifyId": null },
-    { "title": "Got to Give It Up", "artist": "Marvin Gaye", "year": 1977, "spotifyId": null },
-    { "title": "Don't Leave Me This Way", "artist": "Thelma Houston", "year": 1976, "spotifyId": null },
-    { "title": "Lady Marmalade", "artist": "Labelle", "year": 1974, "spotifyId": null },
-    { "title": "Love Train", "artist": "The O'Jays", "year": 1972, "spotifyId": null },
-    { "title": "Back Stabbers", "artist": "The O'Jays", "year": 1972, "spotifyId": null },
-    { "title": "Me and Mrs. Jones", "artist": "Billy Paul", "year": 1972, "spotifyId": null },
-    { "title": "If You Don't Know Me by Now", "artist": "Harold Melvin & The Blue Notes", "year": 1972, "spotifyId": null },
-    { "title": "Kiss and Say Goodbye", "artist": "The Manhattans", "year": 1976, "spotifyId": null },
-    { "title": "Rock with You", "artist": "Michael Jackson", "year": 1979, "spotifyId": null },
-    { "title": "Don't Stop 'Til You Get Enough", "artist": "Michael Jackson", "year": 1979, "spotifyId": null },
-    { "title": "Off the Wall", "artist": "Michael Jackson", "year": 1979, "spotifyId": null },
-    { "title": "Wanna Be Startin' Somethin'", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "Human Nature", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "P.Y.T. (Pretty Young Thing)", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "Give It to Me Baby", "artist": "Rick James", "year": 1981, "spotifyId": null },
-    { "title": "Super Freak", "artist": "Rick James", "year": 1981, "spotifyId": null },
-    { "title": "Flash Light", "artist": "Parliament", "year": 1977, "spotifyId": null },
-    { "title": "Give Up the Funk (Tear the Roof Off the Sucker)", "artist": "Parliament", "year": 1976, "spotifyId": null },
-    { "title": "One Nation Under a Groove", "artist": "Funkadelic", "year": 1978, "spotifyId": null },
-    { "title": "Pick Up the Pieces", "artist": "Average White Band", "year": 1974, "spotifyId": null },
-    { "title": "Cut the Cake", "artist": "Average White Band", "year": 1975, "spotifyId": null },
-    { "title": "Kung Fu Fighting", "artist": "Carl Douglas", "year": 1974, "spotifyId": null },
-    { "title": "Jungle Boogie", "artist": "Kool & The Gang", "year": 1973, "spotifyId": null },
-    { "title": "Celebration", "artist": "Kool & The Gang", "year": 1980, "spotifyId": null },
-    { "title": "Get Down Tonight", "artist": "KC and the Sunshine Band", "year": 1975, "spotifyId": null },
-    { "title": "That's the Way (I Like It)", "artist": "KC and the Sunshine Band", "year": 1975, "spotifyId": null },
-    { "title": "I Will Survive", "artist": "Gloria Gaynor", "year": 1978, "spotifyId": null },
-    { "title": "Le Chic", "artist": "Sister Sledge", "year": 1979, "spotifyId": null },
-    { "title": "We Are Family", "artist": "Sister Sledge", "year": 1979, "spotifyId": null }
+    {
+      "title": "I Want You Back",
+      "artist": "The Jackson 5",
+      "year": 1969,
+      "spotifyId": "5LxvwujISqiB8vpRYv887S"
+    },
+    {
+      "title": "ABC",
+      "artist": "The Jackson 5",
+      "year": 1970,
+      "spotifyId": "6D8kc7RO0rqBLSo2YPflJ5"
+    },
+    {
+      "title": "I'll Be There",
+      "artist": "The Jackson 5",
+      "year": 1970,
+      "spotifyId": "5RdhBLmB4DyFHLglRrfx63"
+    },
+    {
+      "title": "Ain't No Mountain High Enough",
+      "artist": "Marvin Gaye & Tammi Terrell",
+      "year": 1967,
+      "spotifyId": "7tqhbajSfrz2F7E1Z75ASX"
+    },
+    {
+      "title": "I Heard It Through the Grapevine",
+      "artist": "Marvin Gaye",
+      "year": 1968,
+      "spotifyId": "1tqT6DhmsrtQgyCKUwotiw"
+    },
+    {
+      "title": "What's Going On",
+      "artist": "Marvin Gaye",
+      "year": 1971,
+      "spotifyId": "3Um9toULmYFGCpvaIPFw7l"
+    },
+    {
+      "title": "Let's Get It On",
+      "artist": "Marvin Gaye",
+      "year": 1973,
+      "spotifyId": "627teoJpK7qZOxRRY8TNnv"
+    },
+    {
+      "title": "Sexual Healing",
+      "artist": "Marvin Gaye",
+      "year": 1982,
+      "spotifyId": "3VZmChrnVW8JK6ano4gSED"
+    },
+    {
+      "title": "Papa Was a Rollin' Stone",
+      "artist": "The Temptations",
+      "year": 1972,
+      "spotifyId": "7MiLmLbwNoyf47xQ4TCVYp"
+    },
+    {
+      "title": "My Girl",
+      "artist": "The Temptations",
+      "year": 1964,
+      "spotifyId": "745H5CctFr12Mo7cqa1BMH"
+    },
+    {
+      "title": "Ain't Too Proud to Beg",
+      "artist": "The Temptations",
+      "year": 1966,
+      "spotifyId": "4CoGNqLap7UGU5Q3VdKug0"
+    },
+    {
+      "title": "Just My Imagination",
+      "artist": "The Temptations",
+      "year": 1971,
+      "spotifyId": "39Bd345OWEhRNyfayhp9gv"
+    },
+    {
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "year": 1972,
+      "spotifyId": "4N0TP4Rmj6QQezWV88ARNJ"
+    },
+    {
+      "title": "Sir Duke",
+      "artist": "Stevie Wonder",
+      "year": 1976,
+      "spotifyId": "4pNiE4LCVV74vfIBaUHm1b"
+    },
+    {
+      "title": "I Just Called to Say I Love You",
+      "artist": "Stevie Wonder",
+      "year": 1984,
+      "spotifyId": "0kVE2yBjTwnFqbsrXRKg5Y"
+    },
+    {
+      "title": "Signed, Sealed, Delivered I'm Yours",
+      "artist": "Stevie Wonder",
+      "year": 1970,
+      "spotifyId": "0kzhMZZNmxiLG7qyJhVBHB"
+    },
+    {
+      "title": "Higher Ground",
+      "artist": "Stevie Wonder",
+      "year": 1973,
+      "spotifyId": "0dMd4rilfd6gPbXaLpNYhu"
+    },
+    {
+      "title": "Isn't She Lovely",
+      "artist": "Stevie Wonder",
+      "year": 1976,
+      "spotifyId": "6RANU8AS5ICU5PEHh8BYtH"
+    },
+    {
+      "title": "You Are the Sunshine of My Life",
+      "artist": "Stevie Wonder",
+      "year": 1973,
+      "spotifyId": "0n2pjCIMKwHSXoYfEbYMfX"
+    },
+    {
+      "title": "Superstition",
+      "artist": "Stevie Wonder",
+      "year": 1972,
+      "spotifyId": "4N0TP4Rmj6QQezWV88ARNJ"
+    },
+    {
+      "title": "Respect",
+      "artist": "Aretha Franklin",
+      "year": 1967,
+      "spotifyId": "7s25THrKz86DM225dOYwnr"
+    },
+    {
+      "title": "(You Make Me Feel Like) A Natural Woman",
+      "artist": "Aretha Franklin",
+      "year": 1967,
+      "spotifyId": "5K09WxKdlkroDyEVyOSySy"
+    },
+    {
+      "title": "Think",
+      "artist": "Aretha Franklin",
+      "year": 1968,
+      "spotifyId": "4yQw7FR9lcvL6RHtegbJBh"
+    },
+    {
+      "title": "I Say a Little Prayer",
+      "artist": "Aretha Franklin",
+      "year": 1968,
+      "spotifyId": "3NfxSdJnVdon1axzloJgba"
+    },
+    {
+      "title": "Chain of Fools",
+      "artist": "Aretha Franklin",
+      "year": 1967,
+      "spotifyId": "2oZmMp5M6L0Rh7G84Um2tF"
+    },
+    {
+      "title": "Stop! In the Name of Love",
+      "artist": "The Supremes",
+      "year": 1965,
+      "spotifyId": "52FlwUMMDnTK8TGkCag9Jd"
+    },
+    {
+      "title": "You Can't Hurry Love",
+      "artist": "The Supremes",
+      "year": 1966,
+      "spotifyId": "1OppEieGNdItZbE14gLBEv"
+    },
+    {
+      "title": "Baby Love",
+      "artist": "The Supremes",
+      "year": 1964,
+      "spotifyId": "5uES1C2NgkdrNHiCwf9jRr"
+    },
+    {
+      "title": "Where Did Our Love Go",
+      "artist": "The Supremes",
+      "year": 1964,
+      "spotifyId": "69RH84na5iUNwrwxpgjC5j"
+    },
+    {
+      "title": "Dancing in the Street",
+      "artist": "Martha and the Vandellas",
+      "year": 1964,
+      "spotifyId": "6rLqjzGV5VMLDWEnuUqi8q"
+    },
+    {
+      "title": "Heat Wave",
+      "artist": "Martha and the Vandellas",
+      "year": 1963,
+      "spotifyId": "3VgrSJEKBRT3xmwzpaxxEF"
+    },
+    {
+      "title": "Nowhere to Run",
+      "artist": "Martha and the Vandellas",
+      "year": 1965,
+      "spotifyId": "1WPqawIF9HCKfSOt7mN6X0"
+    },
+    {
+      "title": "The Tracks of My Tears",
+      "artist": "Smokey Robinson & The Miracles",
+      "year": 1965,
+      "spotifyId": "6QyQmdvQ1ywNccYa0pwLNQ"
+    },
+    {
+      "title": "I Second That Emotion",
+      "artist": "Smokey Robinson & The Miracles",
+      "year": 1967,
+      "spotifyId": "6Hd8mrDwBQ8rLo70FwFG5C"
+    },
+    {
+      "title": "Tears of a Clown",
+      "artist": "Smokey Robinson & The Miracles",
+      "year": 1970,
+      "spotifyId": "1T9BMZj3BoFfWddYhyVc79"
+    },
+    {
+      "title": "I Can't Help Myself (Sugar Pie Honey Bunch)",
+      "artist": "Four Tops",
+      "year": 1965,
+      "spotifyId": "6b6IMqP565TbtFFZg9iFf3"
+    },
+    {
+      "title": "Reach Out I'll Be There",
+      "artist": "Four Tops",
+      "year": 1966,
+      "spotifyId": "6Pkj4nv5K53i64cLVgkVyY"
+    },
+    {
+      "title": "Sittin' on the Dock of the Bay",
+      "artist": "Otis Redding",
+      "year": 1968,
+      "spotifyId": "3zBhihYUHBmGd2bcQIobrF"
+    },
+    {
+      "title": "Try a Little Tenderness",
+      "artist": "Otis Redding",
+      "year": 1966,
+      "spotifyId": "36AlMHDBFwSsD3FQOy1R81"
+    },
+    {
+      "title": "These Arms of Mine",
+      "artist": "Otis Redding",
+      "year": 1962,
+      "spotifyId": "4skknrc3sJqaPTtUr2cwFq"
+    },
+    {
+      "title": "Knock on Wood",
+      "artist": "Eddie Floyd",
+      "year": 1966,
+      "spotifyId": "3YJx77Xx8JSwEoxqrkQO5c"
+    },
+    {
+      "title": "Soul Man",
+      "artist": "Sam & Dave",
+      "year": 1967,
+      "spotifyId": "4eGHlplaq1ME8oetnTuFFf"
+    },
+    {
+      "title": "Hold On, I'm Comin'",
+      "artist": "Sam & Dave",
+      "year": 1966,
+      "spotifyId": "6PgVDY8GTkxF3GmhVGPzoB"
+    },
+    {
+      "title": "When a Man Loves a Woman",
+      "artist": "Percy Sledge",
+      "year": 1966,
+      "spotifyId": "51FpzuGkRYXFgsE2zXt9av"
+    },
+    {
+      "title": "A Change Is Gonna Come",
+      "artist": "Sam Cooke",
+      "year": 1964,
+      "spotifyId": "0YfOnJWqmAKaUvEL1QcNop"
+    },
+    {
+      "title": "Wonderful World",
+      "artist": "Sam Cooke",
+      "year": 1960,
+      "spotifyId": "7N15WWy12QAMpGAh6QMAej"
+    },
+    {
+      "title": "Bring It On Home to Me",
+      "artist": "Sam Cooke",
+      "year": 1962,
+      "spotifyId": "5EoYc5wvRYOtkudLfrjsL1"
+    },
+    {
+      "title": "Papa's Got a Brand New Bag",
+      "artist": "James Brown",
+      "year": 1965,
+      "spotifyId": "00pGV4EInVd77cnOIwPTCv"
+    },
+    {
+      "title": "I Got You (I Feel Good)",
+      "artist": "James Brown",
+      "year": 1965,
+      "spotifyId": "5haXbSJqjjM0TCJ5XkfEaC"
+    },
+    {
+      "title": "Get Up (I Feel Like Being a) Sex Machine",
+      "artist": "James Brown",
+      "year": 1970,
+      "spotifyId": "2ivdsb1RcEJjIs5tuHkUC9"
+    },
+    {
+      "title": "Living in America",
+      "artist": "James Brown",
+      "year": 1985,
+      "spotifyId": "0T1OrvV6bOQVL2vSQiDn6W"
+    },
+    {
+      "title": "Say It Loud – I'm Black and I'm Proud",
+      "artist": "James Brown",
+      "year": 1968,
+      "spotifyId": "5cWUaFw3SM7nv7L2FF0bQN"
+    },
+    {
+      "title": "Brick House",
+      "artist": "Commodores",
+      "year": 1977,
+      "spotifyId": "5VJjhHyG8NZ5xdgG6uTb3P"
+    },
+    {
+      "title": "Easy",
+      "artist": "Commodores",
+      "year": 1977,
+      "spotifyId": "1JQ6Xm1JrvHfvAqhl5pwaA"
+    },
+    {
+      "title": "Three Times a Lady",
+      "artist": "Commodores",
+      "year": 1978,
+      "spotifyId": "2uTGX4wxnRGS3i0FSOMGCQ"
+    },
+    {
+      "title": "All Night Long (All Night)",
+      "artist": "Lionel Richie",
+      "year": 1983,
+      "spotifyId": "28uI9fFNHCelCuLS613SVi"
+    },
+    {
+      "title": "Hello",
+      "artist": "Lionel Richie",
+      "year": 1983,
+      "spotifyId": "0mHyWYXmmCB9iQyK18m3FQ"
+    },
+    {
+      "title": "Dancing on the Ceiling",
+      "artist": "Lionel Richie",
+      "year": 1986,
+      "spotifyId": "0snPJPxkk0MbTc0xeUvAPt"
+    },
+    {
+      "title": "Le Freak",
+      "artist": "Chic",
+      "year": 1978,
+      "spotifyId": "7z3aH1QV2zwMKXxShBNOGe"
+    },
+    {
+      "title": "Good Times",
+      "artist": "Chic",
+      "year": 1979,
+      "spotifyId": "2wYKNcoqKW4IEcllj42xz1"
+    },
+    {
+      "title": "Everybody Dance",
+      "artist": "Chic",
+      "year": 1977,
+      "spotifyId": "2tSzHVPE05bV6mFwm2Tndd"
+    },
+    {
+      "title": "Get Lucky",
+      "artist": "Daft Punk",
+      "year": 2013,
+      "spotifyId": "69kOkLUCkxIZYexIgSG8rq"
+    },
+    {
+      "title": "Stayin' Alive",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "spotifyId": "4UDmDIqJIbrW0hMBQMFOsM"
+    },
+    {
+      "title": "Night Fever",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "spotifyId": "7CD7yloFjtrD75PRbZwgUN"
+    },
+    {
+      "title": "How Deep Is Your Love",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "spotifyId": "0qp2BkreL7bxaFdc25VihQ"
+    },
+    {
+      "title": "More Than a Woman",
+      "artist": "Bee Gees",
+      "year": 1977,
+      "spotifyId": "3KfFrcJoCFXU2uFiO7XwTh"
+    },
+    {
+      "title": "You Should Be Dancing",
+      "artist": "Bee Gees",
+      "year": 1976,
+      "spotifyId": "2xiOdusRnZezQok1RgLNeS"
+    },
+    {
+      "title": "Boogie Wonderland",
+      "artist": "Earth, Wind & Fire",
+      "year": 1979,
+      "spotifyId": "6ztstiyZL6FXzh4aG46ZPD"
+    },
+    {
+      "title": "September",
+      "artist": "Earth, Wind & Fire",
+      "year": 1978,
+      "spotifyId": "2grjqo0Frpf2okIBiifQKs"
+    },
+    {
+      "title": "Let's Groove",
+      "artist": "Earth, Wind & Fire",
+      "year": 1981,
+      "spotifyId": "3koCCeSaVUyrRo3N2gHrd8"
+    },
+    {
+      "title": "After the Love Has Gone",
+      "artist": "Earth, Wind & Fire",
+      "year": 1979,
+      "spotifyId": "3cfnGXJ9bmiWvFqEO6ff8B"
+    },
+    {
+      "title": "Shining Star",
+      "artist": "Earth, Wind & Fire",
+      "year": 1975,
+      "spotifyId": "0RgcOUQg4qYAEt9RIdf3oB"
+    },
+    {
+      "title": "Play That Funky Music",
+      "artist": "Wild Cherry",
+      "year": 1976,
+      "spotifyId": "5uuJruktM9fMdN9Va0DUMl"
+    },
+    {
+      "title": "Superfly",
+      "artist": "Curtis Mayfield",
+      "year": 1972,
+      "spotifyId": "4XsH9zBWPOCdXoH9ZDdS8r"
+    },
+    {
+      "title": "Move On Up",
+      "artist": "Curtis Mayfield",
+      "year": 1970,
+      "spotifyId": "0MHXrqn909p0LRTPsNsGEi"
+    },
+    {
+      "title": "Got to Give It Up",
+      "artist": "Marvin Gaye",
+      "year": 1977,
+      "spotifyId": "12sRJfGKwQ3mWWECnZK0GE"
+    },
+    {
+      "title": "Don't Leave Me This Way",
+      "artist": "Thelma Houston",
+      "year": 1976,
+      "spotifyId": "51qi5dgc9CsotM87GmRkAX"
+    },
+    {
+      "title": "Lady Marmalade",
+      "artist": "Labelle",
+      "year": 1974,
+      "spotifyId": "17VWTx7LD7liGlpnlGhUbn"
+    },
+    {
+      "title": "Love Train",
+      "artist": "The O'Jays",
+      "year": 1972,
+      "spotifyId": "28285KFbyCq8sJofn58qlD"
+    },
+    {
+      "title": "Back Stabbers",
+      "artist": "The O'Jays",
+      "year": 1972,
+      "spotifyId": "0KpMY3D2G8253VTZbDBUmA"
+    },
+    {
+      "title": "Me and Mrs. Jones",
+      "artist": "Billy Paul",
+      "year": 1972,
+      "spotifyId": "6Ro2z4RtAUew9Kz2HZWZUi"
+    },
+    {
+      "title": "If You Don't Know Me by Now",
+      "artist": "Harold Melvin & The Blue Notes",
+      "year": 1972,
+      "spotifyId": "3NElqDNNnzvWYOwsbxLQKN"
+    },
+    {
+      "title": "Kiss and Say Goodbye",
+      "artist": "The Manhattans",
+      "year": 1976,
+      "spotifyId": "0rHiGIRASJq8snJGFJMpnI"
+    },
+    {
+      "title": "Rock with You",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "spotifyId": "7oOOI85fVQvVnK5ynNMdW7"
+    },
+    {
+      "title": "Don't Stop 'Til You Get Enough",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "spotifyId": "46eu3SBuFCXWsPT39Yg3tJ"
+    },
+    {
+      "title": "Off the Wall",
+      "artist": "Michael Jackson",
+      "year": 1979,
+      "spotifyId": null
+    },
+    {
+      "title": "Wanna Be Startin' Somethin'",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": null
+    },
+    {
+      "title": "Human Nature",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": null
+    },
+    {
+      "title": "P.Y.T. (Pretty Young Thing)",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": null
+    },
+    {
+      "title": "Give It to Me Baby",
+      "artist": "Rick James",
+      "year": 1981,
+      "spotifyId": null
+    },
+    {
+      "title": "Super Freak",
+      "artist": "Rick James",
+      "year": 1981,
+      "spotifyId": null
+    },
+    {
+      "title": "Flash Light",
+      "artist": "Parliament",
+      "year": 1977,
+      "spotifyId": null
+    },
+    {
+      "title": "Give Up the Funk (Tear the Roof Off the Sucker)",
+      "artist": "Parliament",
+      "year": 1976,
+      "spotifyId": null
+    },
+    {
+      "title": "One Nation Under a Groove",
+      "artist": "Funkadelic",
+      "year": 1978,
+      "spotifyId": null
+    },
+    {
+      "title": "Pick Up the Pieces",
+      "artist": "Average White Band",
+      "year": 1974,
+      "spotifyId": null
+    },
+    {
+      "title": "Cut the Cake",
+      "artist": "Average White Band",
+      "year": 1975,
+      "spotifyId": null
+    },
+    {
+      "title": "Kung Fu Fighting",
+      "artist": "Carl Douglas",
+      "year": 1974,
+      "spotifyId": null
+    },
+    {
+      "title": "Jungle Boogie",
+      "artist": "Kool & The Gang",
+      "year": 1973,
+      "spotifyId": null
+    },
+    {
+      "title": "Celebration",
+      "artist": "Kool & The Gang",
+      "year": 1980,
+      "spotifyId": null
+    },
+    {
+      "title": "Get Down Tonight",
+      "artist": "KC and the Sunshine Band",
+      "year": 1975,
+      "spotifyId": null
+    },
+    {
+      "title": "That's the Way (I Like It)",
+      "artist": "KC and the Sunshine Band",
+      "year": 1975,
+      "spotifyId": null
+    },
+    {
+      "title": "I Will Survive",
+      "artist": "Gloria Gaynor",
+      "year": 1978,
+      "spotifyId": null
+    },
+    {
+      "title": "Le Chic",
+      "artist": "Sister Sledge",
+      "year": 1979,
+      "spotifyId": null
+    },
+    {
+      "title": "We Are Family",
+      "artist": "Sister Sledge",
+      "year": 1979,
+      "spotifyId": null
+    }
   ]
 }

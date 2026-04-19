@@ -3,108 +3,623 @@
   "name": "80s Pop",
   "description": "Neon synths and big hair",
   "songs": [
-    { "title": "Billie Jean", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "Thriller", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "Beat It", "artist": "Michael Jackson", "year": 1982, "spotifyId": null },
-    { "title": "Smooth Criminal", "artist": "Michael Jackson", "year": 1987, "spotifyId": null },
-    { "title": "Bad", "artist": "Michael Jackson", "year": 1987, "spotifyId": null },
-    { "title": "Like a Virgin", "artist": "Madonna", "year": 1984, "spotifyId": null },
-    { "title": "Material Girl", "artist": "Madonna", "year": 1985, "spotifyId": null },
-    { "title": "Like a Prayer", "artist": "Madonna", "year": 1989, "spotifyId": null },
-    { "title": "Papa Don't Preach", "artist": "Madonna", "year": 1986, "spotifyId": null },
-    { "title": "Vogue", "artist": "Madonna", "year": 1990, "spotifyId": null },
-    { "title": "Take On Me", "artist": "a-ha", "year": 1985, "spotifyId": null },
-    { "title": "Sweet Dreams (Are Made of This)", "artist": "Eurythmics", "year": 1983, "spotifyId": null },
-    { "title": "Tainted Love", "artist": "Soft Cell", "year": 1981, "spotifyId": null },
-    { "title": "Don't You (Forget About Me)", "artist": "Simple Minds", "year": 1985, "spotifyId": null },
-    { "title": "99 Luftballons", "artist": "Nena", "year": 1983, "spotifyId": null },
-    { "title": "Girls Just Want to Have Fun", "artist": "Cyndi Lauper", "year": 1983, "spotifyId": null },
-    { "title": "Time After Time", "artist": "Cyndi Lauper", "year": 1983, "spotifyId": null },
-    { "title": "True Colors", "artist": "Cyndi Lauper", "year": 1986, "spotifyId": null },
-    { "title": "Careless Whisper", "artist": "George Michael", "year": 1984, "spotifyId": null },
-    { "title": "Wake Me Up Before You Go-Go", "artist": "Wham!", "year": 1984, "spotifyId": null },
-    { "title": "Last Christmas", "artist": "Wham!", "year": 1984, "spotifyId": null },
-    { "title": "Faith", "artist": "George Michael", "year": 1987, "spotifyId": null },
-    { "title": "Uptown Funk", "artist": "Mark Ronson", "year": 2014, "spotifyId": null },
-    { "title": "Walking on Sunshine", "artist": "Katrina and the Waves", "year": 1985, "spotifyId": null },
-    { "title": "I Wanna Dance with Somebody", "artist": "Whitney Houston", "year": 1987, "spotifyId": null },
-    { "title": "How Will I Know", "artist": "Whitney Houston", "year": 1985, "spotifyId": null },
-    { "title": "Greatest Love of All", "artist": "Whitney Houston", "year": 1986, "spotifyId": null },
-    { "title": "Never Gonna Give You Up", "artist": "Rick Astley", "year": 1987, "spotifyId": null },
-    { "title": "Together Forever", "artist": "Rick Astley", "year": 1988, "spotifyId": null },
-    { "title": "What's Love Got to Do with It", "artist": "Tina Turner", "year": 1984, "spotifyId": null },
-    { "title": "Simply the Best", "artist": "Tina Turner", "year": 1989, "spotifyId": null },
-    { "title": "Private Dancer", "artist": "Tina Turner", "year": 1984, "spotifyId": null },
-    { "title": "When Doves Cry", "artist": "Prince", "year": 1984, "spotifyId": null },
-    { "title": "Purple Rain", "artist": "Prince", "year": 1984, "spotifyId": null },
-    { "title": "Kiss", "artist": "Prince", "year": 1986, "spotifyId": null },
-    { "title": "1999", "artist": "Prince", "year": 1982, "spotifyId": null },
-    { "title": "Little Red Corvette", "artist": "Prince", "year": 1983, "spotifyId": null },
-    { "title": "I Ran (So Far Away)", "artist": "A Flock of Seagulls", "year": 1982, "spotifyId": null },
-    { "title": "Tainted Love", "artist": "Soft Cell", "year": 1981, "spotifyId": null },
-    { "title": "Karma Chameleon", "artist": "Culture Club", "year": 1983, "spotifyId": null },
-    { "title": "Do You Really Want to Hurt Me", "artist": "Culture Club", "year": 1982, "spotifyId": null },
-    { "title": "Hungry Like the Wolf", "artist": "Duran Duran", "year": 1982, "spotifyId": null },
-    { "title": "Rio", "artist": "Duran Duran", "year": 1982, "spotifyId": null },
-    { "title": "A View to a Kill", "artist": "Duran Duran", "year": 1985, "spotifyId": null },
-    { "title": "Girls on Film", "artist": "Duran Duran", "year": 1981, "spotifyId": null },
-    { "title": "Wake Me Up When September Ends", "artist": "Green Day", "year": 2004, "spotifyId": null },
-    { "title": "Our House", "artist": "Madness", "year": 1982, "spotifyId": null },
-    { "title": "Drive", "artist": "The Cars", "year": 1984, "spotifyId": null },
-    { "title": "Just What I Needed", "artist": "The Cars", "year": 1978, "spotifyId": null },
-    { "title": "You Might Think", "artist": "The Cars", "year": 1984, "spotifyId": null },
-    { "title": "Let's Dance", "artist": "David Bowie", "year": 1983, "spotifyId": null },
-    { "title": "Modern Love", "artist": "David Bowie", "year": 1983, "spotifyId": null },
-    { "title": "China Girl", "artist": "David Bowie", "year": 1983, "spotifyId": null },
-    { "title": "In the Air Tonight", "artist": "Phil Collins", "year": 1981, "spotifyId": null },
-    { "title": "Another Day in Paradise", "artist": "Phil Collins", "year": 1989, "spotifyId": null },
-    { "title": "Sussudio", "artist": "Phil Collins", "year": 1985, "spotifyId": null },
-    { "title": "Easy Lover", "artist": "Philip Bailey & Phil Collins", "year": 1984, "spotifyId": null },
-    { "title": "You Give Love a Bad Name", "artist": "Bon Jovi", "year": 1986, "spotifyId": null },
-    { "title": "Wanted Dead or Alive", "artist": "Bon Jovi", "year": 1986, "spotifyId": null },
-    { "title": "Bad Medicine", "artist": "Bon Jovi", "year": 1988, "spotifyId": null },
-    { "title": "The Final Countdown", "artist": "Europe", "year": 1986, "spotifyId": null },
-    { "title": "I Just Called to Say I Love You", "artist": "Stevie Wonder", "year": 1984, "spotifyId": null },
-    { "title": "Don't Stop", "artist": "Fleetwood Mac", "year": 1977, "spotifyId": null },
-    { "title": "Little Lies", "artist": "Fleetwood Mac", "year": 1987, "spotifyId": null },
-    { "title": "Everywhere", "artist": "Fleetwood Mac", "year": 1987, "spotifyId": null },
-    { "title": "I'm Still Standing", "artist": "Elton John", "year": 1983, "spotifyId": null },
-    { "title": "Nikita", "artist": "Elton John", "year": 1985, "spotifyId": null },
-    { "title": "Sacrifice", "artist": "Elton John", "year": 1989, "spotifyId": null },
-    { "title": "Dancing in the Dark", "artist": "Bruce Springsteen", "year": 1984, "spotifyId": null },
-    { "title": "Born in the U.S.A.", "artist": "Bruce Springsteen", "year": 1984, "spotifyId": null },
-    { "title": "I'm on Fire", "artist": "Bruce Springsteen", "year": 1984, "spotifyId": null },
-    { "title": "Eye of the Tiger", "artist": "Survivor", "year": 1982, "spotifyId": null },
-    { "title": "Footloose", "artist": "Kenny Loggins", "year": 1984, "spotifyId": null },
-    { "title": "Danger Zone", "artist": "Kenny Loggins", "year": 1986, "spotifyId": null },
-    { "title": "Holding Out for a Hero", "artist": "Bonnie Tyler", "year": 1984, "spotifyId": null },
-    { "title": "Total Eclipse of the Heart", "artist": "Bonnie Tyler", "year": 1983, "spotifyId": null },
-    { "title": "I Think We're Alone Now", "artist": "Tiffany", "year": 1987, "spotifyId": null },
-    { "title": "Manic Monday", "artist": "The Bangles", "year": 1986, "spotifyId": null },
-    { "title": "Walk Like an Egyptian", "artist": "The Bangles", "year": 1986, "spotifyId": null },
-    { "title": "Eternal Flame", "artist": "The Bangles", "year": 1989, "spotifyId": null },
-    { "title": "Could've Been", "artist": "Tiffany", "year": 1987, "spotifyId": null },
-    { "title": "Livin' on a Prayer", "artist": "Bon Jovi", "year": 1986, "spotifyId": null },
-    { "title": "Love Shack", "artist": "The B-52's", "year": 1989, "spotifyId": null },
-    { "title": "Rock Me Amadeus", "artist": "Falco", "year": 1985, "spotifyId": null },
-    { "title": "Come On Eileen", "artist": "Dexys Midnight Runners", "year": 1982, "spotifyId": null },
-    { "title": "Video Killed the Radio Star", "artist": "The Buggles", "year": 1979, "spotifyId": null },
-    { "title": "I Ran (So Far Away)", "artist": "A Flock of Seagulls", "year": 1982, "spotifyId": null },
-    { "title": "Safety Dance", "artist": "Men Without Hats", "year": 1982, "spotifyId": null },
-    { "title": "She Blinded Me with Science", "artist": "Thomas Dolby", "year": 1982, "spotifyId": null },
-    { "title": "Who Can It Be Now?", "artist": "Men at Work", "year": 1981, "spotifyId": null },
-    { "title": "Down Under", "artist": "Men at Work", "year": 1981, "spotifyId": null },
-    { "title": "Whip It", "artist": "Devo", "year": 1980, "spotifyId": null },
-    { "title": "Mickey", "artist": "Toni Basil", "year": 1981, "spotifyId": null },
-    { "title": "Centerfold", "artist": "J. Geils Band", "year": 1981, "spotifyId": null },
-    { "title": "867-5309/Jenny", "artist": "Tommy Tutone", "year": 1981, "spotifyId": null },
-    { "title": "Tainted Love", "artist": "Soft Cell", "year": 1981, "spotifyId": null },
-    { "title": "Maneater", "artist": "Hall & Oates", "year": 1982, "spotifyId": null },
-    { "title": "Private Eyes", "artist": "Hall & Oates", "year": 1981, "spotifyId": null },
-    { "title": "You Make My Dreams", "artist": "Hall & Oates", "year": 1980, "spotifyId": null },
-    { "title": "Every Little Thing She Does Is Magic", "artist": "The Police", "year": 1981, "spotifyId": null },
-    { "title": "Call Me", "artist": "Blondie", "year": 1980, "spotifyId": null },
-    { "title": "Rapture", "artist": "Blondie", "year": 1980, "spotifyId": null },
-    { "title": "Heart of Glass", "artist": "Blondie", "year": 1978, "spotifyId": null }
+    {
+      "title": "Billie Jean",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": "7J1uxwnxfQLu4APicE5Rnj"
+    },
+    {
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": "2LlQb7Uoj1kKyGhlkBf9aC"
+    },
+    {
+      "title": "Beat It",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "spotifyId": "3BovdzfaX4jb5KFQwoPfAw"
+    },
+    {
+      "title": "Smooth Criminal",
+      "artist": "Michael Jackson",
+      "year": 1987,
+      "spotifyId": "5T7ywazdGIydr6JCW6t02j"
+    },
+    {
+      "title": "Bad",
+      "artist": "Michael Jackson",
+      "year": 1987,
+      "spotifyId": "3tS8q8SXxtrYSN8UgeQt6q"
+    },
+    {
+      "title": "Like a Virgin",
+      "artist": "Madonna",
+      "year": 1984,
+      "spotifyId": "1ZPlNanZsJSPK5h9YZZFbZ"
+    },
+    {
+      "title": "Material Girl",
+      "artist": "Madonna",
+      "year": 1985,
+      "spotifyId": "7bkyXSi4GtVfD7itZRUR3e"
+    },
+    {
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "year": 1989,
+      "spotifyId": "2v7ywbUzCgcVohHaKUcacV"
+    },
+    {
+      "title": "Papa Don't Preach",
+      "artist": "Madonna",
+      "year": 1986,
+      "spotifyId": "6A8OnjnpShshNpcqWtZRjr"
+    },
+    {
+      "title": "Vogue",
+      "artist": "Madonna",
+      "year": 1990,
+      "spotifyId": "4vNuuqBFdid5yTSWtppBYx"
+    },
+    {
+      "title": "Take On Me",
+      "artist": "a-ha",
+      "year": 1985,
+      "spotifyId": "2WfaOiMkCvy7F5fcp2zZ8L"
+    },
+    {
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "year": 1983,
+      "spotifyId": "5CVu3KNcmHjYrdjXXVXR7g"
+    },
+    {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "year": 1981,
+      "spotifyId": "58E1XVmZTODC67YNjneuXM"
+    },
+    {
+      "title": "Don't You (Forget About Me)",
+      "artist": "Simple Minds",
+      "year": 1985,
+      "spotifyId": "3fH4KjXFYMmljxrcGrbPj9"
+    },
+    {
+      "title": "99 Luftballons",
+      "artist": "Nena",
+      "year": 1983,
+      "spotifyId": "2IJftBfq7pJ43tfnOR0RB3"
+    },
+    {
+      "title": "Girls Just Want to Have Fun",
+      "artist": "Cyndi Lauper",
+      "year": 1983,
+      "spotifyId": "4y1LsJpmMti1PfRQV9AWWe"
+    },
+    {
+      "title": "Time After Time",
+      "artist": "Cyndi Lauper",
+      "year": 1983,
+      "spotifyId": "7o9uu2GDtVDr9nsR7ZRN73"
+    },
+    {
+      "title": "True Colors",
+      "artist": "Cyndi Lauper",
+      "year": 1986,
+      "spotifyId": "2A6yzRGMgSQCUapR2ptm6A"
+    },
+    {
+      "title": "Careless Whisper",
+      "artist": "George Michael",
+      "year": 1984,
+      "spotifyId": "6KsgCYcZKPcBRDNGhiZWRR"
+    },
+    {
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "year": 1984,
+      "spotifyId": "0ikz6tENMONtK6qGkOrU3c"
+    },
+    {
+      "title": "Last Christmas",
+      "artist": "Wham!",
+      "year": 1984,
+      "spotifyId": "2FRnf9qhLbvw8fu4IBXx78"
+    },
+    {
+      "title": "Faith",
+      "artist": "George Michael",
+      "year": 1987,
+      "spotifyId": "0HEmnAUT8PHznIAAmVXqFJ"
+    },
+    {
+      "title": "Uptown Funk",
+      "artist": "Mark Ronson",
+      "year": 2014,
+      "spotifyId": "32OlwWuMpZ6b0aN2RZOeMS"
+    },
+    {
+      "title": "Walking on Sunshine",
+      "artist": "Katrina and the Waves",
+      "year": 1985,
+      "spotifyId": "05wIrZSwuaVWhcv5FfqeH0"
+    },
+    {
+      "title": "I Wanna Dance with Somebody",
+      "artist": "Whitney Houston",
+      "year": 1987,
+      "spotifyId": "2tUBqZG2AbRi7Q0BIrVrEj"
+    },
+    {
+      "title": "How Will I Know",
+      "artist": "Whitney Houston",
+      "year": 1985,
+      "spotifyId": "5tdKaKLnC4SgtDZ6RlWeal"
+    },
+    {
+      "title": "Greatest Love of All",
+      "artist": "Whitney Houston",
+      "year": 1986,
+      "spotifyId": "6yJxCltgtmGxIgKOS6ndnu"
+    },
+    {
+      "title": "Never Gonna Give You Up",
+      "artist": "Rick Astley",
+      "year": 1987,
+      "spotifyId": "4PTG3Z6ehGkBFwjybzWkR8"
+    },
+    {
+      "title": "Together Forever",
+      "artist": "Rick Astley",
+      "year": 1988,
+      "spotifyId": "00isIFJWVpXIQ8HkGICSQp"
+    },
+    {
+      "title": "What's Love Got to Do with It",
+      "artist": "Tina Turner",
+      "year": 1984,
+      "spotifyId": "4kOfxxnW1ukZdsNbCKY9br"
+    },
+    {
+      "title": "Simply the Best",
+      "artist": "Tina Turner",
+      "year": 1989,
+      "spotifyId": "6seLicC6cKt5k9EWmrbzIa"
+    },
+    {
+      "title": "Private Dancer",
+      "artist": "Tina Turner",
+      "year": 1984,
+      "spotifyId": "5JjdJK0uGRUk4skRTuQdUZ"
+    },
+    {
+      "title": "When Doves Cry",
+      "artist": "Prince",
+      "year": 1984,
+      "spotifyId": "6sby78fghipoXHQLeeZFFH"
+    },
+    {
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "year": 1984,
+      "spotifyId": "1uvyZBs4IZYRebHIB1747m"
+    },
+    {
+      "title": "Kiss",
+      "artist": "Prince",
+      "year": 1986,
+      "spotifyId": "62LJFaYihsdVrrkgUOJC05"
+    },
+    {
+      "title": "1999",
+      "artist": "Prince",
+      "year": 1982,
+      "spotifyId": "2QSUyofqpGDCo026OPiTBQ"
+    },
+    {
+      "title": "Little Red Corvette",
+      "artist": "Prince",
+      "year": 1983,
+      "spotifyId": "1gnkotdghLOSDg4OoliVRD"
+    },
+    {
+      "title": "I Ran (So Far Away)",
+      "artist": "A Flock of Seagulls",
+      "year": 1982,
+      "spotifyId": "6vKVuBeExHlEh9cZ8Ppk8t"
+    },
+    {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "year": 1981,
+      "spotifyId": "58E1XVmZTODC67YNjneuXM"
+    },
+    {
+      "title": "Karma Chameleon",
+      "artist": "Culture Club",
+      "year": 1983,
+      "spotifyId": "3XDeeP9wBZzGhIPZmLfEEx"
+    },
+    {
+      "title": "Do You Really Want to Hurt Me",
+      "artist": "Culture Club",
+      "year": 1982,
+      "spotifyId": "1I6q6nwNjNgik1Qe8Oi0Y7"
+    },
+    {
+      "title": "Hungry Like the Wolf",
+      "artist": "Duran Duran",
+      "year": 1982,
+      "spotifyId": "5pIaAkHJ928V2LGCz79FgQ"
+    },
+    {
+      "title": "Rio",
+      "artist": "Duran Duran",
+      "year": 1982,
+      "spotifyId": "17odGcODTYfHJsS45fPq96"
+    },
+    {
+      "title": "A View to a Kill",
+      "artist": "Duran Duran",
+      "year": 1985,
+      "spotifyId": "6I4snLrVOrJsLdd43isc27"
+    },
+    {
+      "title": "Girls on Film",
+      "artist": "Duran Duran",
+      "year": 1981,
+      "spotifyId": "0i9ch7RBISMexrzdPQxDU6"
+    },
+    {
+      "title": "Wake Me Up When September Ends",
+      "artist": "Green Day",
+      "year": 2004,
+      "spotifyId": "3ZffCQKLFLUvYM59XKLbVm"
+    },
+    {
+      "title": "Our House",
+      "artist": "Madness",
+      "year": 1982,
+      "spotifyId": "1qV6e4ITnfGmA6m6Vklvbi"
+    },
+    {
+      "title": "Drive",
+      "artist": "The Cars",
+      "year": 1984,
+      "spotifyId": "3wfujdbamR3Z46F4xav7LM"
+    },
+    {
+      "title": "Just What I Needed",
+      "artist": "The Cars",
+      "year": 1978,
+      "spotifyId": "4alHo6RGd0D3OUbTPExTHN"
+    },
+    {
+      "title": "You Might Think",
+      "artist": "The Cars",
+      "year": 1984,
+      "spotifyId": "35wVRTJlUu2kDkqXFegOKt"
+    },
+    {
+      "title": "Let's Dance",
+      "artist": "David Bowie",
+      "year": 1983,
+      "spotifyId": "3ix6K4wZY29bCujrSznwFZ"
+    },
+    {
+      "title": "Modern Love",
+      "artist": "David Bowie",
+      "year": 1983,
+      "spotifyId": "3gxEZXUjrNbl3TlSrTGbR5"
+    },
+    {
+      "title": "China Girl",
+      "artist": "David Bowie",
+      "year": 1983,
+      "spotifyId": "5Ei9o2fHEnfHb84YrPuz4v"
+    },
+    {
+      "title": "In the Air Tonight",
+      "artist": "Phil Collins",
+      "year": 1981,
+      "spotifyId": "18AXbzPzBS8Y3AkgSxzJPb"
+    },
+    {
+      "title": "Another Day in Paradise",
+      "artist": "Phil Collins",
+      "year": 1989,
+      "spotifyId": "1NCuYqMc8hKMb4cpNTcJbD"
+    },
+    {
+      "title": "Sussudio",
+      "artist": "Phil Collins",
+      "year": 1985,
+      "spotifyId": "4qM461TqtpnP4GLRIXwEnW"
+    },
+    {
+      "title": "Easy Lover",
+      "artist": "Philip Bailey & Phil Collins",
+      "year": 1984,
+      "spotifyId": "5LYJ631w9ps5h9tdvac7yP"
+    },
+    {
+      "title": "You Give Love a Bad Name",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "spotifyId": "0rmGAIH9LNJewFw7nKzZnc"
+    },
+    {
+      "title": "Wanted Dead or Alive",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "spotifyId": "0oerlffJSzhRVvtDfLcp3N"
+    },
+    {
+      "title": "Bad Medicine",
+      "artist": "Bon Jovi",
+      "year": 1988,
+      "spotifyId": "72hcFp4tYkd3dbNA9dZ3Pv"
+    },
+    {
+      "title": "The Final Countdown",
+      "artist": "Europe",
+      "year": 1986,
+      "spotifyId": "3MrRksHupTVEQ7YbA0FsZK"
+    },
+    {
+      "title": "I Just Called to Say I Love You",
+      "artist": "Stevie Wonder",
+      "year": 1984,
+      "spotifyId": "0kVE2yBjTwnFqbsrXRKg5Y"
+    },
+    {
+      "title": "Don't Stop",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "spotifyId": "4bEb3KE4mSKlTFjtWJQBqO"
+    },
+    {
+      "title": "Little Lies",
+      "artist": "Fleetwood Mac",
+      "year": 1987,
+      "spotifyId": "08o75xMKmGrKny6GsXrNJW"
+    },
+    {
+      "title": "Everywhere",
+      "artist": "Fleetwood Mac",
+      "year": 1987,
+      "spotifyId": "1prZ0pr6XoRCxcrC3MCL0M"
+    },
+    {
+      "title": "I'm Still Standing",
+      "artist": "Elton John",
+      "year": 1983,
+      "spotifyId": "1jDJFeK9x3OZboIAHsY9k2"
+    },
+    {
+      "title": "Nikita",
+      "artist": "Elton John",
+      "year": 1985,
+      "spotifyId": "3G0ENKW9vzV0SuYKaWFflI"
+    },
+    {
+      "title": "Sacrifice",
+      "artist": "Elton John",
+      "year": 1989,
+      "spotifyId": "0e3yhVeNaTfKIWQRw9U9sY"
+    },
+    {
+      "title": "Dancing in the Dark",
+      "artist": "Bruce Springsteen",
+      "year": 1984,
+      "spotifyId": "7FwBtcecmlpc1sLySPXeGE"
+    },
+    {
+      "title": "Born in the U.S.A.",
+      "artist": "Bruce Springsteen",
+      "year": 1984,
+      "spotifyId": "0dOg1ySSI7NkpAe89Zo0b9"
+    },
+    {
+      "title": "I'm on Fire",
+      "artist": "Bruce Springsteen",
+      "year": 1984,
+      "spotifyId": "3PzsbWSQdLCKDLxn7YZfkM"
+    },
+    {
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "year": 1982,
+      "spotifyId": "2HHtWyy5CgaQbC7XSoOb0e"
+    },
+    {
+      "title": "Footloose",
+      "artist": "Kenny Loggins",
+      "year": 1984,
+      "spotifyId": "6W2VbtvMrDXm5vYeB7amkO"
+    },
+    {
+      "title": "Danger Zone",
+      "artist": "Kenny Loggins",
+      "year": 1986,
+      "spotifyId": "50J6XwEbkYxNb5e4k6R9s1"
+    },
+    {
+      "title": "Holding Out for a Hero",
+      "artist": "Bonnie Tyler",
+      "year": 1984,
+      "spotifyId": "6Vn7FfpFRMGEpNjbrPTCXV"
+    },
+    {
+      "title": "Total Eclipse of the Heart",
+      "artist": "Bonnie Tyler",
+      "year": 1983,
+      "spotifyId": "1VrfLrBviw9A6JzRoo3t2C"
+    },
+    {
+      "title": "I Think We're Alone Now",
+      "artist": "Tiffany",
+      "year": 1987,
+      "spotifyId": "4uvjOKsp7mSjrDhWdkLPBY"
+    },
+    {
+      "title": "Manic Monday",
+      "artist": "The Bangles",
+      "year": 1986,
+      "spotifyId": "00vYs0qZA40Z8AAaN7xmMO"
+    },
+    {
+      "title": "Walk Like an Egyptian",
+      "artist": "The Bangles",
+      "year": 1986,
+      "spotifyId": "5L6HNuXN71bfeuKXYtRasF"
+    },
+    {
+      "title": "Eternal Flame",
+      "artist": "The Bangles",
+      "year": 1989,
+      "spotifyId": "4xiaE15ARCs5CVPA6J8gmC"
+    },
+    {
+      "title": "Could've Been",
+      "artist": "Tiffany",
+      "year": 1987,
+      "spotifyId": "1xvGuRbLxTkpb5UdUG7HME"
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "spotifyId": "37ZJ0p5Jm13JPevGcx4SkF"
+    },
+    {
+      "title": "Love Shack",
+      "artist": "The B-52's",
+      "year": 1989,
+      "spotifyId": "4W4wYHtsrgDiivRASVOINL"
+    },
+    {
+      "title": "Rock Me Amadeus",
+      "artist": "Falco",
+      "year": 1985,
+      "spotifyId": "0DfG1ltJnZyq4Tx3ZLL7ZU"
+    },
+    {
+      "title": "Come On Eileen",
+      "artist": "Dexys Midnight Runners",
+      "year": 1982,
+      "spotifyId": "3MrWxJaD2AT0W9DjWF64Vm"
+    },
+    {
+      "title": "Video Killed the Radio Star",
+      "artist": "The Buggles",
+      "year": 1979,
+      "spotifyId": "6t1FIJlZWTQfIZhsGjaulM"
+    },
+    {
+      "title": "I Ran (So Far Away)",
+      "artist": "A Flock of Seagulls",
+      "year": 1982,
+      "spotifyId": "6vKVuBeExHlEh9cZ8Ppk8t"
+    },
+    {
+      "title": "Safety Dance",
+      "artist": "Men Without Hats",
+      "year": 1982,
+      "spotifyId": "2IqPRjJAcLvPqAEbnB2VJz"
+    },
+    {
+      "title": "She Blinded Me with Science",
+      "artist": "Thomas Dolby",
+      "year": 1982,
+      "spotifyId": "4RkKf3UBRxF2kn2Vh0ww8l"
+    },
+    {
+      "title": "Who Can It Be Now?",
+      "artist": "Men at Work",
+      "year": 1981,
+      "spotifyId": "5rfJ2Bq2PEL8yBjZLzouEu"
+    },
+    {
+      "title": "Down Under",
+      "artist": "Men at Work",
+      "year": 1981,
+      "spotifyId": "3ZZq9396zv8pcn5GYVhxUi"
+    },
+    {
+      "title": "Whip It",
+      "artist": "Devo",
+      "year": 1980,
+      "spotifyId": "4sscDOZCkbLSlDqcCgUJnX"
+    },
+    {
+      "title": "Mickey",
+      "artist": "Toni Basil",
+      "year": 1981,
+      "spotifyId": "0THX6uNIJKakEjXcPIrgr0"
+    },
+    {
+      "title": "Centerfold",
+      "artist": "J. Geils Band",
+      "year": 1981,
+      "spotifyId": "1ynmMEK1fkyiZ6Z6F3ThEt"
+    },
+    {
+      "title": "867-5309/Jenny",
+      "artist": "Tommy Tutone",
+      "year": 1981,
+      "spotifyId": "6iX1f3r7oUJnMbGgQ2gx1j"
+    },
+    {
+      "title": "Tainted Love",
+      "artist": "Soft Cell",
+      "year": 1981,
+      "spotifyId": "58E1XVmZTODC67YNjneuXM"
+    },
+    {
+      "title": "Maneater",
+      "artist": "Hall & Oates",
+      "year": 1982,
+      "spotifyId": "7j74lucZ59vqN67Ipe2ZcY"
+    },
+    {
+      "title": "Private Eyes",
+      "artist": "Hall & Oates",
+      "year": 1981,
+      "spotifyId": "5HQ639Z3ms3hnZx0KfWnkp"
+    },
+    {
+      "title": "You Make My Dreams",
+      "artist": "Hall & Oates",
+      "year": 1980,
+      "spotifyId": "4o6BgsqLIBViaGVbx5rbRk"
+    },
+    {
+      "title": "Every Little Thing She Does Is Magic",
+      "artist": "The Police",
+      "year": 1981,
+      "spotifyId": "44aTAUBF0g6sMkMNE8I5kd"
+    },
+    {
+      "title": "Call Me",
+      "artist": "Blondie",
+      "year": 1980,
+      "spotifyId": "0vLwL4xuJ3s7SeaCdvMqkY"
+    },
+    {
+      "title": "Rapture",
+      "artist": "Blondie",
+      "year": 1980,
+      "spotifyId": "6F2vo4sxRNQ58VYe3pdiaL"
+    },
+    {
+      "title": "Heart of Glass",
+      "artist": "Blondie",
+      "year": 1978,
+      "spotifyId": "4v2rkl1mC3zVAz0nXMx9r4"
+    }
   ]
 }

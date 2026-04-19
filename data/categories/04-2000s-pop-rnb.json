@@ -3,107 +3,617 @@
   "name": "2000s Pop & R&B",
   "description": "Frosted tips to Crazy in Love",
   "songs": [
-    { "title": "Crazy in Love", "artist": "Beyoncé", "year": 2003, "spotifyId": null },
-    { "title": "Single Ladies (Put a Ring on It)", "artist": "Beyoncé", "year": 2008, "spotifyId": null },
-    { "title": "Irreplaceable", "artist": "Beyoncé", "year": 2006, "spotifyId": null },
-    { "title": "Halo", "artist": "Beyoncé", "year": 2008, "spotifyId": null },
-    { "title": "Baby", "artist": "Justin Bieber", "year": 2010, "spotifyId": null },
-    { "title": "Bye Bye Bye", "artist": "NSYNC", "year": 2000, "spotifyId": null },
-    { "title": "It's Gonna Be Me", "artist": "NSYNC", "year": 2000, "spotifyId": null },
-    { "title": "Tearin' Up My Heart", "artist": "NSYNC", "year": 1997, "spotifyId": null },
-    { "title": "I Want It That Way", "artist": "Backstreet Boys", "year": 1999, "spotifyId": null },
-    { "title": "Everybody (Backstreet's Back)", "artist": "Backstreet Boys", "year": 1997, "spotifyId": null },
-    { "title": "As Long as You Love Me", "artist": "Backstreet Boys", "year": 1997, "spotifyId": null },
-    { "title": "Baby One More Time", "artist": "Britney Spears", "year": 1998, "spotifyId": null },
-    { "title": "Oops!... I Did It Again", "artist": "Britney Spears", "year": 2000, "spotifyId": null },
-    { "title": "Toxic", "artist": "Britney Spears", "year": 2003, "spotifyId": null },
-    { "title": "Stronger", "artist": "Britney Spears", "year": 2000, "spotifyId": null },
-    { "title": "Gimme More", "artist": "Britney Spears", "year": 2007, "spotifyId": null },
-    { "title": "Genie in a Bottle", "artist": "Christina Aguilera", "year": 1999, "spotifyId": null },
-    { "title": "Dirrty", "artist": "Christina Aguilera", "year": 2002, "spotifyId": null },
-    { "title": "Beautiful", "artist": "Christina Aguilera", "year": 2002, "spotifyId": null },
-    { "title": "Ain't No Other Man", "artist": "Christina Aguilera", "year": 2006, "spotifyId": null },
-    { "title": "Complicated", "artist": "Avril Lavigne", "year": 2002, "spotifyId": null },
-    { "title": "Sk8er Boi", "artist": "Avril Lavigne", "year": 2002, "spotifyId": null },
-    { "title": "Girlfriend", "artist": "Avril Lavigne", "year": 2007, "spotifyId": null },
-    { "title": "Since U Been Gone", "artist": "Kelly Clarkson", "year": 2004, "spotifyId": null },
-    { "title": "Because of You", "artist": "Kelly Clarkson", "year": 2004, "spotifyId": null },
-    { "title": "Umbrella", "artist": "Rihanna", "year": 2007, "spotifyId": null },
-    { "title": "Don't Stop the Music", "artist": "Rihanna", "year": 2007, "spotifyId": null },
-    { "title": "Disturbia", "artist": "Rihanna", "year": 2008, "spotifyId": null },
-    { "title": "Take a Bow", "artist": "Rihanna", "year": 2008, "spotifyId": null },
-    { "title": "SOS", "artist": "Rihanna", "year": 2006, "spotifyId": null },
-    { "title": "Pon de Replay", "artist": "Rihanna", "year": 2005, "spotifyId": null },
-    { "title": "Beautiful Liar", "artist": "Beyoncé & Shakira", "year": 2007, "spotifyId": null },
-    { "title": "Hips Don't Lie", "artist": "Shakira", "year": 2006, "spotifyId": null },
-    { "title": "Whenever, Wherever", "artist": "Shakira", "year": 2001, "spotifyId": null },
-    { "title": "Objection (Tango)", "artist": "Shakira", "year": 2001, "spotifyId": null },
-    { "title": "Bootylicious", "artist": "Destiny's Child", "year": 2001, "spotifyId": null },
-    { "title": "Survivor", "artist": "Destiny's Child", "year": 2001, "spotifyId": null },
-    { "title": "Say My Name", "artist": "Destiny's Child", "year": 1999, "spotifyId": null },
-    { "title": "Independent Women", "artist": "Destiny's Child", "year": 2000, "spotifyId": null },
-    { "title": "Unbreak My Heart", "artist": "Toni Braxton", "year": 1996, "spotifyId": null },
-    { "title": "SexyBack", "artist": "Justin Timberlake", "year": 2006, "spotifyId": null },
-    { "title": "Cry Me a River", "artist": "Justin Timberlake", "year": 2002, "spotifyId": null },
-    { "title": "My Love", "artist": "Justin Timberlake", "year": 2006, "spotifyId": null },
-    { "title": "What Goes Around... Comes Around", "artist": "Justin Timberlake", "year": 2006, "spotifyId": null },
-    { "title": "Rock Your Body", "artist": "Justin Timberlake", "year": 2002, "spotifyId": null },
-    { "title": "Yeah!", "artist": "Usher", "year": 2004, "spotifyId": null },
-    { "title": "Burn", "artist": "Usher", "year": 2004, "spotifyId": null },
-    { "title": "Confessions Part II", "artist": "Usher", "year": 2004, "spotifyId": null },
-    { "title": "My Boo", "artist": "Usher & Alicia Keys", "year": 2004, "spotifyId": null },
-    { "title": "U Got It Bad", "artist": "Usher", "year": 2001, "spotifyId": null },
-    { "title": "If I Ain't Got You", "artist": "Alicia Keys", "year": 2003, "spotifyId": null },
-    { "title": "Fallin'", "artist": "Alicia Keys", "year": 2001, "spotifyId": null },
-    { "title": "No One", "artist": "Alicia Keys", "year": 2007, "spotifyId": null },
-    { "title": "Try Again", "artist": "Aaliyah", "year": 2000, "spotifyId": null },
-    { "title": "Ignition (Remix)", "artist": "R. Kelly", "year": 2002, "spotifyId": null },
-    { "title": "Hey Ya!", "artist": "OutKast", "year": 2003, "spotifyId": null },
-    { "title": "The Way You Move", "artist": "OutKast", "year": 2003, "spotifyId": null },
-    { "title": "Ms. Jackson", "artist": "OutKast", "year": 2000, "spotifyId": null },
-    { "title": "I Kissed a Girl", "artist": "Katy Perry", "year": 2008, "spotifyId": null },
-    { "title": "Hot n Cold", "artist": "Katy Perry", "year": 2008, "spotifyId": null },
-    { "title": "Waking Up in Vegas", "artist": "Katy Perry", "year": 2009, "spotifyId": null },
-    { "title": "Poker Face", "artist": "Lady Gaga", "year": 2008, "spotifyId": null },
-    { "title": "Just Dance", "artist": "Lady Gaga", "year": 2008, "spotifyId": null },
-    { "title": "Bad Romance", "artist": "Lady Gaga", "year": 2009, "spotifyId": null },
-    { "title": "Paparazzi", "artist": "Lady Gaga", "year": 2009, "spotifyId": null },
-    { "title": "LoveGame", "artist": "Lady Gaga", "year": 2008, "spotifyId": null },
-    { "title": "Tik Tok", "artist": "Kesha", "year": 2009, "spotifyId": null },
-    { "title": "Fireflies", "artist": "Owl City", "year": 2009, "spotifyId": null },
-    { "title": "Hey There Delilah", "artist": "Plain White T's", "year": 2005, "spotifyId": null },
-    { "title": "Viva la Vida", "artist": "Coldplay", "year": 2008, "spotifyId": null },
-    { "title": "Yellow", "artist": "Coldplay", "year": 2000, "spotifyId": null },
-    { "title": "The Scientist", "artist": "Coldplay", "year": 2002, "spotifyId": null },
-    { "title": "Fix You", "artist": "Coldplay", "year": 2005, "spotifyId": null },
-    { "title": "Clocks", "artist": "Coldplay", "year": 2002, "spotifyId": null },
-    { "title": "Speed of Sound", "artist": "Coldplay", "year": 2005, "spotifyId": null },
-    { "title": "Chasing Cars", "artist": "Snow Patrol", "year": 2006, "spotifyId": null },
-    { "title": "Run", "artist": "Snow Patrol", "year": 2003, "spotifyId": null },
-    { "title": "Mr. Brightside", "artist": "The Killers", "year": 2003, "spotifyId": null },
-    { "title": "Hey, Soul Sister", "artist": "Train", "year": 2009, "spotifyId": null },
-    { "title": "Drops of Jupiter", "artist": "Train", "year": 2001, "spotifyId": null },
-    { "title": "How to Save a Life", "artist": "The Fray", "year": 2005, "spotifyId": null },
-    { "title": "Over My Head (Cable Car)", "artist": "The Fray", "year": 2005, "spotifyId": null },
-    { "title": "Apologize", "artist": "OneRepublic", "year": 2007, "spotifyId": null },
-    { "title": "Stop and Stare", "artist": "OneRepublic", "year": 2007, "spotifyId": null },
-    { "title": "Boulevard of Broken Dreams", "artist": "Green Day", "year": 2004, "spotifyId": null },
-    { "title": "American Idiot", "artist": "Green Day", "year": 2004, "spotifyId": null },
-    { "title": "Holiday", "artist": "Green Day", "year": 2004, "spotifyId": null },
-    { "title": "Welcome to the Black Parade", "artist": "My Chemical Romance", "year": 2006, "spotifyId": null },
-    { "title": "Helena", "artist": "My Chemical Romance", "year": 2004, "spotifyId": null },
-    { "title": "I Write Sins Not Tragedies", "artist": "Panic! at the Disco", "year": 2005, "spotifyId": null },
-    { "title": "Complicated", "artist": "Avril Lavigne", "year": 2002, "spotifyId": null },
-    { "title": "Misery Business", "artist": "Paramore", "year": 2007, "spotifyId": null },
-    { "title": "Crushcrushcrush", "artist": "Paramore", "year": 2007, "spotifyId": null },
-    { "title": "Dance, Dance", "artist": "Fall Out Boy", "year": 2005, "spotifyId": null },
-    { "title": "Thnks fr th Mmrs", "artist": "Fall Out Boy", "year": 2007, "spotifyId": null },
-    { "title": "Use Somebody", "artist": "Kings of Leon", "year": 2008, "spotifyId": null },
-    { "title": "Sex on Fire", "artist": "Kings of Leon", "year": 2008, "spotifyId": null },
-    { "title": "Bleeding Love", "artist": "Leona Lewis", "year": 2007, "spotifyId": null },
-    { "title": "I Gotta Feeling", "artist": "Black Eyed Peas", "year": 2009, "spotifyId": null },
-    { "title": "Boom Boom Pow", "artist": "Black Eyed Peas", "year": 2009, "spotifyId": null },
-    { "title": "Where Is the Love?", "artist": "Black Eyed Peas", "year": 2003, "spotifyId": null },
-    { "title": "My Humps", "artist": "Black Eyed Peas", "year": 2005, "spotifyId": null }
+    {
+      "title": "Crazy in Love",
+      "artist": "Beyoncé",
+      "year": 2003,
+      "spotifyId": "5IVuqXILoxVWvWEPm82Jxr"
+    },
+    {
+      "title": "Single Ladies (Put a Ring on It)",
+      "artist": "Beyoncé",
+      "year": 2008,
+      "spotifyId": "5R9a4t5t5O0IsznsrKPVro"
+    },
+    {
+      "title": "Irreplaceable",
+      "artist": "Beyoncé",
+      "year": 2006,
+      "spotifyId": "1G7DcLzPnopdZjLkev0K4e"
+    },
+    {
+      "title": "Halo",
+      "artist": "Beyoncé",
+      "year": 2008,
+      "spotifyId": "4JehYebiI9JE8sR8MisGVb"
+    },
+    {
+      "title": "Baby",
+      "artist": "Justin Bieber",
+      "year": 2010,
+      "spotifyId": "6epn3r7S14KUqlReYr77hA"
+    },
+    {
+      "title": "Bye Bye Bye",
+      "artist": "NSYNC",
+      "year": 2000,
+      "spotifyId": "62bOmKYxYg7dhrC6gH9vFn"
+    },
+    {
+      "title": "It's Gonna Be Me",
+      "artist": "NSYNC",
+      "year": 2000,
+      "spotifyId": "2AW37v0bDyuOzGP3XnmFuA"
+    },
+    {
+      "title": "Tearin' Up My Heart",
+      "artist": "NSYNC",
+      "year": 1997,
+      "spotifyId": "73q3FpQVXWk5eSUnyo83E4"
+    },
+    {
+      "title": "I Want It That Way",
+      "artist": "Backstreet Boys",
+      "year": 1999,
+      "spotifyId": "47BBI51FKFwOMlIiX6m8ya"
+    },
+    {
+      "title": "Everybody (Backstreet's Back)",
+      "artist": "Backstreet Boys",
+      "year": 1997,
+      "spotifyId": "5WTxbyWTpoqhdxEN2szOnl"
+    },
+    {
+      "title": "As Long as You Love Me",
+      "artist": "Backstreet Boys",
+      "year": 1997,
+      "spotifyId": "00WvmRXTkPBZNhhRK3xfdy"
+    },
+    {
+      "title": "Baby One More Time",
+      "artist": "Britney Spears",
+      "year": 1998,
+      "spotifyId": "3MjUtNVVq3C8Fn0MP3zhXa"
+    },
+    {
+      "title": "Oops!... I Did It Again",
+      "artist": "Britney Spears",
+      "year": 2000,
+      "spotifyId": "6naxalmIoLFWR0siv8dnQQ"
+    },
+    {
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "year": 2003,
+      "spotifyId": "6I9VzXrHxO9rA9A5euc8Ak"
+    },
+    {
+      "title": "Stronger",
+      "artist": "Britney Spears",
+      "year": 2000,
+      "spotifyId": "5QhBKPqsnX1uY9fZNaAtZg"
+    },
+    {
+      "title": "Gimme More",
+      "artist": "Britney Spears",
+      "year": 2007,
+      "spotifyId": "6ic8OlLUNEATToEFU3xmaH"
+    },
+    {
+      "title": "Genie in a Bottle",
+      "artist": "Christina Aguilera",
+      "year": 1999,
+      "spotifyId": "11mwFrKvLXCbcVGNxffGyP"
+    },
+    {
+      "title": "Dirrty",
+      "artist": "Christina Aguilera",
+      "year": 2002,
+      "spotifyId": "59ZTxQo8rBycIXPLUIKvE2"
+    },
+    {
+      "title": "Beautiful",
+      "artist": "Christina Aguilera",
+      "year": 2002,
+      "spotifyId": "3TCauNPqFiniaYHBvEVoHG"
+    },
+    {
+      "title": "Ain't No Other Man",
+      "artist": "Christina Aguilera",
+      "year": 2006,
+      "spotifyId": "7huo2wvrCgRucUsjdSDLQV"
+    },
+    {
+      "title": "Complicated",
+      "artist": "Avril Lavigne",
+      "year": 2002,
+      "spotifyId": "5xEM5hIgJ1jjgcEBfpkt2F"
+    },
+    {
+      "title": "Sk8er Boi",
+      "artist": "Avril Lavigne",
+      "year": 2002,
+      "spotifyId": "00Mb3DuaIH1kjrwOku9CGU"
+    },
+    {
+      "title": "Girlfriend",
+      "artist": "Avril Lavigne",
+      "year": 2007,
+      "spotifyId": "45hOioMDJktr86iKDHC8gr"
+    },
+    {
+      "title": "Since U Been Gone",
+      "artist": "Kelly Clarkson",
+      "year": 2004,
+      "spotifyId": "3xrn9i8zhNZsTtcoWgQEAd"
+    },
+    {
+      "title": "Because of You",
+      "artist": "Kelly Clarkson",
+      "year": 2004,
+      "spotifyId": "3f3omU8n47Mqyab5nCaGyT"
+    },
+    {
+      "title": "Umbrella",
+      "artist": "Rihanna",
+      "year": 2007,
+      "spotifyId": "2yPoXCs7BSIUrucMdK5PzV"
+    },
+    {
+      "title": "Don't Stop the Music",
+      "artist": "Rihanna",
+      "year": 2007,
+      "spotifyId": "1Jo0Zg7XlrA6z0mFTZVdkn"
+    },
+    {
+      "title": "Disturbia",
+      "artist": "Rihanna",
+      "year": 2008,
+      "spotifyId": "2VOomzT6VavJOGBeySqaMc"
+    },
+    {
+      "title": "Take a Bow",
+      "artist": "Rihanna",
+      "year": 2008,
+      "spotifyId": "3goSVuTt3fDYDP6kRnFwuL"
+    },
+    {
+      "title": "SOS",
+      "artist": "Rihanna",
+      "year": 2006,
+      "spotifyId": "30cSNer6TV8x2utjULVeQ5"
+    },
+    {
+      "title": "Pon de Replay",
+      "artist": "Rihanna",
+      "year": 2005,
+      "spotifyId": "4TsmezEQVSZNNPv5RJ65Ov"
+    },
+    {
+      "title": "Beautiful Liar",
+      "artist": "Beyoncé & Shakira",
+      "year": 2007,
+      "spotifyId": "2HWWNoWEEEECwZhAiLg7ib"
+    },
+    {
+      "title": "Hips Don't Lie",
+      "artist": "Shakira",
+      "year": 2006,
+      "spotifyId": "3d0WouFnFmr0K3kjeza3fF"
+    },
+    {
+      "title": "Whenever, Wherever",
+      "artist": "Shakira",
+      "year": 2001,
+      "spotifyId": "2lnzGkdtDj5mtlcOW2yRtG"
+    },
+    {
+      "title": "Objection (Tango)",
+      "artist": "Shakira",
+      "year": 2001,
+      "spotifyId": "36YNa8joLwu9yor2TkZbIY"
+    },
+    {
+      "title": "Bootylicious",
+      "artist": "Destiny's Child",
+      "year": 2001,
+      "spotifyId": "41nT1Sp6ChR65FbsdLlFHW"
+    },
+    {
+      "title": "Survivor",
+      "artist": "Destiny's Child",
+      "year": 2001,
+      "spotifyId": "2Mpj1Ul5OFPyyP4wB62Rvi"
+    },
+    {
+      "title": "Say My Name",
+      "artist": "Destiny's Child",
+      "year": 1999,
+      "spotifyId": "7H6ev70Weq6DdpZyyTmUXk"
+    },
+    {
+      "title": "Independent Women",
+      "artist": "Destiny's Child",
+      "year": 2000,
+      "spotifyId": "0SARtM2035y7DaoQg2HFl1"
+    },
+    {
+      "title": "Unbreak My Heart",
+      "artist": "Toni Braxton",
+      "year": 1996,
+      "spotifyId": "5Ihd9HrPvOADyVoonH9ZjB"
+    },
+    {
+      "title": "SexyBack",
+      "artist": "Justin Timberlake",
+      "year": 2006,
+      "spotifyId": "0O45fw2L5vsWpdsOdXwNAR"
+    },
+    {
+      "title": "Cry Me a River",
+      "artist": "Justin Timberlake",
+      "year": 2002,
+      "spotifyId": "7Lf7oSEVdzZqTA0kEDSlS5"
+    },
+    {
+      "title": "My Love",
+      "artist": "Justin Timberlake",
+      "year": 2006,
+      "spotifyId": "4NeOWqHmlrGRuBvsLJC9rL"
+    },
+    {
+      "title": "What Goes Around... Comes Around",
+      "artist": "Justin Timberlake",
+      "year": 2006,
+      "spotifyId": "3pD0f7hSJg2XdQ6udw5Tey"
+    },
+    {
+      "title": "Rock Your Body",
+      "artist": "Justin Timberlake",
+      "year": 2002,
+      "spotifyId": "1AWQoqb9bSvzTjaLralEkT"
+    },
+    {
+      "title": "Yeah!",
+      "artist": "Usher",
+      "year": 2004,
+      "spotifyId": "5rb9QrpfcKFHM1EUbSIurX"
+    },
+    {
+      "title": "Burn",
+      "artist": "Usher",
+      "year": 2004,
+      "spotifyId": "7z3N2W7Xz1t2G2sAO8wFVH"
+    },
+    {
+      "title": "Confessions Part II",
+      "artist": "Usher",
+      "year": 2004,
+      "spotifyId": "7wBThXx7BGZHJJ3aN3OPvv"
+    },
+    {
+      "title": "My Boo",
+      "artist": "Usher & Alicia Keys",
+      "year": 2004,
+      "spotifyId": "68vgtRHr7iZHpzGpon6Jlo"
+    },
+    {
+      "title": "U Got It Bad",
+      "artist": "Usher",
+      "year": 2001,
+      "spotifyId": "7J41dYQolQJEtj3UmKLu5r"
+    },
+    {
+      "title": "If I Ain't Got You",
+      "artist": "Alicia Keys",
+      "year": 2003,
+      "spotifyId": "3XVBdLihbNbxUwZosxcGuJ"
+    },
+    {
+      "title": "Fallin'",
+      "artist": "Alicia Keys",
+      "year": 2001,
+      "spotifyId": "0KQx6HOpJueiSkztcS0r7D"
+    },
+    {
+      "title": "No One",
+      "artist": "Alicia Keys",
+      "year": 2007,
+      "spotifyId": "6IwKcFdiRQZOWeYNhUiWIv"
+    },
+    {
+      "title": "Try Again",
+      "artist": "Aaliyah",
+      "year": 2000,
+      "spotifyId": "0ruqXWD6JW1AmtKcFhq4Ax"
+    },
+    {
+      "title": "Ignition (Remix)",
+      "artist": "R. Kelly",
+      "year": 2002,
+      "spotifyId": "5dNfHmqgr128gMY2tc5CeJ"
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "year": 2003,
+      "spotifyId": "2PpruBYCo4H7WOBJ7Q2EwM"
+    },
+    {
+      "title": "The Way You Move",
+      "artist": "OutKast",
+      "year": 2003,
+      "spotifyId": "5z7mYFfhw6N6f23VwrokJD"
+    },
+    {
+      "title": "Ms. Jackson",
+      "artist": "OutKast",
+      "year": 2000,
+      "spotifyId": "0I3q5fE6wg7LIfHGngUTnV"
+    },
+    {
+      "title": "I Kissed a Girl",
+      "artist": "Katy Perry",
+      "year": 2008,
+      "spotifyId": "005lwxGU1tms6HGELIcUv9"
+    },
+    {
+      "title": "Hot n Cold",
+      "artist": "Katy Perry",
+      "year": 2008,
+      "spotifyId": "1y4eb6hmAvsqlDOl3fx9kk"
+    },
+    {
+      "title": "Waking Up in Vegas",
+      "artist": "Katy Perry",
+      "year": 2009,
+      "spotifyId": "6fvxos1qSHrIgOkKw4dhWS"
+    },
+    {
+      "title": "Poker Face",
+      "artist": "Lady Gaga",
+      "year": 2008,
+      "spotifyId": "5R8dQOPq8haW94K7mgERlO"
+    },
+    {
+      "title": "Just Dance",
+      "artist": "Lady Gaga",
+      "year": 2008,
+      "spotifyId": "2x7MyWybabEz6Y6wvHuwGE"
+    },
+    {
+      "title": "Bad Romance",
+      "artist": "Lady Gaga",
+      "year": 2009,
+      "spotifyId": "0SiywuOBRcynK0uKGWdCnn"
+    },
+    {
+      "title": "Paparazzi",
+      "artist": "Lady Gaga",
+      "year": 2009,
+      "spotifyId": "0uNMe6UEqe9uGazPgUGnLD"
+    },
+    {
+      "title": "LoveGame",
+      "artist": "Lady Gaga",
+      "year": 2008,
+      "spotifyId": "0TcJ7QWpggdSg8t0fHThHm"
+    },
+    {
+      "title": "Tik Tok",
+      "artist": "Kesha",
+      "year": 2009,
+      "spotifyId": "5PSba04SiAEUe3q6PyaTpQ"
+    },
+    {
+      "title": "Fireflies",
+      "artist": "Owl City",
+      "year": 2009,
+      "spotifyId": "3DamFFqW32WihKkTVlwTYQ"
+    },
+    {
+      "title": "Hey There Delilah",
+      "artist": "Plain White T's",
+      "year": 2005,
+      "spotifyId": "4RCWB3V8V0dignt99LZ8vH"
+    },
+    {
+      "title": "Viva la Vida",
+      "artist": "Coldplay",
+      "year": 2008,
+      "spotifyId": "1mea3bSkSGXuIRvnydlB5b"
+    },
+    {
+      "title": "Yellow",
+      "artist": "Coldplay",
+      "year": 2000,
+      "spotifyId": "3AJwUDP919kvQ9QcozQPxg"
+    },
+    {
+      "title": "The Scientist",
+      "artist": "Coldplay",
+      "year": 2002,
+      "spotifyId": "75JFxkI2RXiU7L9VXzMkle"
+    },
+    {
+      "title": "Fix You",
+      "artist": "Coldplay",
+      "year": 2005,
+      "spotifyId": "7LVHVU3tWfcxj5aiPFEW4Q"
+    },
+    {
+      "title": "Clocks",
+      "artist": "Coldplay",
+      "year": 2002,
+      "spotifyId": "0BCPKOYdS2jbQ8iyB56Zns"
+    },
+    {
+      "title": "Speed of Sound",
+      "artist": "Coldplay",
+      "year": 2005,
+      "spotifyId": "7clUVcSOtkNWa58Gw5RfD4"
+    },
+    {
+      "title": "Chasing Cars",
+      "artist": "Snow Patrol",
+      "year": 2006,
+      "spotifyId": "5hnyJvgoWiQUYZttV4wXy6"
+    },
+    {
+      "title": "Run",
+      "artist": "Snow Patrol",
+      "year": 2003,
+      "spotifyId": "6kesIBNAY17BoAz28pnWMC"
+    },
+    {
+      "title": "Mr. Brightside",
+      "artist": "The Killers",
+      "year": 2003,
+      "spotifyId": "003vvx7Niy0yvhvHt4a68B"
+    },
+    {
+      "title": "Hey, Soul Sister",
+      "artist": "Train",
+      "year": 2009,
+      "spotifyId": "4HlFJV71xXKIGcU3kRyttv"
+    },
+    {
+      "title": "Drops of Jupiter",
+      "artist": "Train",
+      "year": 2001,
+      "spotifyId": "2hKdd3qO7cWr2Jo0Bcs0MA"
+    },
+    {
+      "title": "How to Save a Life",
+      "artist": "The Fray",
+      "year": 2005,
+      "spotifyId": "5fVZC9GiM4e8vu99W0Xf6J"
+    },
+    {
+      "title": "Over My Head (Cable Car)",
+      "artist": "The Fray",
+      "year": 2005,
+      "spotifyId": "1N62wozuHCvczCkY4QidpP"
+    },
+    {
+      "title": "Apologize",
+      "artist": "OneRepublic",
+      "year": 2007,
+      "spotifyId": "1NrJYpdAi7uosDRPmSYrsG"
+    },
+    {
+      "title": "Stop and Stare",
+      "artist": "OneRepublic",
+      "year": 2007,
+      "spotifyId": "48s0QHJgmiNsth3WEO6U4M"
+    },
+    {
+      "title": "Boulevard of Broken Dreams",
+      "artist": "Green Day",
+      "year": 2004,
+      "spotifyId": "1hwJKpe0BPUsq6UUrwBWTw"
+    },
+    {
+      "title": "American Idiot",
+      "artist": "Green Day",
+      "year": 2004,
+      "spotifyId": "6nTiIhLmQ3FWhvrGafw2zj"
+    },
+    {
+      "title": "Holiday",
+      "artist": "Green Day",
+      "year": 2004,
+      "spotifyId": "0lvhEsN1zkMzfp2M1o17yy"
+    },
+    {
+      "title": "Welcome to the Black Parade",
+      "artist": "My Chemical Romance",
+      "year": 2006,
+      "spotifyId": "5wQnmLuC1W7ATsArWACrgW"
+    },
+    {
+      "title": "Helena",
+      "artist": "My Chemical Romance",
+      "year": 2004,
+      "spotifyId": "5dTHtzHFPyi8TlTtzoz1J9"
+    },
+    {
+      "title": "I Write Sins Not Tragedies",
+      "artist": "Panic! at the Disco",
+      "year": 2005,
+      "spotifyId": "4bPQs0PHn4xbipzdPfn6du"
+    },
+    {
+      "title": "Complicated",
+      "artist": "Avril Lavigne",
+      "year": 2002,
+      "spotifyId": "5xEM5hIgJ1jjgcEBfpkt2F"
+    },
+    {
+      "title": "Misery Business",
+      "artist": "Paramore",
+      "year": 2007,
+      "spotifyId": "6SpLc7EXZIPpy0sVko0aoU"
+    },
+    {
+      "title": "Crushcrushcrush",
+      "artist": "Paramore",
+      "year": 2007,
+      "spotifyId": "3VA4sjTMSTTF02hFGmlpJh"
+    },
+    {
+      "title": "Dance, Dance",
+      "artist": "Fall Out Boy",
+      "year": 2005,
+      "spotifyId": "0a7BloCiNzLDD9qSQHh5m7"
+    },
+    {
+      "title": "Thnks fr th Mmrs",
+      "artist": "Fall Out Boy",
+      "year": 2007,
+      "spotifyId": "3Zwu2K0Qa5sT6teCCHPShP"
+    },
+    {
+      "title": "Use Somebody",
+      "artist": "Kings of Leon",
+      "year": 2008,
+      "spotifyId": "5VGlqQANWDKJFl0MBG3sg2"
+    },
+    {
+      "title": "Sex on Fire",
+      "artist": "Kings of Leon",
+      "year": 2008,
+      "spotifyId": "0ntQJM78wzOLVeCUAW7Y45"
+    },
+    {
+      "title": "Bleeding Love",
+      "artist": "Leona Lewis",
+      "year": 2007,
+      "spotifyId": "7wZUrN8oemZfsEd1CGkbXE"
+    },
+    {
+      "title": "I Gotta Feeling",
+      "artist": "Black Eyed Peas",
+      "year": 2009,
+      "spotifyId": "2H1047e0oMSj10dgp7p2VG"
+    },
+    {
+      "title": "Boom Boom Pow",
+      "artist": "Black Eyed Peas",
+      "year": 2009,
+      "spotifyId": "3opVsyWVYEAFK9bJAG8Opa"
+    },
+    {
+      "title": "Where Is the Love?",
+      "artist": "Black Eyed Peas",
+      "year": 2003,
+      "spotifyId": "0xmjwnQ3FNE6HuWCt2nHdZ"
+    },
+    {
+      "title": "My Humps",
+      "artist": "Black Eyed Peas",
+      "year": 2005,
+      "spotifyId": "20jYtEun4dUdYZ9foaOC48"
+    }
   ]
 }

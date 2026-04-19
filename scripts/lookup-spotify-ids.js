@@ -100,6 +100,10 @@ async function searchTrack(token, target) {
 
   if (res.status === 429) {
     const retryAfter = parseInt(res.headers.get('retry-after') || '10', 10);
+    // Cap the wait — if Spotify asks for >10min, just abort (daily quota hit)
+    if (retryAfter > 600) {
+      throw new Error(`Rate limited for ${retryAfter}s (daily quota likely hit). Stopping.`);
+    }
     console.log(`  Rate limited — waiting ${retryAfter}s...`);
     await new Promise(r => setTimeout(r, retryAfter * 1000));
     return searchTrack(token, target);

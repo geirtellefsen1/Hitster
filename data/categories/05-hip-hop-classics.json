@@ -3,107 +3,617 @@
   "name": "Hip Hop Classics",
   "description": "Rapper's Delight to modern era",
   "songs": [
-    { "title": "Rapper's Delight", "artist": "The Sugarhill Gang", "year": 1979, "spotifyId": null },
-    { "title": "The Message", "artist": "Grandmaster Flash & The Furious Five", "year": 1982, "spotifyId": null },
-    { "title": "Fight the Power", "artist": "Public Enemy", "year": 1989, "spotifyId": null },
-    { "title": "Straight Outta Compton", "artist": "N.W.A", "year": 1988, "spotifyId": null },
-    { "title": "F*** tha Police", "artist": "N.W.A", "year": 1988, "spotifyId": null },
-    { "title": "Express Yourself", "artist": "N.W.A", "year": 1988, "spotifyId": null },
-    { "title": "Nuthin' but a 'G' Thang", "artist": "Dr. Dre", "year": 1992, "spotifyId": null },
-    { "title": "California Love", "artist": "2Pac", "year": 1995, "spotifyId": null },
-    { "title": "Dear Mama", "artist": "2Pac", "year": 1995, "spotifyId": null },
-    { "title": "Changes", "artist": "2Pac", "year": 1998, "spotifyId": null },
-    { "title": "Hit 'Em Up", "artist": "2Pac", "year": 1996, "spotifyId": null },
-    { "title": "Juicy", "artist": "The Notorious B.I.G.", "year": 1994, "spotifyId": null },
-    { "title": "Big Poppa", "artist": "The Notorious B.I.G.", "year": 1994, "spotifyId": null },
-    { "title": "Hypnotize", "artist": "The Notorious B.I.G.", "year": 1997, "spotifyId": null },
-    { "title": "Mo Money Mo Problems", "artist": "The Notorious B.I.G.", "year": 1997, "spotifyId": null },
-    { "title": "Gin and Juice", "artist": "Snoop Dogg", "year": 1993, "spotifyId": null },
-    { "title": "Drop It Like It's Hot", "artist": "Snoop Dogg", "year": 2004, "spotifyId": null },
-    { "title": "Regulate", "artist": "Warren G", "year": 1994, "spotifyId": null },
-    { "title": "C.R.E.A.M.", "artist": "Wu-Tang Clan", "year": 1994, "spotifyId": null },
-    { "title": "Protect Ya Neck", "artist": "Wu-Tang Clan", "year": 1993, "spotifyId": null },
-    { "title": "Shook Ones Pt. II", "artist": "Mobb Deep", "year": 1995, "spotifyId": null },
-    { "title": "N.Y. State of Mind", "artist": "Nas", "year": 1994, "spotifyId": null },
-    { "title": "If I Ruled the World (Imagine That)", "artist": "Nas", "year": 1996, "spotifyId": null },
-    { "title": "Ms. Fat Booty", "artist": "Mos Def", "year": 1999, "spotifyId": null },
-    { "title": "Mathematics", "artist": "Mos Def", "year": 1999, "spotifyId": null },
-    { "title": "Lose Yourself", "artist": "Eminem", "year": 2002, "spotifyId": null },
-    { "title": "Without Me", "artist": "Eminem", "year": 2002, "spotifyId": null },
-    { "title": "The Real Slim Shady", "artist": "Eminem", "year": 2000, "spotifyId": null },
-    { "title": "Stan", "artist": "Eminem", "year": 2000, "spotifyId": null },
-    { "title": "Not Afraid", "artist": "Eminem", "year": 2010, "spotifyId": null },
-    { "title": "Love the Way You Lie", "artist": "Eminem", "year": 2010, "spotifyId": null },
-    { "title": "Rap God", "artist": "Eminem", "year": 2013, "spotifyId": null },
-    { "title": "In Da Club", "artist": "50 Cent", "year": 2003, "spotifyId": null },
-    { "title": "21 Questions", "artist": "50 Cent", "year": 2003, "spotifyId": null },
-    { "title": "P.I.M.P.", "artist": "50 Cent", "year": 2003, "spotifyId": null },
-    { "title": "Candy Shop", "artist": "50 Cent", "year": 2005, "spotifyId": null },
-    { "title": "Jesus Walks", "artist": "Kanye West", "year": 2004, "spotifyId": null },
-    { "title": "Stronger", "artist": "Kanye West", "year": 2007, "spotifyId": null },
-    { "title": "Gold Digger", "artist": "Kanye West", "year": 2005, "spotifyId": null },
-    { "title": "Heartless", "artist": "Kanye West", "year": 2008, "spotifyId": null },
-    { "title": "Runaway", "artist": "Kanye West", "year": 2010, "spotifyId": null },
-    { "title": "All of the Lights", "artist": "Kanye West", "year": 2010, "spotifyId": null },
-    { "title": "Flashing Lights", "artist": "Kanye West", "year": 2007, "spotifyId": null },
-    { "title": "Good Life", "artist": "Kanye West", "year": 2007, "spotifyId": null },
-    { "title": "Empire State of Mind", "artist": "Jay-Z", "year": 2009, "spotifyId": null },
-    { "title": "99 Problems", "artist": "Jay-Z", "year": 2003, "spotifyId": null },
-    { "title": "Hard Knock Life", "artist": "Jay-Z", "year": 1998, "spotifyId": null },
-    { "title": "Big Pimpin'", "artist": "Jay-Z", "year": 1999, "spotifyId": null },
-    { "title": "Izzo (H.O.V.A.)", "artist": "Jay-Z", "year": 2001, "spotifyId": null },
-    { "title": "Numb/Encore", "artist": "Jay-Z & Linkin Park", "year": 2004, "spotifyId": null },
-    { "title": "Crazy in Love", "artist": "Beyoncé", "year": 2003, "spotifyId": null },
-    { "title": "Déjà Vu", "artist": "Beyoncé", "year": 2006, "spotifyId": null },
-    { "title": "Hot in Herre", "artist": "Nelly", "year": 2002, "spotifyId": null },
-    { "title": "Ride wit Me", "artist": "Nelly", "year": 2000, "spotifyId": null },
-    { "title": "Grillz", "artist": "Nelly", "year": 2005, "spotifyId": null },
-    { "title": "Country Grammar", "artist": "Nelly", "year": 2000, "spotifyId": null },
-    { "title": "Stan", "artist": "Eminem", "year": 2000, "spotifyId": null },
-    { "title": "Forgot About Dre", "artist": "Dr. Dre", "year": 1999, "spotifyId": null },
-    { "title": "Still D.R.E.", "artist": "Dr. Dre", "year": 1999, "spotifyId": null },
-    { "title": "The Next Episode", "artist": "Dr. Dre", "year": 1999, "spotifyId": null },
-    { "title": "Mrs. Robinson", "artist": "The Fugees", "year": 1996, "spotifyId": null },
-    { "title": "Killing Me Softly", "artist": "The Fugees", "year": 1996, "spotifyId": null },
-    { "title": "Ready or Not", "artist": "The Fugees", "year": 1996, "spotifyId": null },
-    { "title": "Doo Wop (That Thing)", "artist": "Lauryn Hill", "year": 1998, "spotifyId": null },
-    { "title": "Hey Ya!", "artist": "OutKast", "year": 2003, "spotifyId": null },
-    { "title": "Ms. Jackson", "artist": "OutKast", "year": 2000, "spotifyId": null },
-    { "title": "B.O.B.", "artist": "OutKast", "year": 2000, "spotifyId": null },
-    { "title": "So Fresh, So Clean", "artist": "OutKast", "year": 2000, "spotifyId": null },
-    { "title": "Crank That (Soulja Boy)", "artist": "Soulja Boy", "year": 2007, "spotifyId": null },
-    { "title": "Fergalicious", "artist": "Fergie", "year": 2006, "spotifyId": null },
-    { "title": "Big Girls Don't Cry", "artist": "Fergie", "year": 2007, "spotifyId": null },
-    { "title": "London Bridge", "artist": "Fergie", "year": 2006, "spotifyId": null },
-    { "title": "Gold Digger", "artist": "Kanye West", "year": 2005, "spotifyId": null },
-    { "title": "Lollipop", "artist": "Lil Wayne", "year": 2008, "spotifyId": null },
-    { "title": "A Milli", "artist": "Lil Wayne", "year": 2008, "spotifyId": null },
-    { "title": "Got Money", "artist": "Lil Wayne", "year": 2008, "spotifyId": null },
-    { "title": "Best I Ever Had", "artist": "Drake", "year": 2009, "spotifyId": null },
-    { "title": "Hotline Bling", "artist": "Drake", "year": 2015, "spotifyId": null },
-    { "title": "One Dance", "artist": "Drake", "year": 2016, "spotifyId": null },
-    { "title": "In My Feelings", "artist": "Drake", "year": 2018, "spotifyId": null },
-    { "title": "God's Plan", "artist": "Drake", "year": 2018, "spotifyId": null },
-    { "title": "Nice for What", "artist": "Drake", "year": 2018, "spotifyId": null },
-    { "title": "HUMBLE.", "artist": "Kendrick Lamar", "year": 2017, "spotifyId": null },
-    { "title": "DNA.", "artist": "Kendrick Lamar", "year": 2017, "spotifyId": null },
-    { "title": "Alright", "artist": "Kendrick Lamar", "year": 2015, "spotifyId": null },
-    { "title": "Money Trees", "artist": "Kendrick Lamar", "year": 2012, "spotifyId": null },
-    { "title": "Swimming Pools (Drank)", "artist": "Kendrick Lamar", "year": 2012, "spotifyId": null },
-    { "title": "m.A.A.d city", "artist": "Kendrick Lamar", "year": 2012, "spotifyId": null },
-    { "title": "Sicko Mode", "artist": "Travis Scott", "year": 2018, "spotifyId": null },
-    { "title": "Goosebumps", "artist": "Travis Scott", "year": 2016, "spotifyId": null },
-    { "title": "Antidote", "artist": "Travis Scott", "year": 2015, "spotifyId": null },
-    { "title": "Panda", "artist": "Desiigner", "year": 2016, "spotifyId": null },
-    { "title": "Old Town Road", "artist": "Lil Nas X", "year": 2018, "spotifyId": null },
-    { "title": "Rockstar", "artist": "Post Malone", "year": 2017, "spotifyId": null },
-    { "title": "Congratulations", "artist": "Post Malone", "year": 2016, "spotifyId": null },
-    { "title": "Sunflower", "artist": "Post Malone", "year": 2018, "spotifyId": null },
-    { "title": "Circles", "artist": "Post Malone", "year": 2019, "spotifyId": null },
-    { "title": "Mask Off", "artist": "Future", "year": 2017, "spotifyId": null },
-    { "title": "Bodak Yellow", "artist": "Cardi B", "year": 2017, "spotifyId": null },
-    { "title": "I Like It", "artist": "Cardi B", "year": 2018, "spotifyId": null },
-    { "title": "WAP", "artist": "Cardi B", "year": 2020, "spotifyId": null },
-    { "title": "Savage", "artist": "Megan Thee Stallion", "year": 2020, "spotifyId": null }
+    {
+      "title": "Rapper's Delight",
+      "artist": "The Sugarhill Gang",
+      "year": 1979,
+      "spotifyId": "7sZDbHZiuHEzS00vzCuhqS"
+    },
+    {
+      "title": "The Message",
+      "artist": "Grandmaster Flash & The Furious Five",
+      "year": 1982,
+      "spotifyId": "5DuTNKFEjJIySAyJH1yNDU"
+    },
+    {
+      "title": "Fight the Power",
+      "artist": "Public Enemy",
+      "year": 1989,
+      "spotifyId": "1yo16b3u0lptm6Cs7lx4AD"
+    },
+    {
+      "title": "Straight Outta Compton",
+      "artist": "N.W.A",
+      "year": 1988,
+      "spotifyId": "6KIKRz9eSTXdNsGUnomdtW"
+    },
+    {
+      "title": "F*** tha Police",
+      "artist": "N.W.A",
+      "year": 1988,
+      "spotifyId": "5n8Aro6j1bEGIy7Tpo7FV7"
+    },
+    {
+      "title": "Express Yourself",
+      "artist": "N.W.A",
+      "year": 1988,
+      "spotifyId": "52IuMfbQa9aqRPz2oYPAI8"
+    },
+    {
+      "title": "Nuthin' but a 'G' Thang",
+      "artist": "Dr. Dre",
+      "year": 1992,
+      "spotifyId": "5Tbpp3OLLClPJF8t1DmrFD"
+    },
+    {
+      "title": "California Love",
+      "artist": "2Pac",
+      "year": 1995,
+      "spotifyId": "4DLVB91nzswc4wD7EchmXs"
+    },
+    {
+      "title": "Dear Mama",
+      "artist": "2Pac",
+      "year": 1995,
+      "spotifyId": "6tDxrq4FxEL2q15y37tXT9"
+    },
+    {
+      "title": "Changes",
+      "artist": "2Pac",
+      "year": 1998,
+      "spotifyId": "1ofhfV90EnYhEr7Un2fWiv"
+    },
+    {
+      "title": "Hit 'Em Up",
+      "artist": "2Pac",
+      "year": 1996,
+      "spotifyId": "2tF2gNW1JDXYW8IYUkpaYX"
+    },
+    {
+      "title": "Juicy",
+      "artist": "The Notorious B.I.G.",
+      "year": 1994,
+      "spotifyId": "2AP7m2dBb8ULTx4Gc1rdMc"
+    },
+    {
+      "title": "Big Poppa",
+      "artist": "The Notorious B.I.G.",
+      "year": 1994,
+      "spotifyId": "2g8HN35AnVGIk7B8yMucww"
+    },
+    {
+      "title": "Hypnotize",
+      "artist": "The Notorious B.I.G.",
+      "year": 1997,
+      "spotifyId": "7KwZNVEaqikRSBSpyhXK2j"
+    },
+    {
+      "title": "Mo Money Mo Problems",
+      "artist": "The Notorious B.I.G.",
+      "year": 1997,
+      "spotifyId": "4INDiWSKvqSKDEu7mh8HFz"
+    },
+    {
+      "title": "Gin and Juice",
+      "artist": "Snoop Dogg",
+      "year": 1993,
+      "spotifyId": "39QBkWKnap8wRSW4WB9OK0"
+    },
+    {
+      "title": "Drop It Like It's Hot",
+      "artist": "Snoop Dogg",
+      "year": 2004,
+      "spotifyId": "2NBQmPrOEEjA8VbeWOQGxO"
+    },
+    {
+      "title": "Regulate",
+      "artist": "Warren G",
+      "year": 1994,
+      "spotifyId": "7nYvUtkQMx1v80S2FH2s9J"
+    },
+    {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "year": 1994,
+      "spotifyId": "119c93MHjrDLJTApCVGpvx"
+    },
+    {
+      "title": "Protect Ya Neck",
+      "artist": "Wu-Tang Clan",
+      "year": 1993,
+      "spotifyId": "1Sgj10byiGzPpI2IrXSFEn"
+    },
+    {
+      "title": "Shook Ones Pt. II",
+      "artist": "Mobb Deep",
+      "year": 1995,
+      "spotifyId": "33ZXjLCpiINn8eQIDYEPTD"
+    },
+    {
+      "title": "N.Y. State of Mind",
+      "artist": "Nas",
+      "year": 1994,
+      "spotifyId": "0trHOzAhNpGCsGBEu7dOJo"
+    },
+    {
+      "title": "If I Ruled the World (Imagine That)",
+      "artist": "Nas",
+      "year": 1996,
+      "spotifyId": "5PQmSHzWnlgG4EBuIqjac2"
+    },
+    {
+      "title": "Ms. Fat Booty",
+      "artist": "Mos Def",
+      "year": 1999,
+      "spotifyId": "0IVAlb0cFCH1cQ974iR1TU"
+    },
+    {
+      "title": "Mathematics",
+      "artist": "Mos Def",
+      "year": 1999,
+      "spotifyId": "3gRlmtdCyNoKiyozn2pqc9"
+    },
+    {
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "year": 2002,
+      "spotifyId": "6GkTKjv1XbFVdI2D8vvDPu"
+    },
+    {
+      "title": "Without Me",
+      "artist": "Eminem",
+      "year": 2002,
+      "spotifyId": "7lQ8MOhq6IN2w8EYcFNSUk"
+    },
+    {
+      "title": "The Real Slim Shady",
+      "artist": "Eminem",
+      "year": 2000,
+      "spotifyId": "3yfqSUWxFvZELEM4PmlwIR"
+    },
+    {
+      "title": "Stan",
+      "artist": "Eminem",
+      "year": 2000,
+      "spotifyId": "3UmaczJpikHgJFyBTAJVoz"
+    },
+    {
+      "title": "Not Afraid",
+      "artist": "Eminem",
+      "year": 2010,
+      "spotifyId": "7Ie9W94M7OjPoZVV216Xus"
+    },
+    {
+      "title": "Love the Way You Lie",
+      "artist": "Eminem",
+      "year": 2010,
+      "spotifyId": "15JINEqzVMv3SvJTAXAKED"
+    },
+    {
+      "title": "Rap God",
+      "artist": "Eminem",
+      "year": 2013,
+      "spotifyId": "6or1bKJiZ06IlK0vFvY75k"
+    },
+    {
+      "title": "In Da Club",
+      "artist": "50 Cent",
+      "year": 2003,
+      "spotifyId": "4RY96Asd9IefaL3X4LOLZ8"
+    },
+    {
+      "title": "21 Questions",
+      "artist": "50 Cent",
+      "year": 2003,
+      "spotifyId": "41bIQPBE1lFN0mmw6Lmssz"
+    },
+    {
+      "title": "P.I.M.P.",
+      "artist": "50 Cent",
+      "year": 2003,
+      "spotifyId": "2D1hlMwWWXpkc3CZJ5U351"
+    },
+    {
+      "title": "Candy Shop",
+      "artist": "50 Cent",
+      "year": 2005,
+      "spotifyId": "5D2mYZuzcgjpchVY1pmTPh"
+    },
+    {
+      "title": "Jesus Walks",
+      "artist": "Kanye West",
+      "year": 2004,
+      "spotifyId": "5g1vtHqi9uV7xtYeCcFOBx"
+    },
+    {
+      "title": "Stronger",
+      "artist": "Kanye West",
+      "year": 2007,
+      "spotifyId": "0j2T0R9dR9qdJYsB7ciXhf"
+    },
+    {
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "year": 2005,
+      "spotifyId": "1PS1QMdUqOal0ai3Gt7sDQ"
+    },
+    {
+      "title": "Heartless",
+      "artist": "Kanye West",
+      "year": 2008,
+      "spotifyId": "4EWCNWgDS8707fNSZ1oaA5"
+    },
+    {
+      "title": "Runaway",
+      "artist": "Kanye West",
+      "year": 2010,
+      "spotifyId": "3DK6m7It6Pw857FcQftMds"
+    },
+    {
+      "title": "All of the Lights",
+      "artist": "Kanye West",
+      "year": 2010,
+      "spotifyId": "22L7bfCiAkJo5xGSQgmiIO"
+    },
+    {
+      "title": "Flashing Lights",
+      "artist": "Kanye West",
+      "year": 2007,
+      "spotifyId": "5TRPicyLGbAF2LGBFbHGvO"
+    },
+    {
+      "title": "Good Life",
+      "artist": "Kanye West",
+      "year": 2007,
+      "spotifyId": "4ZPdLEztrlZqbJkgHNw54L"
+    },
+    {
+      "title": "Empire State of Mind",
+      "artist": "Jay-Z",
+      "year": 2009,
+      "spotifyId": "2igwFfvr1OAGX9SKDCPBwO"
+    },
+    {
+      "title": "99 Problems",
+      "artist": "Jay-Z",
+      "year": 2003,
+      "spotifyId": "7sLpSWxQazJzDVG6YGzlVs"
+    },
+    {
+      "title": "Hard Knock Life",
+      "artist": "Jay-Z",
+      "year": 1998,
+      "spotifyId": "5Tl0HJvynZtKdSUMKbFVVX"
+    },
+    {
+      "title": "Big Pimpin'",
+      "artist": "Jay-Z",
+      "year": 1999,
+      "spotifyId": "39lMIe4qlccsam5GRY4NRn"
+    },
+    {
+      "title": "Izzo (H.O.V.A.)",
+      "artist": "Jay-Z",
+      "year": 2001,
+      "spotifyId": "4h5KBcltGefua73AUPYps7"
+    },
+    {
+      "title": "Numb/Encore",
+      "artist": "Jay-Z & Linkin Park",
+      "year": 2004,
+      "spotifyId": "7dyluIqv7QYVTXXZiMWPHW"
+    },
+    {
+      "title": "Crazy in Love",
+      "artist": "Beyoncé",
+      "year": 2003,
+      "spotifyId": "5IVuqXILoxVWvWEPm82Jxr"
+    },
+    {
+      "title": "Déjà Vu",
+      "artist": "Beyoncé",
+      "year": 2006,
+      "spotifyId": "2MAyGB3UgAbbT1Fjc7b7aA"
+    },
+    {
+      "title": "Hot in Herre",
+      "artist": "Nelly",
+      "year": 2002,
+      "spotifyId": "04KTF78FFg8sOHC1BADqbY"
+    },
+    {
+      "title": "Ride wit Me",
+      "artist": "Nelly",
+      "year": 2000,
+      "spotifyId": "3Gf5nttwcX9aaSQXRWidEZ"
+    },
+    {
+      "title": "Grillz",
+      "artist": "Nelly",
+      "year": 2005,
+      "spotifyId": "0Aqlt4N5h6rUtKnd09VXpr"
+    },
+    {
+      "title": "Country Grammar",
+      "artist": "Nelly",
+      "year": 2000,
+      "spotifyId": "3wMUvT6eIw2L5cZFG1yH9j"
+    },
+    {
+      "title": "Stan",
+      "artist": "Eminem",
+      "year": 2000,
+      "spotifyId": "3UmaczJpikHgJFyBTAJVoz"
+    },
+    {
+      "title": "Forgot About Dre",
+      "artist": "Dr. Dre",
+      "year": 1999,
+      "spotifyId": "7iXF2W9vKmDoGAhlHdpyIa"
+    },
+    {
+      "title": "Still D.R.E.",
+      "artist": "Dr. Dre",
+      "year": 1999,
+      "spotifyId": "503OTo2dSqe7qk76rgsbep"
+    },
+    {
+      "title": "The Next Episode",
+      "artist": "Dr. Dre",
+      "year": 1999,
+      "spotifyId": "4LwU4Vp6od3Sb08CsP99GC"
+    },
+    {
+      "title": "Mrs. Robinson",
+      "artist": "The Fugees",
+      "year": 1996,
+      "spotifyId": "NOT_FOUND"
+    },
+    {
+      "title": "Killing Me Softly",
+      "artist": "The Fugees",
+      "year": 1996,
+      "spotifyId": "0Q0IVlqMV64kNLlwjPj0Hl"
+    },
+    {
+      "title": "Ready or Not",
+      "artist": "The Fugees",
+      "year": 1996,
+      "spotifyId": "3vZO25GdYuqFrR1kzZADnp"
+    },
+    {
+      "title": "Doo Wop (That Thing)",
+      "artist": "Lauryn Hill",
+      "year": 1998,
+      "spotifyId": "0uEp9E98JB5awlA084uaIg"
+    },
+    {
+      "title": "Hey Ya!",
+      "artist": "OutKast",
+      "year": 2003,
+      "spotifyId": "2PpruBYCo4H7WOBJ7Q2EwM"
+    },
+    {
+      "title": "Ms. Jackson",
+      "artist": "OutKast",
+      "year": 2000,
+      "spotifyId": "0I3q5fE6wg7LIfHGngUTnV"
+    },
+    {
+      "title": "B.O.B.",
+      "artist": "OutKast",
+      "year": 2000,
+      "spotifyId": "3WibbMr6canxRJXhNtAvLU"
+    },
+    {
+      "title": "So Fresh, So Clean",
+      "artist": "OutKast",
+      "year": 2000,
+      "spotifyId": "6glsMWIMIxQ4BedzLqGVi4"
+    },
+    {
+      "title": "Crank That (Soulja Boy)",
+      "artist": "Soulja Boy",
+      "year": 2007,
+      "spotifyId": "66TRwr5uJwPt15mfFkzhbi"
+    },
+    {
+      "title": "Fergalicious",
+      "artist": "Fergie",
+      "year": 2006,
+      "spotifyId": "1D066zixBwqFYqBhKgdPzp"
+    },
+    {
+      "title": "Big Girls Don't Cry",
+      "artist": "Fergie",
+      "year": 2007,
+      "spotifyId": "4AniPkv5vgdE1n6VKreiyI"
+    },
+    {
+      "title": "London Bridge",
+      "artist": "Fergie",
+      "year": 2006,
+      "spotifyId": "7jRoWfRlLnGYEIEn4t4kbq"
+    },
+    {
+      "title": "Gold Digger",
+      "artist": "Kanye West",
+      "year": 2005,
+      "spotifyId": "1PS1QMdUqOal0ai3Gt7sDQ"
+    },
+    {
+      "title": "Lollipop",
+      "artist": "Lil Wayne",
+      "year": 2008,
+      "spotifyId": "4P7VFiaZb3xrXoqGwZXC3J"
+    },
+    {
+      "title": "A Milli",
+      "artist": "Lil Wayne",
+      "year": 2008,
+      "spotifyId": "6ScJMrlpiLfZUGtWp4QIVt"
+    },
+    {
+      "title": "Got Money",
+      "artist": "Lil Wayne",
+      "year": 2008,
+      "spotifyId": "46lIt6GmL0VkkbuUyGDbCs"
+    },
+    {
+      "title": "Best I Ever Had",
+      "artist": "Drake",
+      "year": 2009,
+      "spotifyId": "3QLjDkgLh9AOEHlhQtDuhs"
+    },
+    {
+      "title": "Hotline Bling",
+      "artist": "Drake",
+      "year": 2015,
+      "spotifyId": "0wwPcA6wtMf6HUMpIRdeP7"
+    },
+    {
+      "title": "One Dance",
+      "artist": "Drake",
+      "year": 2016,
+      "spotifyId": "1zi7xx7UVEFkmKfv06H8x0"
+    },
+    {
+      "title": "In My Feelings",
+      "artist": "Drake",
+      "year": 2018,
+      "spotifyId": "2G7V7zsVDxg1yRsu7Ew9RJ"
+    },
+    {
+      "title": "God's Plan",
+      "artist": "Drake",
+      "year": 2018,
+      "spotifyId": "6DCZcSspjsKoFjzjrWoCdn"
+    },
+    {
+      "title": "Nice for What",
+      "artist": "Drake",
+      "year": 2018,
+      "spotifyId": "3CA9pLiwRIGtUBiMjbZmRw"
+    },
+    {
+      "title": "HUMBLE.",
+      "artist": "Kendrick Lamar",
+      "year": 2017,
+      "spotifyId": "7KXjTSCq5nL1LoYtL7XAwS"
+    },
+    {
+      "title": "DNA.",
+      "artist": "Kendrick Lamar",
+      "year": 2017,
+      "spotifyId": "6HZILIRieu8S0iqY8kIKhj"
+    },
+    {
+      "title": "Alright",
+      "artist": "Kendrick Lamar",
+      "year": 2015,
+      "spotifyId": "3iVcZ5G6tvkXZkZKlMpIUs"
+    },
+    {
+      "title": "Money Trees",
+      "artist": "Kendrick Lamar",
+      "year": 2012,
+      "spotifyId": "2HbKqm4o0w5wEeEFXm2sD4"
+    },
+    {
+      "title": "Swimming Pools (Drank)",
+      "artist": "Kendrick Lamar",
+      "year": 2012,
+      "spotifyId": "6REbwUNlppTfcnV4d4ZoZi"
+    },
+    {
+      "title": "m.A.A.d city",
+      "artist": "Kendrick Lamar",
+      "year": 2012,
+      "spotifyId": "2cDCojn6uIBM6A5xTAbl3H"
+    },
+    {
+      "title": "Sicko Mode",
+      "artist": "Travis Scott",
+      "year": 2018,
+      "spotifyId": "2xLMifQCjDGFmkHkpNLD9h"
+    },
+    {
+      "title": "Goosebumps",
+      "artist": "Travis Scott",
+      "year": 2016,
+      "spotifyId": "6gBFPUFcJLzWGx4lenP6h2"
+    },
+    {
+      "title": "Antidote",
+      "artist": "Travis Scott",
+      "year": 2015,
+      "spotifyId": "1wHZx0LgzFHyeIZkUydNXq"
+    },
+    {
+      "title": "Panda",
+      "artist": "Desiigner",
+      "year": 2016,
+      "spotifyId": "275a9yzwGB6ncAW4SxY7q3"
+    },
+    {
+      "title": "Old Town Road",
+      "artist": "Lil Nas X",
+      "year": 2018,
+      "spotifyId": "0F7FA14euOIX8KcbEturGH"
+    },
+    {
+      "title": "Rockstar",
+      "artist": "Post Malone",
+      "year": 2017,
+      "spotifyId": "0I2XhicZdPwyDTtsCELdSf"
+    },
+    {
+      "title": "Congratulations",
+      "artist": "Post Malone",
+      "year": 2016,
+      "spotifyId": "3a1lNhkSLSkpJE4MSHpDu9"
+    },
+    {
+      "title": "Sunflower",
+      "artist": "Post Malone",
+      "year": 2018,
+      "spotifyId": "0wt9RjddODlWDetpuaXfRK"
+    },
+    {
+      "title": "Circles",
+      "artist": "Post Malone",
+      "year": 2019,
+      "spotifyId": "21jGcNKet2qwijlDFuPiPb"
+    },
+    {
+      "title": "Mask Off",
+      "artist": "Future",
+      "year": 2017,
+      "spotifyId": "0VgkVdmE4gld66l8iyGjgx"
+    },
+    {
+      "title": "Bodak Yellow",
+      "artist": "Cardi B",
+      "year": 2017,
+      "spotifyId": "7EUdsWV0Cs8nyTo4R5Ef9b"
+    },
+    {
+      "title": "I Like It",
+      "artist": "Cardi B",
+      "year": 2018,
+      "spotifyId": "58q2HKrzhC3ozto2nDdN4z"
+    },
+    {
+      "title": "WAP",
+      "artist": "Cardi B",
+      "year": 2020,
+      "spotifyId": "4Oun2ylbjFKMPTiaSbbCih"
+    },
+    {
+      "title": "Savage",
+      "artist": "Megan Thee Stallion",
+      "year": 2020,
+      "spotifyId": "55CHeLEfn5iJ0IIkgaa4si"
+    }
   ]
 }

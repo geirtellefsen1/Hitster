@@ -3,107 +3,617 @@
   "name": "Classic Rock",
   "description": "1950s–1990s legendary rock",
   "songs": [
-    { "title": "Bohemian Rhapsody", "artist": "Queen", "year": 1975, "spotifyId": null },
-    { "title": "Hotel California", "artist": "Eagles", "year": 1976, "spotifyId": null },
-    { "title": "Stairway to Heaven", "artist": "Led Zeppelin", "year": 1971, "spotifyId": null },
-    { "title": "Sweet Child O' Mine", "artist": "Guns N' Roses", "year": 1987, "spotifyId": null },
-    { "title": "Smoke on the Water", "artist": "Deep Purple", "year": 1972, "spotifyId": null },
-    { "title": "Born to Run", "artist": "Bruce Springsteen", "year": 1975, "spotifyId": null },
-    { "title": "Dream On", "artist": "Aerosmith", "year": 1973, "spotifyId": null },
-    { "title": "Livin' on a Prayer", "artist": "Bon Jovi", "year": 1986, "spotifyId": null },
-    { "title": "Paint It Black", "artist": "The Rolling Stones", "year": 1966, "spotifyId": null },
-    { "title": "(I Can't Get No) Satisfaction", "artist": "The Rolling Stones", "year": 1965, "spotifyId": null },
-    { "title": "Hey Jude", "artist": "The Beatles", "year": 1968, "spotifyId": null },
-    { "title": "Let It Be", "artist": "The Beatles", "year": 1970, "spotifyId": null },
-    { "title": "Johnny B. Goode", "artist": "Chuck Berry", "year": 1958, "spotifyId": null },
-    { "title": "Jailhouse Rock", "artist": "Elvis Presley", "year": 1957, "spotifyId": null },
-    { "title": "Rock Around the Clock", "artist": "Bill Haley & His Comets", "year": 1954, "spotifyId": null },
-    { "title": "Thunderstruck", "artist": "AC/DC", "year": 1990, "spotifyId": null },
-    { "title": "Back in Black", "artist": "AC/DC", "year": 1980, "spotifyId": null },
-    { "title": "Highway to Hell", "artist": "AC/DC", "year": 1979, "spotifyId": null },
-    { "title": "Another Brick in the Wall", "artist": "Pink Floyd", "year": 1979, "spotifyId": null },
-    { "title": "Wish You Were Here", "artist": "Pink Floyd", "year": 1975, "spotifyId": null },
-    { "title": "Comfortably Numb", "artist": "Pink Floyd", "year": 1979, "spotifyId": null },
-    { "title": "Free Bird", "artist": "Lynyrd Skynyrd", "year": 1973, "spotifyId": null },
-    { "title": "Sweet Home Alabama", "artist": "Lynyrd Skynyrd", "year": 1974, "spotifyId": null },
-    { "title": "Layla", "artist": "Derek and the Dominos", "year": 1970, "spotifyId": null },
-    { "title": "Purple Haze", "artist": "Jimi Hendrix", "year": 1967, "spotifyId": null },
-    { "title": "All Along the Watchtower", "artist": "Jimi Hendrix", "year": 1968, "spotifyId": null },
-    { "title": "Behind Blue Eyes", "artist": "The Who", "year": 1971, "spotifyId": null },
-    { "title": "Baba O'Riley", "artist": "The Who", "year": 1971, "spotifyId": null },
-    { "title": "My Generation", "artist": "The Who", "year": 1965, "spotifyId": null },
-    { "title": "Light My Fire", "artist": "The Doors", "year": 1967, "spotifyId": null },
-    { "title": "Riders on the Storm", "artist": "The Doors", "year": 1971, "spotifyId": null },
-    { "title": "Kashmir", "artist": "Led Zeppelin", "year": 1975, "spotifyId": null },
-    { "title": "Whole Lotta Love", "artist": "Led Zeppelin", "year": 1969, "spotifyId": null },
-    { "title": "Black Dog", "artist": "Led Zeppelin", "year": 1971, "spotifyId": null },
-    { "title": "Welcome to the Jungle", "artist": "Guns N' Roses", "year": 1987, "spotifyId": null },
-    { "title": "November Rain", "artist": "Guns N' Roses", "year": 1991, "spotifyId": null },
-    { "title": "Paradise City", "artist": "Guns N' Roses", "year": 1988, "spotifyId": null },
-    { "title": "Don't Stop Believin'", "artist": "Journey", "year": 1981, "spotifyId": null },
-    { "title": "Eye of the Tiger", "artist": "Survivor", "year": 1982, "spotifyId": null },
-    { "title": "More Than a Feeling", "artist": "Boston", "year": 1976, "spotifyId": null },
-    { "title": "Carry On Wayward Son", "artist": "Kansas", "year": 1976, "spotifyId": null },
-    { "title": "Dust in the Wind", "artist": "Kansas", "year": 1977, "spotifyId": null },
-    { "title": "Sultans of Swing", "artist": "Dire Straits", "year": 1978, "spotifyId": null },
-    { "title": "Money for Nothing", "artist": "Dire Straits", "year": 1985, "spotifyId": null },
-    { "title": "Every Breath You Take", "artist": "The Police", "year": 1983, "spotifyId": null },
-    { "title": "Roxanne", "artist": "The Police", "year": 1978, "spotifyId": null },
-    { "title": "Message in a Bottle", "artist": "The Police", "year": 1979, "spotifyId": null },
-    { "title": "Enter Sandman", "artist": "Metallica", "year": 1991, "spotifyId": null },
-    { "title": "Nothing Else Matters", "artist": "Metallica", "year": 1991, "spotifyId": null },
-    { "title": "Master of Puppets", "artist": "Metallica", "year": 1986, "spotifyId": null },
-    { "title": "Crazy Train", "artist": "Ozzy Osbourne", "year": 1980, "spotifyId": null },
-    { "title": "Iron Man", "artist": "Black Sabbath", "year": 1970, "spotifyId": null },
-    { "title": "Paranoid", "artist": "Black Sabbath", "year": 1970, "spotifyId": null },
-    { "title": "Pour Some Sugar on Me", "artist": "Def Leppard", "year": 1987, "spotifyId": null },
-    { "title": "Photograph", "artist": "Def Leppard", "year": 1983, "spotifyId": null },
-    { "title": "Jump", "artist": "Van Halen", "year": 1984, "spotifyId": null },
-    { "title": "Panama", "artist": "Van Halen", "year": 1984, "spotifyId": null },
-    { "title": "Life in the Fast Lane", "artist": "Eagles", "year": 1976, "spotifyId": null },
-    { "title": "Take It Easy", "artist": "Eagles", "year": 1972, "spotifyId": null },
-    { "title": "Peace of Mind", "artist": "Boston", "year": 1976, "spotifyId": null },
-    { "title": "Brown Eyed Girl", "artist": "Van Morrison", "year": 1967, "spotifyId": null },
-    { "title": "American Pie", "artist": "Don McLean", "year": 1971, "spotifyId": null },
-    { "title": "House of the Rising Sun", "artist": "The Animals", "year": 1964, "spotifyId": null },
-    { "title": "Fortunate Son", "artist": "Creedence Clearwater Revival", "year": 1969, "spotifyId": null },
-    { "title": "Have You Ever Seen the Rain", "artist": "Creedence Clearwater Revival", "year": 1971, "spotifyId": null },
-    { "title": "Proud Mary", "artist": "Creedence Clearwater Revival", "year": 1969, "spotifyId": null },
-    { "title": "Won't Get Fooled Again", "artist": "The Who", "year": 1971, "spotifyId": null },
-    { "title": "Tom Sawyer", "artist": "Rush", "year": 1981, "spotifyId": null },
-    { "title": "Runnin' with the Devil", "artist": "Van Halen", "year": 1978, "spotifyId": null },
-    { "title": "We Will Rock You", "artist": "Queen", "year": 1977, "spotifyId": null },
-    { "title": "We Are the Champions", "artist": "Queen", "year": 1977, "spotifyId": null },
-    { "title": "Don't Stop Me Now", "artist": "Queen", "year": 1978, "spotifyId": null },
-    { "title": "Somebody to Love", "artist": "Queen", "year": 1976, "spotifyId": null },
-    { "title": "Under Pressure", "artist": "Queen & David Bowie", "year": 1981, "spotifyId": null },
-    { "title": "Space Oddity", "artist": "David Bowie", "year": 1969, "spotifyId": null },
-    { "title": "Heroes", "artist": "David Bowie", "year": 1977, "spotifyId": null },
-    { "title": "Ziggy Stardust", "artist": "David Bowie", "year": 1972, "spotifyId": null },
-    { "title": "Life on Mars?", "artist": "David Bowie", "year": 1971, "spotifyId": null },
-    { "title": "Imagine", "artist": "John Lennon", "year": 1971, "spotifyId": null },
-    { "title": "Piano Man", "artist": "Billy Joel", "year": 1973, "spotifyId": null },
-    { "title": "Uptown Girl", "artist": "Billy Joel", "year": 1983, "spotifyId": null },
-    { "title": "We Didn't Start the Fire", "artist": "Billy Joel", "year": 1989, "spotifyId": null },
-    { "title": "Baker Street", "artist": "Gerry Rafferty", "year": 1978, "spotifyId": null },
-    { "title": "Rocket Man", "artist": "Elton John", "year": 1972, "spotifyId": null },
-    { "title": "Tiny Dancer", "artist": "Elton John", "year": 1971, "spotifyId": null },
-    { "title": "Crocodile Rock", "artist": "Elton John", "year": 1972, "spotifyId": null },
-    { "title": "Walk This Way", "artist": "Aerosmith", "year": 1975, "spotifyId": null },
-    { "title": "I Want to Know What Love Is", "artist": "Foreigner", "year": 1984, "spotifyId": null },
-    { "title": "Cold as Ice", "artist": "Foreigner", "year": 1977, "spotifyId": null },
-    { "title": "Renegade", "artist": "Styx", "year": 1978, "spotifyId": null },
-    { "title": "Come Sail Away", "artist": "Styx", "year": 1977, "spotifyId": null },
-    { "title": "(Don't Fear) The Reaper", "artist": "Blue Öyster Cult", "year": 1976, "spotifyId": null },
-    { "title": "School's Out", "artist": "Alice Cooper", "year": 1972, "spotifyId": null },
-    { "title": "Eye in the Sky", "artist": "The Alan Parsons Project", "year": 1982, "spotifyId": null },
-    { "title": "Africa", "artist": "Toto", "year": 1982, "spotifyId": null },
-    { "title": "Rosanna", "artist": "Toto", "year": 1982, "spotifyId": null },
-    { "title": "Hold the Line", "artist": "Toto", "year": 1978, "spotifyId": null },
-    { "title": "I Want You to Want Me", "artist": "Cheap Trick", "year": 1977, "spotifyId": null },
-    { "title": "Sharp Dressed Man", "artist": "ZZ Top", "year": 1983, "spotifyId": null },
-    { "title": "La Grange", "artist": "ZZ Top", "year": 1973, "spotifyId": null },
-    { "title": "Twist and Shout", "artist": "The Beatles", "year": 1963, "spotifyId": null },
-    { "title": "Born to Be Wild", "artist": "Steppenwolf", "year": 1968, "spotifyId": null }
+    {
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "year": 1975,
+      "spotifyId": "7tFiyTwD0nx5a1eklYtX2J"
+    },
+    {
+      "title": "Hotel California",
+      "artist": "Eagles",
+      "year": 1976,
+      "spotifyId": "40riOy7x9W7GXjyGp4pjAv"
+    },
+    {
+      "title": "Stairway to Heaven",
+      "artist": "Led Zeppelin",
+      "year": 1971,
+      "spotifyId": "5CQ30WqJwcep0pYcV4AMNc"
+    },
+    {
+      "title": "Sweet Child O' Mine",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "spotifyId": "7snQQk1zcKl8gZ92AnueZW"
+    },
+    {
+      "title": "Smoke on the Water",
+      "artist": "Deep Purple",
+      "year": 1972,
+      "spotifyId": "5SAUIWdZ04OxYfJFDchC7S"
+    },
+    {
+      "title": "Born to Run",
+      "artist": "Bruce Springsteen",
+      "year": 1975,
+      "spotifyId": "6hTcuIQa0sxrrByu9wTD7s"
+    },
+    {
+      "title": "Dream On",
+      "artist": "Aerosmith",
+      "year": 1973,
+      "spotifyId": "5Ih9gbqyxCzTJ43nuSuKnC"
+    },
+    {
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "spotifyId": "37ZJ0p5Jm13JPevGcx4SkF"
+    },
+    {
+      "title": "Paint It Black",
+      "artist": "The Rolling Stones",
+      "year": 1966,
+      "spotifyId": "63T7DJ1AFDD6Bn8VzG6JE8"
+    },
+    {
+      "title": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "year": 1965,
+      "spotifyId": "2PzU4IB8Dr6mxV3lHuaG34"
+    },
+    {
+      "title": "Hey Jude",
+      "artist": "The Beatles",
+      "year": 1968,
+      "spotifyId": "1eT2CjXwFXNx6oY5ydvzKU"
+    },
+    {
+      "title": "Let It Be",
+      "artist": "The Beatles",
+      "year": 1970,
+      "spotifyId": "7iN1s7xHE4ifF5povM6A48"
+    },
+    {
+      "title": "Johnny B. Goode",
+      "artist": "Chuck Berry",
+      "year": 1958,
+      "spotifyId": "2QfiRTz5Yc8DdShCxG1tB2"
+    },
+    {
+      "title": "Jailhouse Rock",
+      "artist": "Elvis Presley",
+      "year": 1957,
+      "spotifyId": "4gphxUgq0JSFv2BCLhNDiE"
+    },
+    {
+      "title": "Rock Around the Clock",
+      "artist": "Bill Haley & His Comets",
+      "year": 1954,
+      "spotifyId": "1uRKT2LRANv4baowBWHfDS"
+    },
+    {
+      "title": "Thunderstruck",
+      "artist": "AC/DC",
+      "year": 1990,
+      "spotifyId": "57bgtoPSgt236HzfBOd8kj"
+    },
+    {
+      "title": "Back in Black",
+      "artist": "AC/DC",
+      "year": 1980,
+      "spotifyId": "08mG3Y1vljYA6bvDt4Wqkj"
+    },
+    {
+      "title": "Highway to Hell",
+      "artist": "AC/DC",
+      "year": 1979,
+      "spotifyId": "2zYzyRzz6pRmhPzyfMEC8s"
+    },
+    {
+      "title": "Another Brick in the Wall",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "spotifyId": "4gMgiXfqyzZLMhsksGmbQV"
+    },
+    {
+      "title": "Wish You Were Here",
+      "artist": "Pink Floyd",
+      "year": 1975,
+      "spotifyId": "6mFkJmJqdDVQ1REhVfGgd1"
+    },
+    {
+      "title": "Comfortably Numb",
+      "artist": "Pink Floyd",
+      "year": 1979,
+      "spotifyId": "5HNCy40Ni5BZJFw1TKzRsC"
+    },
+    {
+      "title": "Free Bird",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1973,
+      "spotifyId": "5EWPGh7jbTNO2wakv8LjUI"
+    },
+    {
+      "title": "Sweet Home Alabama",
+      "artist": "Lynyrd Skynyrd",
+      "year": 1974,
+      "spotifyId": "7e89621JPkKaeDSTQ3avtg"
+    },
+    {
+      "title": "Layla",
+      "artist": "Derek and the Dominos",
+      "year": 1970,
+      "spotifyId": "2kkvB3RNRzwjFdGhaUA0tz"
+    },
+    {
+      "title": "Purple Haze",
+      "artist": "Jimi Hendrix",
+      "year": 1967,
+      "spotifyId": "0wJoRiX5K5BxlqZTolB2LD"
+    },
+    {
+      "title": "All Along the Watchtower",
+      "artist": "Jimi Hendrix",
+      "year": 1968,
+      "spotifyId": "2aoo2jlRnM3A0NyLQqMN2f"
+    },
+    {
+      "title": "Behind Blue Eyes",
+      "artist": "The Who",
+      "year": 1971,
+      "spotifyId": "0cKk8BKEi7zXbdrYdyqBP5"
+    },
+    {
+      "title": "Baba O'Riley",
+      "artist": "The Who",
+      "year": 1971,
+      "spotifyId": "3qiyyUfYe7CRYLucrPmulD"
+    },
+    {
+      "title": "My Generation",
+      "artist": "The Who",
+      "year": 1965,
+      "spotifyId": "2EMmHEhCZSMMEM85HTFJvj"
+    },
+    {
+      "title": "Light My Fire",
+      "artist": "The Doors",
+      "year": 1967,
+      "spotifyId": "5uvosCdMlFdTXhoazkTI5R"
+    },
+    {
+      "title": "Riders on the Storm",
+      "artist": "The Doors",
+      "year": 1971,
+      "spotifyId": "14XWXWv5FoCbFzLksawpEe"
+    },
+    {
+      "title": "Kashmir",
+      "artist": "Led Zeppelin",
+      "year": 1975,
+      "spotifyId": "6Vjk8MNXpQpi0F4BefdTyq"
+    },
+    {
+      "title": "Whole Lotta Love",
+      "artist": "Led Zeppelin",
+      "year": 1969,
+      "spotifyId": "0hCB0YR03f6AmQaHbwWDe8"
+    },
+    {
+      "title": "Black Dog",
+      "artist": "Led Zeppelin",
+      "year": 1971,
+      "spotifyId": "3qT4bUD1MaWpGrTwcvguhb"
+    },
+    {
+      "title": "Welcome to the Jungle",
+      "artist": "Guns N' Roses",
+      "year": 1987,
+      "spotifyId": "0G21yYKMZoHa30cYVi1iA8"
+    },
+    {
+      "title": "November Rain",
+      "artist": "Guns N' Roses",
+      "year": 1991,
+      "spotifyId": "3YRCqOhFifThpSRFJ1VWFM"
+    },
+    {
+      "title": "Paradise City",
+      "artist": "Guns N' Roses",
+      "year": 1988,
+      "spotifyId": "6eN1f9KNmiWEhpE2RhQqB5"
+    },
+    {
+      "title": "Don't Stop Believin'",
+      "artist": "Journey",
+      "year": 1981,
+      "spotifyId": "5RKQ5NdjSh2QzD4MaunT91"
+    },
+    {
+      "title": "Eye of the Tiger",
+      "artist": "Survivor",
+      "year": 1982,
+      "spotifyId": "2HHtWyy5CgaQbC7XSoOb0e"
+    },
+    {
+      "title": "More Than a Feeling",
+      "artist": "Boston",
+      "year": 1976,
+      "spotifyId": "1QEEqeFIZktqIpPI4jSVSF"
+    },
+    {
+      "title": "Carry On Wayward Son",
+      "artist": "Kansas",
+      "year": 1976,
+      "spotifyId": "4DMKwE2E2iYDKY01C335Uw"
+    },
+    {
+      "title": "Dust in the Wind",
+      "artist": "Kansas",
+      "year": 1977,
+      "spotifyId": "6zeE5tKyr8Nu882DQhhSQI"
+    },
+    {
+      "title": "Sultans of Swing",
+      "artist": "Dire Straits",
+      "year": 1978,
+      "spotifyId": "6cr6UDpkjEaMQ80OjWqEBQ"
+    },
+    {
+      "title": "Money for Nothing",
+      "artist": "Dire Straits",
+      "year": 1985,
+      "spotifyId": "4yqtwO7MQIIXqoiRBPHAgR"
+    },
+    {
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "year": 1983,
+      "spotifyId": "1JSTJqkT5qHq8MDJnJbRE1"
+    },
+    {
+      "title": "Roxanne",
+      "artist": "The Police",
+      "year": 1978,
+      "spotifyId": "3EYOJ48Et32uATr9ZmLnAo"
+    },
+    {
+      "title": "Message in a Bottle",
+      "artist": "The Police",
+      "year": 1979,
+      "spotifyId": "1oYYd2gnWZYrt89EBXdFiO"
+    },
+    {
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "year": 1991,
+      "spotifyId": "3VqHuw0wFlIHcIPWkhIbdQ"
+    },
+    {
+      "title": "Nothing Else Matters",
+      "artist": "Metallica",
+      "year": 1991,
+      "spotifyId": "2CtemffYhT0DJWcT1XW047"
+    },
+    {
+      "title": "Master of Puppets",
+      "artist": "Metallica",
+      "year": 1986,
+      "spotifyId": "54bm2e3tk8cliUz3VSdCPZ"
+    },
+    {
+      "title": "Crazy Train",
+      "artist": "Ozzy Osbourne",
+      "year": 1980,
+      "spotifyId": "7ACxUo21jtTHzy7ZEV56vU"
+    },
+    {
+      "title": "Iron Man",
+      "artist": "Black Sabbath",
+      "year": 1970,
+      "spotifyId": "4svkPL62HbvyFgf0nHFXAF"
+    },
+    {
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "year": 1970,
+      "spotifyId": "1Y373MqadDRtclJNdnUXVc"
+    },
+    {
+      "title": "Pour Some Sugar on Me",
+      "artist": "Def Leppard",
+      "year": 1987,
+      "spotifyId": "1aZLIbKEdsyqxyD6iNcrbA"
+    },
+    {
+      "title": "Photograph",
+      "artist": "Def Leppard",
+      "year": 1983,
+      "spotifyId": "18URo35acNKRTHfEdjTcGn"
+    },
+    {
+      "title": "Jump",
+      "artist": "Van Halen",
+      "year": 1984,
+      "spotifyId": "7N3PAbqfTjSEU1edb2tY8j"
+    },
+    {
+      "title": "Panama",
+      "artist": "Van Halen",
+      "year": 1984,
+      "spotifyId": "05RgAMGypEvqhNs5hPCbMS"
+    },
+    {
+      "title": "Life in the Fast Lane",
+      "artist": "Eagles",
+      "year": 1976,
+      "spotifyId": "6gXrEUzibufX9xYPk3HD5p"
+    },
+    {
+      "title": "Take It Easy",
+      "artist": "Eagles",
+      "year": 1972,
+      "spotifyId": "4yugZvBYaoREkJKtbG08Qr"
+    },
+    {
+      "title": "Peace of Mind",
+      "artist": "Boston",
+      "year": 1976,
+      "spotifyId": "1GqlvSEtMx5xbGptxOTTyk"
+    },
+    {
+      "title": "Brown Eyed Girl",
+      "artist": "Van Morrison",
+      "year": 1967,
+      "spotifyId": "4CNL4GBNTdVIU5Nk6hB4LC"
+    },
+    {
+      "title": "American Pie",
+      "artist": "Don McLean",
+      "year": 1971,
+      "spotifyId": "1fDsrQ23eTAVFElUMaf38X"
+    },
+    {
+      "title": "House of the Rising Sun",
+      "artist": "The Animals",
+      "year": 1964,
+      "spotifyId": "7BY005dacJkbO6EPiOh2wb"
+    },
+    {
+      "title": "Fortunate Son",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1969,
+      "spotifyId": "4BP3uh0hFLFRb5cjsgLqDh"
+    },
+    {
+      "title": "Have You Ever Seen the Rain",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1971,
+      "spotifyId": "2LawezPeJhN4AWuSB0GtAU"
+    },
+    {
+      "title": "Proud Mary",
+      "artist": "Creedence Clearwater Revival",
+      "year": 1969,
+      "spotifyId": "6pxWv6GV35VGmcPf5dh6CH"
+    },
+    {
+      "title": "Won't Get Fooled Again",
+      "artist": "The Who",
+      "year": 1971,
+      "spotifyId": "0cJPLFrlV7TTCyPLupHzcH"
+    },
+    {
+      "title": "Tom Sawyer",
+      "artist": "Rush",
+      "year": 1981,
+      "spotifyId": "3QZ7uX97s82HFYSmQUAN1D"
+    },
+    {
+      "title": "Runnin' with the Devil",
+      "artist": "Van Halen",
+      "year": 1978,
+      "spotifyId": "3KhF2YiNpJvGpfiCW45R6D"
+    },
+    {
+      "title": "We Will Rock You",
+      "artist": "Queen",
+      "year": 1977,
+      "spotifyId": "54flyrjcdnQdco7300avMJ"
+    },
+    {
+      "title": "We Are the Champions",
+      "artist": "Queen",
+      "year": 1977,
+      "spotifyId": "7ccI9cStQbQdystvc6TvxD"
+    },
+    {
+      "title": "Don't Stop Me Now",
+      "artist": "Queen",
+      "year": 1978,
+      "spotifyId": "7hQJA50XrCWABAu5v6QZ4i"
+    },
+    {
+      "title": "Somebody to Love",
+      "artist": "Queen",
+      "year": 1976,
+      "spotifyId": "6cFZ4PLC19taNlpl9pbGMf"
+    },
+    {
+      "title": "Under Pressure",
+      "artist": "Queen & David Bowie",
+      "year": 1981,
+      "spotifyId": "5AZGbqiIK5t1jrWSPT7k8X"
+    },
+    {
+      "title": "Space Oddity",
+      "artist": "David Bowie",
+      "year": 1969,
+      "spotifyId": "0zViuvCvyMnIkqtMC5hOAE"
+    },
+    {
+      "title": "Heroes",
+      "artist": "David Bowie",
+      "year": 1977,
+      "spotifyId": "7Jh1bpe76CNTCgdgAdBw4Z"
+    },
+    {
+      "title": "Ziggy Stardust",
+      "artist": "David Bowie",
+      "year": 1972,
+      "spotifyId": "5IyL3XOaRPpTgxVjRIAxXU"
+    },
+    {
+      "title": "Life on Mars?",
+      "artist": "David Bowie",
+      "year": 1971,
+      "spotifyId": "3ZE3wv8V3w2T2f7nOCjV0N"
+    },
+    {
+      "title": "Imagine",
+      "artist": "John Lennon",
+      "year": 1971,
+      "spotifyId": "7pKfPomDEeI4TPT6EOYjn9"
+    },
+    {
+      "title": "Piano Man",
+      "artist": "Billy Joel",
+      "year": 1973,
+      "spotifyId": "70C4NyhjD5OZUMzvWZ3njJ"
+    },
+    {
+      "title": "Uptown Girl",
+      "artist": "Billy Joel",
+      "year": 1983,
+      "spotifyId": "5zA8vzDGqPl2AzZkEYQGKh"
+    },
+    {
+      "title": "We Didn't Start the Fire",
+      "artist": "Billy Joel",
+      "year": 1989,
+      "spotifyId": "3Cx4yrFaX8CeHwBMReOWXI"
+    },
+    {
+      "title": "Baker Street",
+      "artist": "Gerry Rafferty",
+      "year": 1978,
+      "spotifyId": "5gOd6zDC8vhlYjqbQdJVWP"
+    },
+    {
+      "title": "Rocket Man",
+      "artist": "Elton John",
+      "year": 1972,
+      "spotifyId": "3gdewACMIVMEWVbyb8O9sY"
+    },
+    {
+      "title": "Tiny Dancer",
+      "artist": "Elton John",
+      "year": 1971,
+      "spotifyId": "2TVxnKdb3tqe1nhQWwwZCO"
+    },
+    {
+      "title": "Crocodile Rock",
+      "artist": "Elton John",
+      "year": 1972,
+      "spotifyId": "6WCeFNVAXUtNczb7lqLiZU"
+    },
+    {
+      "title": "Walk This Way",
+      "artist": "Aerosmith",
+      "year": 1975,
+      "spotifyId": "4JfuiOWlWCkjP6OKurHjSn"
+    },
+    {
+      "title": "I Want to Know What Love Is",
+      "artist": "Foreigner",
+      "year": 1984,
+      "spotifyId": "1JLn8RhQzHz3qDqsChcmBl"
+    },
+    {
+      "title": "Cold as Ice",
+      "artist": "Foreigner",
+      "year": 1977,
+      "spotifyId": "7vidktgNZFQylTgH1GEnMs"
+    },
+    {
+      "title": "Renegade",
+      "artist": "Styx",
+      "year": 1978,
+      "spotifyId": "1CQqupcyMg7176PPmIVmSj"
+    },
+    {
+      "title": "Come Sail Away",
+      "artist": "Styx",
+      "year": 1977,
+      "spotifyId": "0PsbWiVtix5FoTZ1s00mEl"
+    },
+    {
+      "title": "(Don't Fear) The Reaper",
+      "artist": "Blue Öyster Cult",
+      "year": 1976,
+      "spotifyId": "5QTxFnGygVM4jFQiBovmRo"
+    },
+    {
+      "title": "School's Out",
+      "artist": "Alice Cooper",
+      "year": 1972,
+      "spotifyId": "5Z8EDau8uNcP1E8JvmfkZe"
+    },
+    {
+      "title": "Eye in the Sky",
+      "artist": "The Alan Parsons Project",
+      "year": 1982,
+      "spotifyId": "2sIbHjfJ3nbMXNz4w03fWv"
+    },
+    {
+      "title": "Africa",
+      "artist": "Toto",
+      "year": 1982,
+      "spotifyId": "2374M0fQpWi3dLnB54qaLX"
+    },
+    {
+      "title": "Rosanna",
+      "artist": "Toto",
+      "year": 1982,
+      "spotifyId": "37BTh5g05cxBIRYMbw8g2T"
+    },
+    {
+      "title": "Hold the Line",
+      "artist": "Toto",
+      "year": 1978,
+      "spotifyId": "4aVuWgvD0X63hcOCnZtNFA"
+    },
+    {
+      "title": "I Want You to Want Me",
+      "artist": "Cheap Trick",
+      "year": 1977,
+      "spotifyId": "1JkZg3eMQTmTn93E8Yd3UL"
+    },
+    {
+      "title": "Sharp Dressed Man",
+      "artist": "ZZ Top",
+      "year": 1983,
+      "spotifyId": "0bRNszTbTFLNlunAeh7eom"
+    },
+    {
+      "title": "La Grange",
+      "artist": "ZZ Top",
+      "year": 1973,
+      "spotifyId": "0u6JFVn0KHHlidZxNL9gVE"
+    },
+    {
+      "title": "Twist and Shout",
+      "artist": "The Beatles",
+      "year": 1963,
+      "spotifyId": "5ZBeML7Lf3FMEVviTyvi8l"
+    },
+    {
+      "title": "Born to Be Wild",
+      "artist": "Steppenwolf",
+      "year": 1968,
+      "spotifyId": "2VPGmrcBw5X4yAu3B8UZNE"
+    }
   ]
 }
