@@ -7,6 +7,7 @@ const cors = require('cors');
 const { createRoom, joinRoom, getRoom, removePlayer, getRoomByPlayerId } = require('./rooms');
 const { fetchPlaylistTracks } = require('./spotify');
 const { isPlacementCorrect } = require('./gameLogic');
+const { getCategoryList, getCategoryTracks } = require('./library');
 
 const app = express();
 const server = http.createServer(app);
@@ -28,7 +29,12 @@ if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/dist')));
 }
 
-// API endpoint to fetch playlist tracks (uses client credentials)
+// API endpoint to list built-in categories
+app.get('/api/categories', (req, res) => {
+  res.json({ categories: getCategoryList() });
+});
+
+// API endpoint to fetch playlist tracks (kept as fallback for user playlists)
 app.post('/api/playlist', async (req, res) => {
   const { playlistUrl, accessToken } = req.body;
   try {
@@ -50,14 +56,30 @@ if (process.env.NODE_ENV === 'production') {
 io.on('connection', (socket) => {
   console.log('Connected:', socket.id);
 
-  socket.on('room:create', ({ hostName, tracks }) => {
-    const room = createRoom(socket.id, hostName, tracks);
+  socket.on('room:create', ({ hostName, tracks, categoryId }) => {
+    let finalTracks = tracks;
+
+    // If a categoryId is given, load tracks from the built-in library
+    if (categoryId) {
+      finalTracks = getCategoryTracks(categoryId);
+      if (!finalTracks || finalTracks.length === 0) {
+        socket.emit('room:error', { message: `Category not found or empty: ${categoryId}` });
+        return;
+      }
+    }
+
+    if (!finalTracks || finalTracks.length === 0) {
+      socket.emit('room:error', { message: 'No tracks provided' });
+      return;
+    }
+
+    const room = createRoom(socket.id, hostName, finalTracks);
     socket.join(room.code);
     socket.emit('room:created', {
       roomCode: room.code,
       songs: room.playlist.length
     });
-    console.log(`Room ${room.code} created by ${hostName}`);
+    console.log(`Room ${room.code} created by ${hostName} (${finalTracks.length} tracks)`);
   });
 
   socket.on('room:join', ({ roomCode, playerName }) => {

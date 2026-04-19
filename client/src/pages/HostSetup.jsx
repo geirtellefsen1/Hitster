@@ -10,9 +10,8 @@ export default function HostSetup() {
   const { token, userName, login, loginError, handleCallback, initPlayer, ready } = useSpotify();
   const { emit, on } = useSocket();
 
-  const [playlistUrl, setPlaylistUrl] = useState('');
-  const [playlistInfo, setPlaylistInfo] = useState(null);
-  const [tracks, setTracks] = useState([]);
+  const [categories, setCategories] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [spotifyReady, setSpotifyReady] = useState(false);
@@ -24,9 +23,7 @@ export default function HostSetup() {
     if (code && !token) {
       handleCallback(code).then(async (tkn) => {
         setAccessToken(tkn);
-        // Remove code from URL
         window.history.replaceState({}, '', '/host');
-        // Init player
         await initPlayer(tkn);
         setSpotifyReady(true);
       }).catch(err => {
@@ -35,10 +32,17 @@ export default function HostSetup() {
     }
   }, [searchParams]);
 
+  // Load categories on mount
+  useEffect(() => {
+    fetch('/api/categories')
+      .then(res => res.json())
+      .then(data => setCategories(data.categories || []))
+      .catch(err => console.error('Failed to load categories:', err));
+  }, []);
+
   // Listen for room created
   useEffect(() => {
     const cleanup = on('room:created', ({ roomCode }) => {
-      // Store host info for the lobby
       sessionStorage.setItem('hostRoomCode', roomCode);
       sessionStorage.setItem('hostToken', accessToken);
       navigate(`/host/lobby?room=${roomCode}`);
@@ -46,46 +50,34 @@ export default function HostSetup() {
     return cleanup;
   }, [on, navigate, accessToken]);
 
-  const fetchPlaylist = async () => {
-    if (!playlistUrl.trim() || !accessToken) return;
-    setLoading(true);
-    setError('');
-
-    try {
-      const res = await fetch('/api/playlist', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ playlistUrl, accessToken })
-      });
-      const data = await res.json();
-
-      if (!res.ok) throw new Error(data.error || 'Failed to fetch playlist');
-
-      setTracks(data.tracks);
-      setPlaylistInfo({ count: data.tracks.length });
-    } catch (err) {
-      setError(err.message);
-    } finally {
+  // Listen for room errors
+  useEffect(() => {
+    const cleanup = on('room:error', ({ message }) => {
+      setError(message);
       setLoading(false);
-    }
-  };
+    });
+    return cleanup;
+  }, [on]);
 
   const createRoom = () => {
+    if (!selectedCategory || !spotifyReady) return;
+    setLoading(true);
+    setError('');
     emit('room:create', {
       hostName: userName || 'Host',
-      tracks
+      categoryId: selectedCategory
     });
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen flex flex-col items-center p-6 pb-20">
       <HiddenPlayer />
 
-      <h1 className="text-5xl neon-pink mb-8" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
+      <h1 className="text-5xl neon-pink mb-8 mt-6" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
         HOST SETUP
       </h1>
 
-      <div className="glass-card p-8 w-full max-w-md space-y-6">
+      <div className="glass-card p-8 w-full max-w-2xl space-y-6">
         {/* Step 1: Spotify Login */}
         <div>
           <h3 className="neon-cyan text-xl mb-3" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
@@ -106,45 +98,57 @@ export default function HostSetup() {
           )}
         </div>
 
-        {/* Step 2: Playlist */}
+        {/* Step 2: Pick a Category */}
         <div className={!spotifyReady ? 'opacity-40 pointer-events-none' : ''}>
           <h3 className="neon-cyan text-xl mb-3" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-            Step 2: Playlist
+            Step 2: Pick a Category
           </h3>
-          <div className="flex gap-2">
-            <input
-              type="text"
-              placeholder="Paste Spotify playlist URL..."
-              value={playlistUrl}
-              onChange={e => setPlaylistUrl(e.target.value)}
-              className="flex-1 px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-white placeholder-gray-500 outline-none focus:border-[var(--cyan)]"
-            />
-            <button
-              onClick={fetchPlaylist}
-              disabled={loading || !playlistUrl.trim()}
-              className="btn-secondary px-4 py-2 text-base"
-            >
-              {loading ? '...' : 'LOAD'}
-            </button>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {categories.map(cat => (
+              <button
+                key={cat.id}
+                onClick={() => setSelectedCategory(cat.id)}
+                className={`
+                  text-left p-4 rounded-lg border-2 transition-all duration-200
+                  ${selectedCategory === cat.id
+                    ? 'border-[var(--pink)] bg-[rgba(255,45,120,0.1)] glow-pink'
+                    : 'border-white/10 bg-white/5 hover:border-[var(--cyan)]'
+                  }
+                `}
+              >
+                <div className="flex items-baseline justify-between">
+                  <div
+                    className="text-lg text-white"
+                    style={{ fontFamily: "'Bebas Neue', sans-serif" }}
+                  >
+                    {cat.name}
+                  </div>
+                  <div className="text-xs text-gray-400">
+                    {cat.songCount} songs
+                  </div>
+                </div>
+                <div className="text-xs text-gray-400 mt-1">
+                  {cat.description}
+                </div>
+              </button>
+            ))}
           </div>
-          {playlistInfo && (
-            <div className="mt-2 text-green-400 text-sm">
-              ✓ {playlistInfo.count} tracks loaded
-            </div>
+          {categories.length === 0 && (
+            <p className="text-gray-500 text-sm italic">Loading categories...</p>
           )}
         </div>
 
         {/* Step 3: Create Room */}
-        <div className={!playlistInfo ? 'opacity-40 pointer-events-none' : ''}>
+        <div className={!selectedCategory ? 'opacity-40 pointer-events-none' : ''}>
           <h3 className="neon-cyan text-xl mb-3" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
             Step 3: Create Room
           </h3>
           <button
             onClick={createRoom}
-            disabled={!playlistInfo || !spotifyReady}
+            disabled={!selectedCategory || !spotifyReady || loading}
             className="btn-primary w-full text-2xl py-4"
           >
-            CREATE ROOM
+            {loading ? 'CREATING...' : 'CREATE ROOM'}
           </button>
         </div>
 
