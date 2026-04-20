@@ -32,13 +32,13 @@ export default function HostGame() {
     }
   }, [accessToken, ready]);
 
-  // Play track when round starts
+  // Play track when round starts (wait for Spotify SDK to be ready)
   useEffect(() => {
-    if (game.phase === 'playing' && game.currentTrackId && accessToken) {
+    if (game.phase === 'playing' && game.currentTrackId && accessToken && ready) {
       play(game.currentTrackId, accessToken);
       setTimerRunning(true);
     }
-  }, [game.phase, game.currentTrackId, accessToken]);
+  }, [game.phase, game.currentTrackId, accessToken, ready]);
 
   // Pause when reveal
   useEffect(() => {
