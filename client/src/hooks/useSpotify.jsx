@@ -104,9 +104,11 @@ export function SpotifyProvider({ children }) {
     }
 
     tokenRef.current = accessToken;
+    console.log('Initializing Spotify Player...');
 
     return new Promise((resolve) => {
       const createPlayer = () => {
+        console.log('Creating Spotify.Player instance');
         const p = new window.Spotify.Player({
           name: 'Hitster Online',
           getOAuthToken: cb => cb(tokenRef.current),
@@ -135,27 +137,53 @@ export function SpotifyProvider({ children }) {
 
         p.addListener('account_error', ({ message }) => {
           console.error('Spotify account error (Premium required?):', message);
+          alert('Spotify Premium is required to play music. Please check your account.');
         });
 
         p.addListener('playback_error', ({ message }) => {
           console.error('Spotify playback error:', message);
         });
 
+        p.addListener('player_state_changed', state => {
+          if (state) {
+            console.log('Playback state:', state.paused ? 'paused' : 'playing', '—', state.track_window?.current_track?.name);
+          }
+        });
+
         p.connect().then(success => {
-          console.log('Spotify player connect:', success);
+          console.log('Spotify player.connect() →', success);
         });
       };
 
       if (!window.Spotify) {
+        console.log('Loading Spotify SDK script...');
         const script = document.createElement('script');
         script.src = 'https://sdk.scdn.co/spotify-player.js';
+        script.async = true;
         document.body.appendChild(script);
-        window.onSpotifyWebPlaybackSDKReady = createPlayer;
+        window.onSpotifyWebPlaybackSDKReady = () => {
+          console.log('Spotify SDK script loaded');
+          createPlayer();
+        };
       } else {
         createPlayer();
       }
     });
   }, [deviceId]);
+
+  // Must be called synchronously from a user gesture (click/tap) to enable
+  // audio playback on mobile browsers. Without this, play() calls succeed
+  // at the API level but no audio comes out.
+  const activateElement = useCallback(async () => {
+    if (playerRef.current?.activateElement) {
+      try {
+        await playerRef.current.activateElement();
+        console.log('Spotify audio element activated');
+      } catch (err) {
+        console.error('activateElement failed:', err);
+      }
+    }
+  }, []);
 
   const play = useCallback(async (trackId, accessToken) => {
     const tkn = accessToken || tokenRef.current || token;
@@ -166,8 +194,18 @@ export function SpotifyProvider({ children }) {
 
     console.log('Playing track:', trackId, 'on device:', deviceId);
 
-    // First transfer playback to our device, then play.
     try {
+      // First transfer playback to our device so it becomes active.
+      await fetch('https://api.spotify.com/v1/me/player', {
+        method: 'PUT',
+        headers: {
+          Authorization: `Bearer ${tkn}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ device_ids: [deviceId], play: false })
+      });
+
+      // Then play the track.
       const res = await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
         method: 'PUT',
         headers: {
@@ -182,6 +220,8 @@ export function SpotifyProvider({ children }) {
       if (!res.ok) {
         const err = await res.text();
         console.error('Play request failed:', res.status, err);
+      } else {
+        console.log('Play request succeeded');
       }
     } catch (err) {
       console.error('Play error:', err);
@@ -197,7 +237,7 @@ export function SpotifyProvider({ children }) {
   return (
     <SpotifyContext.Provider value={{
       token, deviceId, ready, userName, loginError,
-      login, handleCallback, initPlayer, play, pause, setToken
+      login, handleCallback, initPlayer, activateElement, play, pause, setToken
     }}>
       {children}
     </SpotifyContext.Provider>

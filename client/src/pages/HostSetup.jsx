@@ -7,7 +7,7 @@ import HiddenPlayer from '../components/HiddenPlayer';
 export default function HostSetup() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const { token, userName, login, loginError, handleCallback, initPlayer, ready } = useSpotify();
+  const { token, userName, login, loginError, handleCallback, initPlayer, activateElement, ready } = useSpotify();
   const { emit, on } = useSocket();
 
   const [categories, setCategories] = useState([]);
@@ -59,10 +59,12 @@ export default function HostSetup() {
     return cleanup;
   }, [on]);
 
-  const createRoom = () => {
+  const createRoom = async () => {
     if (!selectedCategory || !spotifyReady) return;
     setLoading(true);
     setError('');
+    // Activate Spotify audio from user gesture so playback works later
+    await activateElement();
     emit('room:create', {
       hostName: userName || 'Host',
       categoryId: selectedCategory

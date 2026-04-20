@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useSocket } from '../hooks/useSocket';
+import { useSpotify } from '../hooks/useSpotify';
 import { useGame } from '../hooks/useGame';
 
 export default function HostLobby() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { socket, emit, on } = useSocket();
+  const { activateElement } = useSpotify();
   const { players } = useGame(socket, on, emit);
   const roomCode = searchParams.get('room') || sessionStorage.getItem('hostRoomCode');
 
@@ -23,7 +25,11 @@ export default function HostLobby() {
     return cleanup;
   }, [on, navigate, roomCode]);
 
-  const startGame = () => {
+  const startGame = async () => {
+    // Activate the Spotify audio element from this user gesture — browsers
+    // block audio that isn't traceable to a click/tap. Without this the SDK
+    // will accept play() calls but produce no sound.
+    await activateElement();
     emit('game:start', { roomCode });
   };
 
