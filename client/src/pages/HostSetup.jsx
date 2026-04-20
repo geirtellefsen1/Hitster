@@ -7,7 +7,7 @@ import HiddenPlayer from '../components/HiddenPlayer';
 export default function HostSetup() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
-  const { token, userName, login, loginError, handleCallback, initPlayer, activateElement, ready } = useSpotify();
+  const { token, userName, login, loginError, handleCallback, initPlayer, activateElement, ready, sdkStatus } = useSpotify();
   const { emit, on } = useSocket();
 
   const [categories, setCategories] = useState([]);
@@ -96,6 +96,7 @@ export default function HostSetup() {
             <div className="flex items-center gap-2 text-green-400">
               <span className="text-xl">✓</span>
               <span>Logged in as <strong>{userName}</strong></span>
+              <div className="text-xs text-gray-400 mt-1">SDK: {sdkStatus}</div>
             </div>
           )}
         </div>

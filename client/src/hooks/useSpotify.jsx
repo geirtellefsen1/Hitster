@@ -37,6 +37,7 @@ export function SpotifyProvider({ children }) {
   const [deviceId, setDeviceId] = useState(null);
   const [ready, setReady] = useState(false);
   const [userName, setUserName] = useState('');
+  const [sdkStatus, setSdkStatus] = useState('Not initialized');
   const [loginError, setLoginError] = useState(null);
   const playerRef = useRef(null);
   const tokenRef = useRef(null);
@@ -104,11 +105,11 @@ export function SpotifyProvider({ children }) {
     }
 
     tokenRef.current = accessToken;
-    console.log('Initializing Spotify Player...');
+    setSdkStatus('Loading SDK...');
 
     return new Promise((resolve) => {
       const createPlayer = () => {
-        console.log('Creating Spotify.Player instance');
+        setSdkStatus('Creating player...');
         const p = new window.Spotify.Player({
           name: 'Hitster Online',
           getOAuthToken: cb => cb(tokenRef.current),
@@ -117,6 +118,7 @@ export function SpotifyProvider({ children }) {
 
         p.addListener('ready', ({ device_id }) => {
           console.log('Spotify SDK ready — device:', device_id);
+          setSdkStatus(`Ready (device: ${device_id.substring(0, 8)}...)`);
           setDeviceId(device_id);
           setReady(true);
           playerRef.current = p;
@@ -124,45 +126,55 @@ export function SpotifyProvider({ children }) {
         });
 
         p.addListener('not_ready', ({ device_id }) => {
-          console.log('Spotify SDK not ready:', device_id);
+          setSdkStatus('Device went offline');
         });
 
         p.addListener('initialization_error', ({ message }) => {
-          console.error('Spotify init error:', message);
+          setSdkStatus(`Init error: ${message}`);
         });
 
         p.addListener('authentication_error', ({ message }) => {
-          console.error('Spotify auth error:', message);
+          setSdkStatus(`Auth error: ${message}`);
         });
 
         p.addListener('account_error', ({ message }) => {
-          console.error('Spotify account error (Premium required?):', message);
-          alert('Spotify Premium is required to play music. Please check your account.');
+          setSdkStatus(`Account error: ${message} (Premium required)`);
         });
 
         p.addListener('playback_error', ({ message }) => {
-          console.error('Spotify playback error:', message);
+          setSdkStatus(`Playback error: ${message}`);
         });
 
         p.addListener('player_state_changed', state => {
           if (state) {
-            console.log('Playback state:', state.paused ? 'paused' : 'playing', '—', state.track_window?.current_track?.name);
+            const track = state.track_window?.current_track;
+            if (track) {
+              setSdkStatus(state.paused ? `Paused: ${track.name}` : `Playing: ${track.name}`);
+            }
           }
         });
 
+        setSdkStatus('Connecting...');
         p.connect().then(success => {
-          console.log('Spotify player.connect() →', success);
+          if (success) {
+            setSdkStatus('Connected, waiting for ready...');
+          } else {
+            setSdkStatus('Connect failed');
+          }
         });
       };
 
       if (!window.Spotify) {
-        console.log('Loading Spotify SDK script...');
+        setSdkStatus('Downloading SDK script...');
         const script = document.createElement('script');
         script.src = 'https://sdk.scdn.co/spotify-player.js';
         script.async = true;
+        script.onerror = () => {
+          setSdkStatus('Failed to load SDK script (blocked by ad blocker?)');
+        };
         document.body.appendChild(script);
         window.onSpotifyWebPlaybackSDKReady = () => {
-          console.log('Spotify SDK script loaded');
+          setSdkStatus('SDK script loaded');
           createPlayer();
         };
       } else {
@@ -192,7 +204,7 @@ export function SpotifyProvider({ children }) {
       return;
     }
 
-    console.log('Playing track:', trackId, 'on device:', deviceId);
+    setSdkStatus(`Requesting play: ${trackId.substring(0, 8)}...`);
 
     try {
       // First transfer playback to our device so it becomes active.
@@ -219,12 +231,12 @@ export function SpotifyProvider({ children }) {
       });
       if (!res.ok) {
         const err = await res.text();
-        console.error('Play request failed:', res.status, err);
+        setSdkStatus(`Play failed (${res.status}): ${err.substring(0, 80)}`);
       } else {
-        console.log('Play request succeeded');
+        setSdkStatus('Play request sent — waiting for audio...');
       }
     } catch (err) {
-      console.error('Play error:', err);
+      setSdkStatus(`Play error: ${err.message}`);
     }
   }, [token, deviceId]);
 
@@ -236,7 +248,7 @@ export function SpotifyProvider({ children }) {
 
   return (
     <SpotifyContext.Provider value={{
-      token, deviceId, ready, userName, loginError,
+      token, deviceId, ready, userName, loginError, sdkStatus,
       login, handleCallback, initPlayer, activateElement, play, pause, setToken
     }}>
       {children}

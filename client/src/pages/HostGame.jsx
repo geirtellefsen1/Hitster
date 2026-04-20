@@ -12,7 +12,7 @@ export default function HostGame() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { socket, emit, on } = useSocket();
-  const { play, pause, initPlayer, ready } = useSpotify();
+  const { play, pause, initPlayer, ready, sdkStatus } = useSpotify();
   const game = useGame(socket, on, emit);
   const roomCode = searchParams.get('room');
   const [timerRunning, setTimerRunning] = useState(false);
@@ -72,13 +72,21 @@ export default function HostGame() {
       <HiddenPlayer />
 
       {/* Header */}
-      <div className="flex items-center justify-between w-full max-w-4xl mb-8">
+      <div className="flex items-center justify-between w-full max-w-4xl mb-2">
         <div className="neon-cyan text-lg" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
           ROOM: {roomCode}
         </div>
         <div className="neon-pink text-lg" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
           ROUND {game.roundNumber} / {game.totalRounds}
         </div>
+      </div>
+      {/* Spotify SDK status — visible debugging */}
+      <div className={`w-full max-w-4xl mb-6 text-xs px-3 py-1 rounded ${
+        sdkStatus.startsWith('Playing') ? 'text-green-400 bg-green-500/10' :
+        sdkStatus.includes('error') || sdkStatus.includes('failed') || sdkStatus.includes('Failed') ? 'text-red-400 bg-red-500/10' :
+        'text-gray-400 bg-white/5'
+      }`}>
+        Spotify: {sdkStatus}
       </div>
 
       {/* Main content */}
