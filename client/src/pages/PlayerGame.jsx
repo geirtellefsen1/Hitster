@@ -10,11 +10,18 @@ export default function PlayerGame() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { socket, emit, on } = useSocket();
-  const game = useGame(socket, on);
+  const game = useGame(socket, on, emit);
   const roomCode = searchParams.get('room');
   const [timerRunning, setTimerRunning] = useState(false);
   const [myResult, setMyResult] = useState(null);
   const [showFeedback, setShowFeedback] = useState(false);
+
+  // Request current game state on mount (may have missed round:start during navigation)
+  useEffect(() => {
+    if (roomCode && socket) {
+      game.requestState(roomCode);
+    }
+  }, [roomCode, socket]);
 
   useEffect(() => {
     if (game.phase === 'playing') {

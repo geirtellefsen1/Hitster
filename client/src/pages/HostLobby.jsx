@@ -7,7 +7,7 @@ export default function HostLobby() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const { socket, emit, on } = useSocket();
-  const { players } = useGame(socket, on);
+  const { players } = useGame(socket, on, emit);
   const roomCode = searchParams.get('room') || sessionStorage.getItem('hostRoomCode');
 
   useEffect(() => {

@@ -13,10 +13,17 @@ export default function HostGame() {
   const [searchParams] = useSearchParams();
   const { socket, emit, on } = useSocket();
   const { play, pause, initPlayer, ready } = useSpotify();
-  const game = useGame(socket, on);
+  const game = useGame(socket, on, emit);
   const roomCode = searchParams.get('room');
   const [timerRunning, setTimerRunning] = useState(false);
   const [accessToken] = useState(() => sessionStorage.getItem('hostToken'));
+
+  // Request current game state on mount (may have missed round:start during navigation)
+  useEffect(() => {
+    if (roomCode && socket) {
+      game.requestState(roomCode);
+    }
+  }, [roomCode, socket]);
 
   // Init Spotify player if not ready
   useEffect(() => {

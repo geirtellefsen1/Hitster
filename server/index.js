@@ -214,6 +214,39 @@ io.on('connection', (socket) => {
       }
     }
   });
+
+  socket.on('game:requestState', ({ roomCode }) => {
+    const room = getRoom(roomCode);
+    if (!room) return;
+
+    const state = {
+      phase: room.phase,
+      players: room.players.map(p => ({ id: p.id, name: p.name })),
+      roundNumber: room.round + 1,
+      totalRounds: room.playlist.length,
+      scores: room.players.map(p => ({
+        id: p.id,
+        name: p.name,
+        score: p.score,
+        timeline: p.timeline
+      }))
+    };
+
+    if (room.phase === 'playing' && room.currentSong) {
+      state.trackId = room.currentSong.trackId;
+      state.placedPlayers = Object.keys(room.placements);
+    }
+
+    if (room.phase === 'reveal' && room.currentSong) {
+      state.revealData = {
+        year: room.currentSong.year,
+        title: room.currentSong.title,
+        artist: room.currentSong.artist
+      };
+    }
+
+    socket.emit('game:state', state);
+  });
 });
 
 function resolveRound(roomCode) {

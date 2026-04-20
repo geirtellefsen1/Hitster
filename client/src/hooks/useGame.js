@@ -1,7 +1,7 @@
-import { useState, useCallback, useEffect, useRef } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 
-export function useGame(socket, on) {
-  const [phase, setPhase] = useState('lobby'); // lobby, playing, reveal, finished
+export function useGame(socket, on, emit) {
+  const [phase, setPhase] = useState('lobby');
   const [players, setPlayers] = useState([]);
   const [currentTrackId, setCurrentTrackId] = useState(null);
   const [roundNumber, setRoundNumber] = useState(0);
@@ -42,7 +42,6 @@ export function useGame(socket, on) {
 
       on('scores:update', ({ scores: s }) => {
         setScores(s);
-        // Update our own timeline from scores
         if (socket?.id) {
           const me = s.find(sc => sc.id === socket.id);
           if (me) {
@@ -59,11 +58,42 @@ export function useGame(socket, on) {
 
       on('host:disconnected', () => {
         setPhase('host_disconnected');
+      }),
+
+      on('game:state', (state) => {
+        setPhase(state.phase);
+        setPlayers(state.players || []);
+        setRoundNumber(state.roundNumber || 0);
+        setTotalRounds(state.totalRounds || 0);
+        setScores(state.scores || []);
+
+        if (state.trackId) {
+          setCurrentTrackId(state.trackId);
+        }
+        if (state.placedPlayers) {
+          setPlacedPlayers(state.placedPlayers);
+        }
+        if (state.revealData) {
+          setRevealData(state.revealData);
+        }
+
+        if (socket?.id && state.scores) {
+          const me = state.scores.find(sc => sc.id === socket.id);
+          if (me) {
+            setTimeline(me.timeline || []);
+          }
+        }
       })
     ];
 
     return () => cleanups.forEach(cleanup => cleanup && cleanup());
   }, [on, socket]);
+
+  const requestState = useCallback((roomCode) => {
+    if (emit && roomCode) {
+      emit('game:requestState', { roomCode });
+    }
+  }, [emit]);
 
   const reset = useCallback(() => {
     setPhase('lobby');
@@ -91,6 +121,7 @@ export function useGame(socket, on) {
     placedPlayers,
     timeline,
     hasPlaced, setHasPlaced,
+    requestState,
     reset
   };
 }
